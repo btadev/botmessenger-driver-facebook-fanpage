@@ -16,4 +16,5 @@
         "email": "chiendevit@gmail.com"
     }],
     "require": {
-                       TERMS AND CONDITIONS
+        "php": ">=7.0",
+     * Create a new command instance.
