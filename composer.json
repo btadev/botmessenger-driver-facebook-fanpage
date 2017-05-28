@@ -20,4 +20,5 @@
         "chiendevit/botmessenger": "^3.0"
     },
     "autoload": {
-{
+        "psr-4": {
+namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
