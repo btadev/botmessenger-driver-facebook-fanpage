@@ -7,4 +7,5 @@ use Illuminate\Console\Command;
 
 class AddGreetingText extends Command
 {
-use ChienIT\BotMessenger\Users\User as BotMessengerUser;
+    /**
+     *
