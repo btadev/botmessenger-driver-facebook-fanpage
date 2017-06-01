@@ -17,4 +17,5 @@
     }],
     "require": {
         "php": ">=7.0",
-     * Create a new command instance.
+        "chiendevit/botmessenger": "^3.0"
+        $validSignature = ! $this->config->has('facebook_app_secret') || $this->validateSignature();
