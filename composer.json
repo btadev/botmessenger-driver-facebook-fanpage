@@ -21,4 +21,5 @@
     },
     "autoload": {
         "psr-4": {
-namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
+            "ChienIT\\BotMessenger\\Drivers\\Facebook\\": "src/"
+     * @return array
