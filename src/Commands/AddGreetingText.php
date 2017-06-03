@@ -30,4 +30,4 @@ class AddGreetingText extends Command
      * Create a new command instance.
      *
      * @param Curl $http
-use ChienIT\BotMessenger\Messages\Attachments\File;
+     */
