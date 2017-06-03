@@ -6,4 +6,5 @@ use ChienIT\BotMessenger\Http\Curl;
 use Illuminate\Console\Command;
 
 class AddGreetingText extends Command
-                'get_started' => [
+{
+use ChienIT\BotMessenger\Users\User as BotMessengerUser;
