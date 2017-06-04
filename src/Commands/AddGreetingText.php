@@ -26,4 +26,5 @@ class AddGreetingText extends Command
      */
     private $http;
 
-
+    /**
+{
