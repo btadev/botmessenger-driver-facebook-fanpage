@@ -9,3 +9,5 @@ class AddGreetingText extends Command
 {
     /**
      * The name and signature of the console command.
+     *
+<?php
