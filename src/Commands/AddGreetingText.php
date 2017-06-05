@@ -63,3 +63,5 @@ class AddGreetingText extends Command
             $this->error('Something went wrong: '.$responseObject->error->message);
         }
     }
+}
+        })->transform(function ($msg) {
