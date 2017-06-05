@@ -49,4 +49,5 @@ class AddGreetingText extends Command
         if (! $payload) {
             $this->error('You need to add a Facebook greeting text to your Bot Messenger Facebook config.');
             exit;
-     * @return string|null
+        }
+    public function __construct(Curl $http)
