@@ -12,4 +12,5 @@ class AddGreetingText extends Command
      *
      * @var string
      */
-        return $this;
+    protected $signature = 'facebookAddGreetingText';
+  "The Program" refers to any copyrightable work licensed under this
