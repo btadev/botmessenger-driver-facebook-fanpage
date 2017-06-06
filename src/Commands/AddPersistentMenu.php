@@ -5,4 +5,5 @@ namespace ChienIT\BotMessenger\Drivers\Facebook\Commands;
 use ChienIT\BotMessenger\Http\Curl;
 use Illuminate\Console\Command;
 
-    public function toArray()
+class AddPersistentMenu extends Command
+namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
