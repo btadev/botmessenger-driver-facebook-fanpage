@@ -45,4 +45,5 @@ class AddGreetingText extends Command
     public function handle()
     {
         $payload = config('facebook.greeting_text');
+
      * @return $this
