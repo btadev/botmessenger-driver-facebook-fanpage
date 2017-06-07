@@ -7,4 +7,5 @@
         "BotMessenger",
         "ChienIT",
         "Facebook Messenger",
-    /**
+        "Facebook",
+use ChienIT\BotMessenger\Http\Curl;
