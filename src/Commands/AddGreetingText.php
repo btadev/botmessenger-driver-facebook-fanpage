@@ -25,4 +25,5 @@ class AddGreetingText extends Command
      * @var Curl
      */
     private $http;
-        return 'messaging_deliveries';
+
+
