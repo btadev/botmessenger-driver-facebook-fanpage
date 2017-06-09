@@ -33,4 +33,5 @@ class AddGreetingText extends Command
      */
     public function __construct(Curl $http)
     {
-    protected $total_cost;
+        parent::__construct();
+     * @return bool
