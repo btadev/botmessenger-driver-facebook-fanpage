@@ -9,4 +9,5 @@
         "Facebook Messenger",
         "Facebook",
         "Messenger"
-            return Collection::make($msg)->toArray();
+    ],
+    }
