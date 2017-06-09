@@ -32,4 +32,4 @@ class AddPersistentMenu extends Command
      * @param Curl $http
      */
     public function __construct(Curl $http)
-        return 'messaging_reads';
+    {
