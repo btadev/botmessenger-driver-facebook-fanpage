@@ -28,4 +28,5 @@ class AddPersistentMenu extends Command
 
     /**
      * Create a new command instance.
-     */
+     *
+    public function jsonSerialize()
