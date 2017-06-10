@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Drivers\Facebook\Commands;
 
-     * @param string $url
+use ChienIT\BotMessenger\Http\Curl;
+     *
