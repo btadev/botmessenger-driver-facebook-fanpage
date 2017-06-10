@@ -27,4 +27,5 @@ class AddGreetingText extends Command
     private $http;
 
     /**
-{
+     * Create a new command instance.
+        $responseObject = json_decode($response->getContent());
