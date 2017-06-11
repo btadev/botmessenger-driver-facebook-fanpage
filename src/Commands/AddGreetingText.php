@@ -43,4 +43,5 @@ class AddGreetingText extends Command
      * @return void
      */
     public function handle()
-implementation is available to the public in source code form.  A
+    {
+     */
