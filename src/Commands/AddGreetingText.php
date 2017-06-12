@@ -37,4 +37,5 @@ class AddGreetingText extends Command
         $this->http = $http;
     }
 
-
+    /**
+        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
