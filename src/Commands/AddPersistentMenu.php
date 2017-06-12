@@ -35,4 +35,5 @@ class AddPersistentMenu extends Command
     {
         parent::__construct();
         $this->http = $http;
-    public function jsonSerialize()
+    }
+{
