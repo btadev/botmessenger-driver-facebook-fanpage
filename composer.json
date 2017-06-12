@@ -1,4 +1,5 @@
 {
     "name": "chiendevit/botmessenger-driver-facebook-fanpage",
     "license": "LGPL-3.0-or-later",
-     * @param Curl $http
+    "description": "Facebook Messenger Fanpage driver for ChienIT Bot Messenger",
+
