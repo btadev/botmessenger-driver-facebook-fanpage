@@ -7,4 +7,5 @@ use Illuminate\Console\Command;
 
 class AddStartButtonPayload extends Command
 {
-    {
+    /**
+        $this->shareContents = $shareContents;
