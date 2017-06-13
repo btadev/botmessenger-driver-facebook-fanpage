@@ -19,4 +19,5 @@ class AddGreetingText extends Command
      *
      * @var string
      */
-        return $this->toArray();
+    protected $description = 'Add a Facebook Greeting Text to your message start screen.';
+
