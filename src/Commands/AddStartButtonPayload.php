@@ -10,3 +10,5 @@ class AddStartButtonPayload extends Command
     /**
      * The name and signature of the console command.
      *
+     * @var string
+     * Return the event name to match.
