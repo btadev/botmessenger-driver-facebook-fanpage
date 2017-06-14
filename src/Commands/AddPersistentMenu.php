@@ -33,3 +33,5 @@ class AddPersistentMenu extends Command
      */
     public function __construct(Curl $http)
     {
+        parent::__construct();
+
