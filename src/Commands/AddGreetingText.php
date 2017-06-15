@@ -23,4 +23,4 @@ class AddGreetingText extends Command
 
     /**
      * @var Curl
-        $this->total_cost = $totalCost;
+     */
