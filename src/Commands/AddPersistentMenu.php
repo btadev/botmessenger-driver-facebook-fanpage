@@ -36,4 +36,5 @@ class AddPersistentMenu extends Command
         parent::__construct();
         $this->http = $http;
     }
-{
+
+            'elements' => $this->elements,
