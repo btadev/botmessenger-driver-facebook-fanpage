@@ -39,3 +39,4 @@ class AddPersistentMenu extends Command
 
     /**
      * Execute the console command.
+     *
