@@ -15,4 +15,5 @@ class AddGreetingText extends Command
     protected $signature = 'facebookAddGreetingText';
 
     /**
-    /**
+     * The console command description.
+    public function handle()
