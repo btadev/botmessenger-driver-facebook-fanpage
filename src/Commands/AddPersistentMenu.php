@@ -6,4 +6,5 @@ use ChienIT\BotMessenger\Http\Curl;
 use Illuminate\Console\Command;
 
 class AddPersistentMenu extends Command
-namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
+{
+    {
