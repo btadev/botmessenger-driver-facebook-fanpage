@@ -48,4 +48,5 @@ class AddStartButtonPayload extends Command
 
         if (! $payload) {
             $this->error('You need to add a Facebook payload data to your Bot Messenger Facebook config.');
-use ChienIT\BotMessenger\Messages\Attachments\Audio;
+            exit;
+not survive such relicensing or conveying.
