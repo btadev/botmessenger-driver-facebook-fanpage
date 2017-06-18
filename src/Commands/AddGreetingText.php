@@ -12,3 +12,4 @@ class AddGreetingText extends Command
      *
      * @var string
      */
+        return $this;
