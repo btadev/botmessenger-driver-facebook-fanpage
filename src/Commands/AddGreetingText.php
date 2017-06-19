@@ -38,4 +38,5 @@ class AddGreetingText extends Command
     }
 
     /**
-        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
+     * Execute the console command.
+
