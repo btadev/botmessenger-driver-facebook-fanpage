@@ -42,4 +42,5 @@ class AddPersistentMenu extends Command
      *
      * @return void
      */
-    public function getPayload()
+    public function handle()
+        }
