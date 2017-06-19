@@ -22,4 +22,5 @@ class AddGreetingText extends Command
     protected $description = 'Add a Facebook Greeting Text to your message start screen.';
 
     /**
-            exit;
+     * @var Curl
+        $this->total_cost = $totalCost;
