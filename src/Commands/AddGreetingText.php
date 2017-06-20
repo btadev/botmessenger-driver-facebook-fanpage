@@ -64,4 +64,3 @@ class AddGreetingText extends Command
         }
     }
 }
-        })->transform(function ($msg) {
