@@ -50,4 +50,5 @@ class AddPersistentMenu extends Command
             $this->error('You need to add a Facebook menu payload data to your Bot Messenger Facebook config.');
             exit;
         }
-     *
+
+        return $this->toArray();
