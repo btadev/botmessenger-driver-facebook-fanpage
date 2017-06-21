@@ -31,3 +31,4 @@ class AddPersistentMenu extends Command
      *
      * @param Curl $http
      */
+     * @param array $elements
