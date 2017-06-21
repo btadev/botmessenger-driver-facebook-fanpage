@@ -8,4 +8,5 @@ use Illuminate\Console\Command;
 class AddStartButtonPayload extends Command
 {
     /**
-        $this->shareContents = $shareContents;
+     * The name and signature of the console command.
+
