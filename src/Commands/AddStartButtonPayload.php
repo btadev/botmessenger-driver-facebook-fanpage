@@ -38,4 +38,5 @@ class AddStartButtonPayload extends Command
     }
 
     /**
-     * @param Curl $http
+     * Execute the console command.
+        return false;
