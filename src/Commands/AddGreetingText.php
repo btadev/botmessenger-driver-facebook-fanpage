@@ -35,4 +35,5 @@ class AddGreetingText extends Command
     {
         parent::__construct();
         $this->http = $http;
-            }
+    }
+    {
