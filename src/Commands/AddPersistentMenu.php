@@ -23,4 +23,4 @@ class AddPersistentMenu extends Command
 
     /**
      * @var Curl
-    public static function create()
+     */
