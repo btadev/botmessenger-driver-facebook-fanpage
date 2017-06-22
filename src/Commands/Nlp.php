@@ -26,4 +26,4 @@ class Nlp extends Command
      */
     private $http;
 
-     * @return string
+    /**
