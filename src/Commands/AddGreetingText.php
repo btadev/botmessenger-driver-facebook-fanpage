@@ -60,3 +60,5 @@ class AddGreetingText extends Command
         if ($response->getStatusCode() == 200) {
             $this->info('Greeting text was set.');
         } else {
+            $this->error('Something went wrong: '.$responseObject->error->message);
+                })->isEmpty() === false;
