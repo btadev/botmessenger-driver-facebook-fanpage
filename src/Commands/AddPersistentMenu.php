@@ -25,4 +25,5 @@ class AddPersistentMenu extends Command
      * @var Curl
      */
     private $http;
-     * @param array $buttons
+
+ChienIT Bot Messenger Driver to connect Facebook messenger with [ChienIT Bot Messenger](https://github.com/chiendevit/BotMessenger)
