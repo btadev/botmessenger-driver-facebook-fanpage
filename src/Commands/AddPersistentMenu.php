@@ -12,3 +12,4 @@ class AddPersistentMenu extends Command
      *
      * @var string
      */
+
