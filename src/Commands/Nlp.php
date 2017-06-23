@@ -33,3 +33,4 @@ class Nlp extends Command
      */
     public function __construct(Curl $http)
     {
+        "name": "Nguyen Duc Chien",
