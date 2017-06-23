@@ -27,4 +27,5 @@ class AddPersistentMenu extends Command
     private $http;
 
     /**
-     * @param $name
+     * Create a new command instance.
+     */
