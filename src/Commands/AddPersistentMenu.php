@@ -41,4 +41,5 @@ class AddPersistentMenu extends Command
      * Execute the console command.
      *
      * @return void
-    protected $street_2;
+     */
+    public function getPayload()
