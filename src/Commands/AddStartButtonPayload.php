@@ -28,4 +28,5 @@ class AddStartButtonPayload extends Command
 
     /**
      * Create a new command instance.
-    public function getName()
+     *
+     * The format follows that used in Send API, but must be a generic template with up to one URL button.
