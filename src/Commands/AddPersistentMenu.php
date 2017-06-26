@@ -8,4 +8,5 @@ use Illuminate\Console\Command;
 class AddPersistentMenu extends Command
 {
     /**
+     * The name and signature of the console command.
 
