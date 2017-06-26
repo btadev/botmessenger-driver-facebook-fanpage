@@ -12,4 +12,5 @@ class AddStartButtonPayload extends Command
      *
      * @var string
      */
-use ChienIT\BotMessenger\Messages\Attachments\Audio;
+    protected $signature = 'facebookAddStartButton';
+     */
