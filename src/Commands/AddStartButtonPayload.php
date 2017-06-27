@@ -47,3 +47,5 @@ class AddStartButtonPayload extends Command
         $payload = config('facebook.start_button_payload');
 
         if (! $payload) {
+            $this->error('You need to add a Facebook payload data to your Bot Messenger Facebook config.');
+use ChienIT\BotMessenger\Messages\Attachments\Audio;
