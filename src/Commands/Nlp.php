@@ -24,4 +24,5 @@ class Nlp extends Command
     /**
      * @var Curl
      */
-    /**
+    private $http;
+        // field string available at Facebook
