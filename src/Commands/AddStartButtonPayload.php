@@ -31,3 +31,4 @@ class AddStartButtonPayload extends Command
      *
      * @param Curl $http
      */
+     * @return $this
