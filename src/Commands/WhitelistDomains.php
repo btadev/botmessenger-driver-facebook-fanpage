@@ -15,3 +15,5 @@ class WhitelistDomains extends Command
     protected $signature = 'facebookWhitelistDomains';
 
     /**
+     * The console command description.
+use ChienIT\BotMessenger\Http\Curl;
