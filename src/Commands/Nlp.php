@@ -36,4 +36,5 @@ class Nlp extends Command
         parent::__construct();
         $this->http = $http;
     }
-    const TYPE_TEXT = 'text';
+
+     *
