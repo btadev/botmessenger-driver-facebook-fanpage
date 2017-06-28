@@ -31,4 +31,5 @@ class AddPersistentMenu extends Command
      *
      * @param Curl $http
      */
-     * @param array $elements
+    public function __construct(Curl $http)
+        return 'messaging_reads';
