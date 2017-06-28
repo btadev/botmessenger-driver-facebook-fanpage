@@ -19,3 +19,5 @@ class AddStartButtonPayload extends Command
      *
      * @var string
      */
+    protected $description = 'Add a Facebook Get Started button with a payload';
+}
