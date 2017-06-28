@@ -56,4 +56,5 @@ class AddPersistentMenu extends Command
 
         $responseObject = json_decode($response->getContent());
 
-    public function attachmentId($attachmentId)
+        if ($response->getStatusCode() == 200) {
+
