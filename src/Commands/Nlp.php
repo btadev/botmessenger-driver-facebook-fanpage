@@ -7,4 +7,4 @@ use Illuminate\Console\Command;
 
 class Nlp extends Command
 {
-     */
+    /**
