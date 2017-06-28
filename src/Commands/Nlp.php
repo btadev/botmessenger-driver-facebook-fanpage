@@ -48,3 +48,5 @@ class Nlp extends Command
             [], ['nlp_enabled' => ! $this->option('disable')]);
 
         $responseObject = json_decode($response->getContent());
+
+    public function toArray()
