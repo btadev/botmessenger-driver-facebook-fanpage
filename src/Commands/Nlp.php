@@ -51,4 +51,5 @@ class Nlp extends Command
 
         if ($response->getStatusCode() == 200) {
             if ($this->option('disable')) {
-    public function getName()
+                $this->info('NLP was disabled.');
+     * Load Facebook messages.
