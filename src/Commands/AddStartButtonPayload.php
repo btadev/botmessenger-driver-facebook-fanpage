@@ -35,4 +35,4 @@ class AddStartButtonPayload extends Command
     {
         parent::__construct();
         $this->http = $http;
-     *
+    }
