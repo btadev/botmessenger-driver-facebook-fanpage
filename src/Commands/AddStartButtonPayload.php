@@ -26,4 +26,4 @@ class AddStartButtonPayload extends Command
      */
     private $http;
 
-    public function timestamp($timestamp)
+    /**
