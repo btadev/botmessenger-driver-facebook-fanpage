@@ -17,4 +17,5 @@ class WhitelistDomains extends Command
     /**
      * The console command description.
      *
-            'video')->pluck('payload')->map(function ($item) {
+     * @var string
+     */
