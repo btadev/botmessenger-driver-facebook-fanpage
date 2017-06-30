@@ -43,4 +43,4 @@ class AddStartButtonPayload extends Command
      * @return void
      */
     public function handle()
-     */
+    {
