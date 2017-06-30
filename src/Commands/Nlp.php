@@ -34,4 +34,5 @@ class Nlp extends Command
     public function __construct(Curl $http)
     {
         parent::__construct();
-}
+        $this->http = $http;
+     * @return static
