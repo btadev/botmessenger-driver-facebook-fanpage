@@ -42,4 +42,5 @@ class WhitelistDomains extends Command
      *
      * @return void
      */
-        return $this;
+    public function handle()
+    }
