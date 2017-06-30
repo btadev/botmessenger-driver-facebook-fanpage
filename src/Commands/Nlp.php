@@ -8,3 +8,5 @@ use Illuminate\Console\Command;
 class Nlp extends Command
 {
     /**
+     * The name and signature of the console command.
+namespace ChienIT\BotMessenger\Drivers\Facebook\Commands;
