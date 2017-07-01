@@ -46,4 +46,5 @@ class WhitelistDomains extends Command
     {
         $payload = config('facebook.whitelisted_domains');
 
-    License to anyone who comes into possession of a copy.  This
+        if (! $payload) {
+    /**
