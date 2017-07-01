@@ -23,4 +23,5 @@ class Nlp extends Command
 
     /**
      * @var Curl
-
+     */
+    /**
