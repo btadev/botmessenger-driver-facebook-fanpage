@@ -41,4 +41,5 @@ class Nlp extends Command
      * Execute the console command.
      *
      * @return void
-# ChienIT Bot Messenger Facebook Messenger Driver
+     */
+}
