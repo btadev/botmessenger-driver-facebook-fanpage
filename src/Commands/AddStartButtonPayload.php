@@ -64,4 +64,5 @@ class AddStartButtonPayload extends Command
         $responseObject = json_decode($response->getContent());
 
         if ($response->getStatusCode() == 200) {
-
+            $this->info('Get Started payload was set to: '.$payload);
+        $this->event = Collection::make((array) $this->payload->get('entry')[0]);
