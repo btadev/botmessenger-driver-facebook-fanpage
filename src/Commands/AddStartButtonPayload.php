@@ -42,4 +42,5 @@ class AddStartButtonPayload extends Command
      *
      * @return void
      */
-use ChienIT\BotMessenger\Http\Curl;
+    public function handle()
+     */
