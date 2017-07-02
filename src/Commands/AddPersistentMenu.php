@@ -37,4 +37,5 @@ class AddPersistentMenu extends Command
         $this->http = $http;
     }
 
-            'elements' => $this->elements,
+    /**
+    "license": "LGPL-3.0-or-later",
