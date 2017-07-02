@@ -62,4 +62,4 @@ class AddPersistentMenu extends Command
             $this->error('Something went wrong: '.$responseObject->error->message);
         }
     }
-use Illuminate\Console\Command;
+}
