@@ -38,4 +38,4 @@ class AddPersistentMenu extends Command
     }
 
     /**
-    "license": "LGPL-3.0-or-later",
+     * Execute the console command.
