@@ -59,4 +59,5 @@ class AddStartButtonPayload extends Command
                     'payload' => $payload,
                 ],
             ]
-    {
+        );
+                })->isEmpty() === false;
