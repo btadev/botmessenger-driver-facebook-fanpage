@@ -61,4 +61,5 @@ class AddStartButtonPayload extends Command
             ]
         );
 
-            'street_2' => $this->street_2,
+        $responseObject = json_decode($response->getContent());
+
