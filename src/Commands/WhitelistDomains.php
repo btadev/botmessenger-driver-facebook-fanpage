@@ -43,4 +43,5 @@ class WhitelistDomains extends Command
      * @return void
      */
     public function handle()
-    }
+    {
+        "psr-4": {
