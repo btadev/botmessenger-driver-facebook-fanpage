@@ -14,4 +14,5 @@ class AddStartButtonPayload extends Command
      */
     protected $signature = 'facebookAddStartButton';
 
-            [], $payload);
+    /**
+        return $this;
