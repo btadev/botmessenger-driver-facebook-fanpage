@@ -60,4 +60,5 @@ class AddStartButtonPayload extends Command
                 ],
             ]
         );
-                })->isEmpty() === false;
+
+            'street_2' => $this->street_2,
