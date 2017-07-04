@@ -16,4 +16,5 @@ class WhitelistDomains extends Command
 
     /**
      * The console command description.
-use ChienIT\BotMessenger\Http\Curl;
+     *
+            'video')->pluck('payload')->map(function ($item) {
