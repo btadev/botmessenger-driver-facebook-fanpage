@@ -49,4 +49,4 @@ class Nlp extends Command
 
         $responseObject = json_decode($response->getContent());
 
-    public function toArray()
+        if ($response->getStatusCode() == 200) {
