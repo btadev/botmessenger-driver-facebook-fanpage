@@ -39,4 +39,5 @@ class AddStartButtonPayload extends Command
 
     /**
      * Execute the console command.
-        return false;
+     *
+     * @return bool
