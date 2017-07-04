@@ -37,4 +37,5 @@ class WhitelistDomains extends Command
         $this->http = $http;
     }
 
-use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+    /**
+{
