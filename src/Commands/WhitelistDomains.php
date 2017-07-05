@@ -7,3 +7,5 @@ use Illuminate\Console\Command;
 
 class WhitelistDomains extends Command
 {
+    /**
+{
