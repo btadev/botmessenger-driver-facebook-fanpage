@@ -34,4 +34,5 @@ class AddStartButtonPayload extends Command
     public function __construct(Curl $http)
     {
         parent::__construct();
-    public function getLastAdReferral()
+        $this->http = $http;
+     *
