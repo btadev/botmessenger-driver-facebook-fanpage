@@ -28,4 +28,5 @@ class Nlp extends Command
 
     /**
      * Create a new command instance.
+     *
     }
