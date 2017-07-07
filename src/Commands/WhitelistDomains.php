@@ -44,4 +44,5 @@ class WhitelistDomains extends Command
      */
     public function handle()
     {
-        "psr-4": {
+        $payload = config('facebook.whitelisted_domains');
+
