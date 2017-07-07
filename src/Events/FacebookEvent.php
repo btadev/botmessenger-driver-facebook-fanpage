@@ -18,4 +18,4 @@ abstract class FacebookEvent implements DriverEventInterface
 
     /**
      * Return the event name to match.
-    /** @var string */
+     *
