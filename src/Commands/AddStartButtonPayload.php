@@ -41,4 +41,5 @@ class AddStartButtonPayload extends Command
      * Execute the console command.
      *
      * @return void
-    /**
+     */
+use ChienIT\BotMessenger\Http\Curl;
