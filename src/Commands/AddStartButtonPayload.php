@@ -51,4 +51,5 @@ class AddStartButtonPayload extends Command
             exit;
         }
 
-    public function addButton(ElementButton $button)
+        $response = $this->http->post(
+class QuickReplyButton implements QuestionActionInterface
