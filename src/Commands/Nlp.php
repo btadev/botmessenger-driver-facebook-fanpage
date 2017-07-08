@@ -39,4 +39,5 @@ class Nlp extends Command
 
     /**
      * Execute the console command.
-        return new static($mediaType);
+     *
+     * @param array $elements
