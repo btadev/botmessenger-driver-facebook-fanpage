@@ -40,4 +40,5 @@ class WhitelistDomains extends Command
     /**
      * Execute the console command.
      *
-class ReceiptElement implements JsonSerializable
+     * @return void
+    /**
