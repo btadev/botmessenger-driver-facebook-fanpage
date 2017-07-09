@@ -12,4 +12,5 @@ class MessagingCheckoutUpdates extends FacebookEvent
     public function getName()
     {
         return 'messaging_checkout_updates';
-     */
+    }
+    public function getName()
