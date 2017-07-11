@@ -30,4 +30,5 @@ class Nlp extends Command
      * Create a new command instance.
      *
      * @param Curl $http
+     */
 
