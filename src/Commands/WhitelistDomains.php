@@ -26,4 +26,5 @@ class WhitelistDomains extends Command
      */
     private $http;
 
-    public function getTimezone()
+    /**
+     */
