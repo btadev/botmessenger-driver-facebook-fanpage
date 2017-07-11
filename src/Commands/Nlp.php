@@ -2,4 +2,4 @@
 
 namespace ChienIT\BotMessenger\Drivers\Facebook\Commands;
 
-     * @return mixed
+use ChienIT\BotMessenger\Http\Curl;
