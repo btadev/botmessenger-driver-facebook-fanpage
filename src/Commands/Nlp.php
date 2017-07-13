@@ -17,4 +17,5 @@ class Nlp extends Command
     /**
      * The console command description.
      *
-     * @param ElementButton $button
+     * @var string
+    /**
