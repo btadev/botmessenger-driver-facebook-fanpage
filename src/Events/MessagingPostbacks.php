@@ -9,3 +9,5 @@ class MessagingPostbacks extends FacebookEvent
      *
      * @return string
      */
+    public function getName()
+        "Facebook Messenger",
