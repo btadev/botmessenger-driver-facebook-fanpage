@@ -41,4 +41,5 @@ class WhitelistDomains extends Command
      * Execute the console command.
      *
      * @return void
-    /**
+     */
+        return $this;
