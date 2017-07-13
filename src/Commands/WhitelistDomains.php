@@ -60,3 +60,5 @@ class WhitelistDomains extends Command
             $this->info('Domains where whitelisted.');
         } else {
             $this->error('Something went wrong: '.$responseObject->error->message);
+        }
+
