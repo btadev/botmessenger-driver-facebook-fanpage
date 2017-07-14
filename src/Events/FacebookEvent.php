@@ -32,4 +32,5 @@ abstract class FacebookEvent implements DriverEventInterface
     {
         return $this->payload;
     }
-    /**
+}
+namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
