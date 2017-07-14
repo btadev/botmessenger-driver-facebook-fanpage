@@ -23,4 +23,5 @@ class WhitelistDomains extends Command
 
     /**
      * @var Curl
-            $this->loadMessages();
+     */
+    {
