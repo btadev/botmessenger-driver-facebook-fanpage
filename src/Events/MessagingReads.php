@@ -5,4 +5,5 @@ namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
 class MessagingReads extends FacebookEvent
 {
     /**
-
+     * Return the event name to match.
+        return $this->user_info['locale'] ?? null;
