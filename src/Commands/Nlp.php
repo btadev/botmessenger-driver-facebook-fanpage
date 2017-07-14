@@ -55,4 +55,5 @@ class Nlp extends Command
             } else {
                 $this->info('NLP was enabled.');
             }
-ChienIT Bot Messenger Driver to connect Facebook messenger with [ChienIT Bot Messenger](https://github.com/chiendevit/BotMessenger)
+        } else {
+
