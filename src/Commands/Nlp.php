@@ -56,4 +56,5 @@ class Nlp extends Command
                 $this->info('NLP was enabled.');
             }
         } else {
+            $this->error('Something went wrong: '.$responseObject->error->message);
 
