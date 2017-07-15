@@ -8,4 +8,5 @@ use Illuminate\Console\Command;
 class WhitelistDomains extends Command
 {
     /**
-{
+     * The name and signature of the console command.
+     */
