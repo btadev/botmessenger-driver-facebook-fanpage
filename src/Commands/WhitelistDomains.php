@@ -36,4 +36,5 @@ class WhitelistDomains extends Command
         parent::__construct();
         $this->http = $http;
     }
-    public function image($image_url)
+
+use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
