@@ -11,4 +11,4 @@ class MessagingReferrals extends FacebookEvent
      */
     public function getName()
     {
-        if (! $payload) {
+        return 'messaging_referrals';
