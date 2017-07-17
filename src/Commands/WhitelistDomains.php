@@ -28,4 +28,5 @@ class WhitelistDomains extends Command
 
     /**
      * Create a new command instance.
-     * @param $mediaType
+     *
+    {
