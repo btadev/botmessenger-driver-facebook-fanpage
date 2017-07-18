@@ -9,4 +9,5 @@ class MessagingDeliveries extends FacebookEvent
      *
      * @return string
      */
-        return $this->http->post($this->facebookProfileEndpoint.$endpoint, [], $parameters);
+    public function getName()
+    /** @var string */
