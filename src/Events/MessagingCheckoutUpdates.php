@@ -14,4 +14,3 @@ class MessagingCheckoutUpdates extends FacebookEvent
         return 'messaging_checkout_updates';
     }
 }
-    /** @var int */
