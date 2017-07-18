@@ -19,3 +19,4 @@ class WhitelistDomains extends Command
      *
      * @var string
      */
+    /**
