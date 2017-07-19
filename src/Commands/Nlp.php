@@ -60,4 +60,3 @@ class Nlp extends Command
         }
     }
 }
-            'street_2' => $this->street_2,
