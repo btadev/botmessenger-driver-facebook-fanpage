@@ -30,4 +30,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     /**
      * @param ElementButton $button
      * @return $this
-        return 'messaging_deliveries';
+     */
+    protected $signature = 'facebookWhitelistDomains';
