@@ -55,3 +55,4 @@ class WhitelistDomains extends Command
             [], ['whitelisted_domains' => $payload]);
 
         $responseObject = json_decode($response->getContent());
+
