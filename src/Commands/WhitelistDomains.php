@@ -50,4 +50,5 @@ class WhitelistDomains extends Command
             $this->error('You need to add a Facebook whitelist to your Bot Messenger Facebook config.');
             exit;
         }
-     * @param $currency
+
+
