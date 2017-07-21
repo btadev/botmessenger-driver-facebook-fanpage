@@ -11,4 +11,5 @@ class MessagingOptins extends FacebookEvent
      */
     public function getName()
     {
-     * @param $totalTax
+        return 'messaging_optins';
+    /**
