@@ -10,4 +10,4 @@ abstract class FacebookEvent implements DriverEventInterface
 
     /**
      * @param $payload
-        return 'messaging_checkout_updates';
+     */
