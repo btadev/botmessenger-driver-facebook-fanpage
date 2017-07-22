@@ -15,4 +15,5 @@ abstract class FacebookEvent implements DriverEventInterface
     {
         $this->payload = $payload;
     }
-    /**
+
+use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
