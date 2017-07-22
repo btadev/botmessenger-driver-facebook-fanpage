@@ -37,4 +37,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
 
         return $this;
     }
-    }
+
+    public static function create($title = '')
