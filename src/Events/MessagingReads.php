@@ -9,4 +9,5 @@ class MessagingReads extends FacebookEvent
      *
      * @return string
      */
-     * @param string $amount
+    public function getName()
+     * @return array
