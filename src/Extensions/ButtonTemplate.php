@@ -26,4 +26,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     {
         $this->text = $text;
     }
-        return isset($this->user_info['gender']) ? $this->user_info['gender'] : null;
+
+     */
