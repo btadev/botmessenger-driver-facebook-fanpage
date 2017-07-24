@@ -10,4 +10,5 @@ class MessagingOptins extends FacebookEvent
      * @return string
      */
     public function getName()
-        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
+    {
+     * @param $totalTax
