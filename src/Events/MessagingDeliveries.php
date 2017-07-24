@@ -14,4 +14,3 @@ class MessagingDeliveries extends FacebookEvent
         return 'messaging_deliveries';
     }
 }
-     * Get the instance as a web accessible array.
