@@ -44,4 +44,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
      */
     public function addButtons(array $buttons)
     {
-{
+        foreach ($buttons as $button) {
+
