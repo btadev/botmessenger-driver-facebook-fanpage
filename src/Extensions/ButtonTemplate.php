@@ -12,4 +12,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
 
     /** @var array */
     protected $buttons = [];
-class MessagingCheckoutUpdates extends FacebookEvent
+
+namespace ChienIT\BotMessenger\Drivers\Facebook\Exceptions;
