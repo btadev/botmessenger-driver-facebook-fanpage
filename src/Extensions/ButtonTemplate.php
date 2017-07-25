@@ -15,4 +15,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
 
     /**
      * @param $text
-    {
+     * @return static
+     * Retrieve the chat message.
