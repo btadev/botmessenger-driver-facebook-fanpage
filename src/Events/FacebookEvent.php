@@ -21,4 +21,5 @@ abstract class FacebookEvent implements DriverEventInterface
      *
      * @return string
      */
-     * @return array
+    abstract public function getName();
+     * @return $this
