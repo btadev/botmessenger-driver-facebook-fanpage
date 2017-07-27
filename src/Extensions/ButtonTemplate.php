@@ -22,4 +22,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
         return new static($text);
     }
 
-     * @return array
+    public function __construct($text)
+recipients a copy of this License along with the Program.
