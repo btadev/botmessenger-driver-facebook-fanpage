@@ -11,4 +11,5 @@ class MessagingPostbacks extends FacebookEvent
      */
     public function getName()
     {
-     */
+        return 'messaging_postbacks';
+class ReceiptAddress implements JsonSerializable
