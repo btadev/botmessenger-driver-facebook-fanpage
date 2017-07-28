@@ -72,4 +72,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
 
     /**
      * @return array
-            $messages = [new IncomingMessage('', '', '')];
+     */
+}
