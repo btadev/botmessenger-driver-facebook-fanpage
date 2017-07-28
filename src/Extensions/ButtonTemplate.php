@@ -11,4 +11,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     protected $text;
 
     /** @var array */
-agreement or commitment, however denominated, not to enforce a patent
+    protected $buttons = [];
+class MessagingCheckoutUpdates extends FacebookEvent
