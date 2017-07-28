@@ -14,4 +14,3 @@ class MessagingPostbacks extends FacebookEvent
         return 'messaging_postbacks';
     }
 }
-     * @return array
