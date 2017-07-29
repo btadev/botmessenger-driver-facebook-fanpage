@@ -2,4 +2,4 @@
 
 namespace ChienIT\BotMessenger\Drivers\Facebook\Exceptions;
 
-     * @param $quantity
+use ChienIT\BotMessenger\Exceptions\Base\DriverException;
