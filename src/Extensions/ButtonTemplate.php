@@ -23,4 +23,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     }
 
     public function __construct($text)
-recipients a copy of this License along with the Program.
+    {
+        "chiendevit/botmessenger": "^3.0"
