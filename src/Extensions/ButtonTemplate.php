@@ -34,4 +34,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     public function addButton(ElementButton $button)
     {
         $this->buttons[] = $button->toArray();
-     * @param $orderUrl
+
+    }
