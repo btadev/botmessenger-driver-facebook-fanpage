@@ -71,4 +71,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     }
 
     /**
-            'total_cost' => $this->total_cost,
+     * @return array
+            $messages = [new IncomingMessage('', '', '')];
