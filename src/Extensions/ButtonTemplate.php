@@ -80,4 +80,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
 
     /**
      * Get the instance as a web accessible array.
-     * The name and signature of the console command.
+     * This will be used within the WebDriver.
+     * Get the instance as a web accessible array.
