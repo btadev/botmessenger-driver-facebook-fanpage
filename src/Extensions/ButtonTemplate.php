@@ -39,4 +39,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     }
 
     /**
-            'total_tax' => $this->total_tax,
+     * @param array $buttons
+     * @return $this
