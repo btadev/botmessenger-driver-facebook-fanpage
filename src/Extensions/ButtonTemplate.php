@@ -63,3 +63,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
                 'type' => 'template',
                 'payload' => [
                     'template_type' => 'button',
+                    'text' => $this->text,
+        }
