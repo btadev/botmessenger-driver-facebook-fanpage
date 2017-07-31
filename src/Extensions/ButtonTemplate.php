@@ -75,4 +75,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
      */
     public function jsonSerialize()
     {
-<?php
+        return $this->toArray();
+
