@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
 
-     * @return $this
+class MessagingPostbacks extends FacebookEvent
+use JsonSerializable;
