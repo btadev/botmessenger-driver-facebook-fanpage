@@ -6,4 +6,5 @@ use JsonSerializable;
 
 class Element implements JsonSerializable
 {
-        return false;
+    /** @var string */
+
