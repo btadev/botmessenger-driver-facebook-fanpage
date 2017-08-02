@@ -70,4 +70,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
         ];
     }
 
-    protected $item_url;
+    /**
+            'total_cost' => $this->total_cost,
