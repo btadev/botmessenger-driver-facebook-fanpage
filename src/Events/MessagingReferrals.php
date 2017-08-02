@@ -14,4 +14,3 @@ class MessagingReferrals extends FacebookEvent
         return 'messaging_referrals';
     }
 }
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
