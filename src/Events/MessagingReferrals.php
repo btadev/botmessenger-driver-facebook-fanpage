@@ -7,4 +7,4 @@ class MessagingReferrals extends FacebookEvent
     /**
      * Return the event name to match.
      *
-# ChienIT Bot Messenger Facebook Messenger Driver
+     * @return string
