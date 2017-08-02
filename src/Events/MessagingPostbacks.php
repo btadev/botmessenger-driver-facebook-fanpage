@@ -13,4 +13,5 @@ class MessagingPostbacks extends FacebookEvent
     {
         return 'messaging_postbacks';
     }
-                    'order_number' => $this->order_number,
+}
+     * @return array
