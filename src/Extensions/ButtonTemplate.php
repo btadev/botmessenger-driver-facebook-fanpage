@@ -9,4 +9,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
 {
     /** @var string */
     protected $text;
-    /**
+
+namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
