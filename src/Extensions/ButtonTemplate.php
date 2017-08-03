@@ -46,4 +46,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     {
         foreach ($buttons as $button) {
             if ($button instanceof ElementButton) {
-    public function subtitle($subtitle)
+                $this->buttons[] = $button->toArray();
+}
