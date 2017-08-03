@@ -6,4 +6,5 @@ class MessagingReferrals extends FacebookEvent
 {
     /**
      * Return the event name to match.
-     * @var Curl
+     *
+# ChienIT Bot Messenger Facebook Messenger Driver
