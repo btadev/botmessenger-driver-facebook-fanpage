@@ -8,3 +8,5 @@ use ChienIT\BotMessenger\Interfaces\WebAccess;
 class ButtonTemplate implements JsonSerializable, WebAccess
 {
     /** @var string */
+    protected $text;
+    /**
