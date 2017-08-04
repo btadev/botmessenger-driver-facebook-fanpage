@@ -68,4 +68,5 @@ class Element implements JsonSerializable
      * @return $this
      */
     public function image($image_url)
-class ReceiptElement implements JsonSerializable
+    {
+     */
