@@ -17,4 +17,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
      * @param $text
      * @return static
      */
-use ChienIT\BotMessenger\Http\Curl;
+    public static function create($text)
+                }
