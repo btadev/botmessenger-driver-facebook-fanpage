@@ -32,3 +32,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
      * @return $this
      */
     public function addButton(ElementButton $button)
+    {
+    /**
