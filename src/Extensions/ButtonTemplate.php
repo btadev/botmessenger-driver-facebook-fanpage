@@ -56,4 +56,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     /**
      * @return array
      */
-        "BotMessenger",
+    public function toArray()
+     */
