@@ -88,4 +88,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     {
         return [
             'type' => 'buttons',
-    }
+            'text' => $this->text,
+            $this->error('You need to add a Facebook greeting text to your Bot Messenger Facebook config.');
