@@ -97,4 +97,5 @@ class Element implements JsonSerializable
     }
 
     /**
-                    'elements' => $this->elements,
+     * @param array $buttons
+use Illuminate\Console\Command;
