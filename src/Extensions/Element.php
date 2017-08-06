@@ -62,4 +62,5 @@ class Element implements JsonSerializable
 
         return $this;
     }
-     */
+
+     * The name and signature of the console command.
