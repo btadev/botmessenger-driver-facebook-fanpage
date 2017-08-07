@@ -13,3 +13,4 @@ class AddGreetingText extends Command
      * @var string
      */
     protected $signature = 'facebookAddGreetingText';
+
