@@ -98,4 +98,5 @@ class Element implements JsonSerializable
 
     /**
      * @param array $buttons
-use Illuminate\Console\Command;
+     * @return $this
+
