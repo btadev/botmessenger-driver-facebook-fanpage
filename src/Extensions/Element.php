@@ -40,4 +40,4 @@ class Element implements JsonSerializable
     {
         $this->title = $title;
     }
-{
+
