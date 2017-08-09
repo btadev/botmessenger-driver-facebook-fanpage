@@ -16,3 +16,4 @@ class AddGreetingText extends Command
 
     /**
      * The console command description.
+     *
