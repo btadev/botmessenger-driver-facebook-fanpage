@@ -74,3 +74,5 @@ class Element implements JsonSerializable
         return $this;
     }
 
+    /**
+    }
