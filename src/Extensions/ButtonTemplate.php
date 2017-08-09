@@ -28,4 +28,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     }
 
     /**
-    /**
+     * @param ElementButton $button
+    public function getImagesUrls(array $message)
