@@ -78,4 +78,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
         return $this->toArray();
     }
 
-    protected $media_type;
+    /**
+     * @return $this
