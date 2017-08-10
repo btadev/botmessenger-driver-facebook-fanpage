@@ -99,4 +99,5 @@ class Element implements JsonSerializable
     /**
      * @param array $buttons
      * @return $this
+     */
 
