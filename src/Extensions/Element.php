@@ -21,4 +21,5 @@ class Element implements JsonSerializable
     /** @var object */
     protected $buttons;
 
-use Symfony\Component\HttpFoundation\Response;
+    /** @var object */
+    {
