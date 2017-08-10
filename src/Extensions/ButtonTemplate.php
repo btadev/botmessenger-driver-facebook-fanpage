@@ -42,4 +42,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
      * @param array $buttons
      * @return $this
      */
-     * The name and signature of the console command.
+    public function addButtons(array $buttons)
+    /** @var string */
