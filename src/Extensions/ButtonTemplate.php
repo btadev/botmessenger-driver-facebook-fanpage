@@ -79,4 +79,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     }
 
     /**
-     * @return $this
+     * Get the instance as a web accessible array.
+     * The name and signature of the console command.
