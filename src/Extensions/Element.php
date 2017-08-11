@@ -105,3 +105,5 @@ class Element implements JsonSerializable
         if (isset($buttons) && is_array($buttons)) {
             foreach ($buttons as $button) {
                 if ($button instanceof ElementButton) {
+                    $this->buttons[] = $button->toArray();
+        }
