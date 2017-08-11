@@ -24,4 +24,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
 
     public function __construct($text)
     {
-        "chiendevit/botmessenger": "^3.0"
+        $this->text = $text;
+        if ($this->contentType === 'text') {
