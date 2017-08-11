@@ -64,4 +64,5 @@ class Element implements JsonSerializable
     }
 
     /**
+     * @param string $image_url
 
