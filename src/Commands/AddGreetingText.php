@@ -57,3 +57,4 @@ class AddGreetingText extends Command
 
         $responseObject = json_decode($response->getContent());
 
+        if ($response->getStatusCode() == 200) {
