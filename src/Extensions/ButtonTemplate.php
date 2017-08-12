@@ -31,4 +31,4 @@ class ButtonTemplate implements JsonSerializable, WebAccess
      * @param ElementButton $button
      * @return $this
      */
-    protected $signature = 'facebookWhitelistDomains';
+    public function addButton(ElementButton $button)
