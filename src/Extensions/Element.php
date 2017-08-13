@@ -69,4 +69,5 @@ class Element implements JsonSerializable
      */
     public function image($image_url)
     {
-     */
+        $this->image_url = $image_url;
+use JsonSerializable;
