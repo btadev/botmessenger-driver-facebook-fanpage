@@ -23,4 +23,5 @@ class Element implements JsonSerializable
 
     /** @var object */
     protected $default_action;
-}
+
+        if (count($messages) === 0) {
