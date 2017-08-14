@@ -35,4 +35,5 @@ class Element implements JsonSerializable
 
     /**
      * @param string $title
-  To do so, attach the following notices to the program.  It is safest
+     */
+
