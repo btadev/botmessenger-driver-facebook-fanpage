@@ -46,4 +46,4 @@ class Element implements JsonSerializable
      * @return $this
      */
     public function title($title)
-     */
+    {
