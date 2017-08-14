@@ -18,3 +18,4 @@ class Element implements JsonSerializable
     /** @var string */
     protected $subtitle;
 
+{
