@@ -147,4 +147,5 @@ class Element implements JsonSerializable
     public function jsonSerialize()
     {
         return $this->toArray();
-     * Return the event name to match.
+    }
+            if (isset($payload['optin']) && isset($payload['optin']['user_ref'])) {
