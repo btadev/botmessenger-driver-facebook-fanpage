@@ -14,4 +14,5 @@ class ElementButton
     protected $url;
 
     /** @var string */
-     * @param ElementButton $defaultAction
+    protected $fallback_url;
+
