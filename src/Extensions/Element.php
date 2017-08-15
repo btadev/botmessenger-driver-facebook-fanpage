@@ -121,4 +121,5 @@ class Element implements JsonSerializable
     public function defaultAction(ElementButton $defaultAction)
     {
         $defaultAction->type(ElementButton::TYPE_WEB_URL);
-     * @return string
+        $this->default_action = $defaultAction->toArray();
+     * @return array
