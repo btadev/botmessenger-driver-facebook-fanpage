@@ -83,4 +83,5 @@ class ButtonTemplate implements JsonSerializable, WebAccess
      * This will be used within the WebDriver.
      *
      * @return array
-                    'image_aspect_ratio' => $this->imageAspectRatio,
+     */
+                'get_started' => [
