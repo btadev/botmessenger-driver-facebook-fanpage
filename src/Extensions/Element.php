@@ -100,4 +100,5 @@ class Element implements JsonSerializable
      * @param array $buttons
      * @return $this
      */
-
+    public function addButtons(array $buttons)
+     * @return string
