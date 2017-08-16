@@ -110,4 +110,5 @@ class Element implements JsonSerializable
             }
         }
 
-    public function getName()
+        return $this;
+    {
