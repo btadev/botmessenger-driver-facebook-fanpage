@@ -94,4 +94,5 @@ class Element implements JsonSerializable
         $this->buttons[] = $button->toArray();
 
         return $this;
-    public function addButtons(array $buttons)
+    }
+        $this->elements[] = $element->toArray();
