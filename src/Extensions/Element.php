@@ -139,4 +139,5 @@ class Element implements JsonSerializable
             'default_action' => $this->default_action,
             'buttons' => $this->buttons,
         ];
+    }
 namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
