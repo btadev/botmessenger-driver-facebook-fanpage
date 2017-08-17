@@ -12,4 +12,5 @@ class Element implements JsonSerializable
     /** @var string */
     protected $image_url;
 
-     * Return the event name to match.
+    /** @var string */
+     */
