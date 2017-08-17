@@ -19,4 +19,5 @@ class Element implements JsonSerializable
     protected $subtitle;
 
     /** @var object */
-            'currency' => $this->currency,
+    protected $buttons;
+
