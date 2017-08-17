@@ -5,4 +5,5 @@ namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
 class ElementButton
 {
     /** @var string */
-        return new static();
+    protected $title;
+                return Collection::make($msg['message']['attachments'])->filter(function ($attachment) {
