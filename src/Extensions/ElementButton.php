@@ -52,4 +52,5 @@ class ElementButton
         return new static($title);
     }
 
-     */
+    /**
+     * @return string
