@@ -58,4 +58,5 @@ class Element implements JsonSerializable
      */
     public function subtitle($subtitle)
     {
-class MessagingPostbacks extends FacebookEvent
+        $this->subtitle = $subtitle;
+        });
