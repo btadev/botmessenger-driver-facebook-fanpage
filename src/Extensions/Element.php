@@ -131,4 +131,5 @@ class Element implements JsonSerializable
      */
     public function toArray()
     {
-     *
+        return [
+{
