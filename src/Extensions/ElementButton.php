@@ -44,4 +44,5 @@ class ElementButton
     const RATIO_FULL = 'full';
 
     /**
-        $responseObject = json_decode($response->getContent());
+     * @param string $title
+            }
