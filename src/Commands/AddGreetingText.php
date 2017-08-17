@@ -51,3 +51,4 @@ class AddGreetingText extends Command
             exit;
         }
 
+        $response = $this->http->post(
