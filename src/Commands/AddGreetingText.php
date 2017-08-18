@@ -20,3 +20,4 @@ class AddGreetingText extends Command
      * @var string
      */
     protected $description = 'Add a Facebook Greeting Text to your message start screen.';
+
