@@ -17,4 +17,5 @@ class ElementButton
     protected $fallback_url;
 
     /** @var string */
-     * @param $attachmentId
+    protected $payload;
+            'message' => [
