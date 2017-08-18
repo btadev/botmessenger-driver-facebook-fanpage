@@ -57,4 +57,5 @@ class Element implements JsonSerializable
      * @return $this
      */
     public function subtitle($subtitle)
-
+    {
+class MessagingPostbacks extends FacebookEvent
