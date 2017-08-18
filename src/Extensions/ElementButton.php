@@ -55,4 +55,5 @@ class ElementButton
     /**
      * @param string $title
      */
-    public function state($state)
+    public function __construct($title)
+<?php
