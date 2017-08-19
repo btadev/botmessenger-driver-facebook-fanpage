@@ -42,3 +42,4 @@ class AddPersistentMenu extends Command
      *
      * @return void
      */
+    public function handle()
