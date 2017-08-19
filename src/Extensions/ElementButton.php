@@ -81,4 +81,5 @@ class ElementButton
     {
         $this->type = $type;
 
-     * @return void
+        return $this;
+        return 'messaging_optins';
