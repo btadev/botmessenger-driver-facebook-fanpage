@@ -26,4 +26,5 @@ class Element implements JsonSerializable
 
     /**
      * @param $title
-        return new static($title);
+     * @return static
+    public function street2($street)
