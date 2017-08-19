@@ -86,4 +86,5 @@ class Element implements JsonSerializable
     }
 
     /**
-<?php
+     * @param ElementButton $button
+    {
