@@ -43,3 +43,4 @@ class AddGreetingText extends Command
      * @return void
      */
     public function handle()
+    {
