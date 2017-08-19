@@ -15,3 +15,4 @@ class AddStartButtonPayload extends Command
     protected $signature = 'facebookAddStartButton';
 
     /**
+     * The console command description.
