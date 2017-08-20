@@ -29,4 +29,5 @@ class ElementButton
     protected $messenger_extensions = false;
 
     /** @var GenericTemplate */
+    protected $shareContents;
 
