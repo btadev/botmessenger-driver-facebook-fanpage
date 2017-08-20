@@ -82,4 +82,5 @@ class Element implements JsonSerializable
     {
         $this->item_url = $item_url;
 
+        return $this;
     }
