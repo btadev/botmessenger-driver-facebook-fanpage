@@ -84,4 +84,5 @@ class Element implements JsonSerializable
 
         return $this;
     }
-    protected $top_element_style = 'large';
+
+        parent::__construct();
