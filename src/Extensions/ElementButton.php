@@ -87,4 +87,5 @@ class ElementButton
     /**
      * @param $payload
      * @return $this
-class MessagingReferrals extends FacebookEvent
+     */
+    public function jsonSerialize()
