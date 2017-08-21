@@ -20,4 +20,4 @@ class ElementButton
     protected $payload;
 
     /** @var string */
-class FacebookException extends DriverException
+    protected $webview_height_ratio = self::RATIO_FULL;
