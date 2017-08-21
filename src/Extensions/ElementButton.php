@@ -16,3 +16,5 @@ class ElementButton
     /** @var string */
     protected $fallback_url;
 
+    /** @var string */
+     * @param $attachmentId
