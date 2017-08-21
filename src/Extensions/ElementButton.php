@@ -8,4 +8,5 @@ class ElementButton
     protected $title;
 
     /** @var string */
-        return new static($title);
+    protected $type = self::TYPE_WEB_URL;
+    {
