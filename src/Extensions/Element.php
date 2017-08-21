@@ -108,4 +108,4 @@ class Element implements JsonSerializable
                     $this->buttons[] = $button->toArray();
                 }
             }
-<?php
+        }
