@@ -35,4 +35,5 @@ class ElementButton
     const TYPE_ACCOUNT_UNLINK = 'account_unlink';
     const TYPE_WEB_URL = 'web_url';
     const TYPE_PAYMENT = 'payment';
-use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+    const TYPE_POSTBACK = 'postback';
+    public function __construct($title)
