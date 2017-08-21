@@ -21,3 +21,4 @@
     },
     "autoload": {
         "psr-4": {
+            "ChienIT\\BotMessenger\\Drivers\\Facebook\\": "src/"
