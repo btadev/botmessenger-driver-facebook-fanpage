@@ -6,3 +6,4 @@ use ChienIT\BotMessenger\Http\Curl;
 use Illuminate\Console\Command;
 
 class AddStartButtonPayload extends Command
+{
