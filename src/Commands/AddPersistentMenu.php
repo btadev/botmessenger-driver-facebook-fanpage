@@ -15,3 +15,4 @@ class AddPersistentMenu extends Command
     protected $signature = 'facebookAddMenu';
 
     /**
+     * The console command description.
