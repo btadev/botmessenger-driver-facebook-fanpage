@@ -92,3 +92,5 @@ class ElementButton
     {
         $this->payload = $payload;
 
+        return $this;
+     * @param ElementButton $button
