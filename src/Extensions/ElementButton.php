@@ -119,4 +119,5 @@ class ElementButton
 
     /**
      * @return $this
-     * @param Curl $http
+     */
+        return ! $messages->isEmpty() && $validSignature;
