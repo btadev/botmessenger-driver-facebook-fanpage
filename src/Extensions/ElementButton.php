@@ -48,4 +48,5 @@ class ElementButton
      * @return static
      */
     public static function create($title)
-     */
+    {
+    {
