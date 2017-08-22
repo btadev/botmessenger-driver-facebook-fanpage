@@ -60,4 +60,4 @@ class Element implements JsonSerializable
     {
         $this->subtitle = $subtitle;
 
-     * @param string $title
+        return $this;
