@@ -7,3 +7,4 @@ use Illuminate\Console\Command;
 
 class AddPersistentMenu extends Command
 {
+    /**
