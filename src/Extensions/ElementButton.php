@@ -43,4 +43,5 @@ class ElementButton
     const RATIO_TALL = 'tall';
     const RATIO_FULL = 'full';
 
-            $this->loadMessages();
+    /**
+        $responseObject = json_decode($response->getContent());
