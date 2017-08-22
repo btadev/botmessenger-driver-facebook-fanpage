@@ -51,4 +51,5 @@ class Element implements JsonSerializable
 
         return $this;
     }
-        return false;
+
+namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
