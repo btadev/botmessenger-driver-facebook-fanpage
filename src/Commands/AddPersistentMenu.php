@@ -37,3 +37,4 @@ class AddPersistentMenu extends Command
         $this->http = $http;
     }
 
+    /**
