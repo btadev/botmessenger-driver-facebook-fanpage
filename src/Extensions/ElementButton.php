@@ -79,3 +79,5 @@ class ElementButton
      */
     public function type($type)
     {
+        $this->type = $type;
+    }
