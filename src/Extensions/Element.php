@@ -138,4 +138,5 @@ class Element implements JsonSerializable
             'subtitle' => $this->subtitle,
             'default_action' => $this->default_action,
             'buttons' => $this->buttons,
-    /** @var int */
+        ];
+namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
