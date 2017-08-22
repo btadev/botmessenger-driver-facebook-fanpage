@@ -59,3 +59,4 @@ class AddPersistentMenu extends Command
         if ($response->getStatusCode() == 200) {
             $this->info('Facebook menu was set.');
         } else {
+            $this->error('Something went wrong: '.$responseObject->error->message);
