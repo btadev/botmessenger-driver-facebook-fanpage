@@ -115,4 +115,5 @@ class ElementButton
         $this->messenger_extensions = true;
 
         return $this;
-            $this->info('Domains where whitelisted.');
+    }
+     * @return array
