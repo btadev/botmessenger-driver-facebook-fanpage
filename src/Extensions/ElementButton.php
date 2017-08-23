@@ -27,4 +27,5 @@ class ElementButton
 
     /** @var bool */
     protected $messenger_extensions = false;
-        return isset($this->user_info['gender']) ? $this->user_info['gender'] : null;
+
+    public function getLastAdReferral()
