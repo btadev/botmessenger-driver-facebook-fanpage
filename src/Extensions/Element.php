@@ -96,4 +96,5 @@ class Element implements JsonSerializable
         return $this;
     }
 
-     *
+    /**
+                    'elements' => $this->elements,
