@@ -61,3 +61,4 @@ class AddGreetingText extends Command
             $this->info('Greeting text was set.');
         } else {
             $this->error('Something went wrong: '.$responseObject->error->message);
+        }
