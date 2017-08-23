@@ -32,3 +32,4 @@ class AddStartButtonPayload extends Command
      * @param Curl $http
      */
     public function __construct(Curl $http)
+    {
