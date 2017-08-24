@@ -89,4 +89,5 @@ class Element implements JsonSerializable
      * @param ElementButton $button
      * @return $this
      */
-    {
+    public function addButton(ElementButton $button)
+namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
