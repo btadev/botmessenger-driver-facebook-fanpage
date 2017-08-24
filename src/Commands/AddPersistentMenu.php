@@ -55,3 +55,4 @@ class AddPersistentMenu extends Command
             [], $payload);
 
         $responseObject = json_decode($response->getContent());
+
