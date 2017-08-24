@@ -141,4 +141,5 @@ class ElementButton
 
     /**
      * Optional. The message that you wish the recipient of the share to see,
-     */
+     * if it is different from the one this button is attached to.
+            'location')->pluck('payload')->first();
