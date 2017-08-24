@@ -37,3 +37,4 @@ class AddStartButtonPayload extends Command
         $this->http = $http;
     }
 
+    /**
