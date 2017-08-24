@@ -73,4 +73,4 @@ class Element implements JsonSerializable
 
         return $this;
     }
-            'name' => $this->name,
+
