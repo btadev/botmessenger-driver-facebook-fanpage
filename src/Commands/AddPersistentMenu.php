@@ -23,3 +23,4 @@ class AddPersistentMenu extends Command
 
     /**
      * @var Curl
+     */
