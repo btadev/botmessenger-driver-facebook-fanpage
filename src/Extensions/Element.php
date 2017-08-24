@@ -55,4 +55,5 @@ class Element implements JsonSerializable
     /**
      * @param string $subtitle
      * @return $this
-        self::RATIO_SQUARE,
+     */
+    public function matchesRequest()
