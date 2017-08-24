@@ -118,4 +118,5 @@ class Element implements JsonSerializable
      *
      * @return $this
      */
-namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
+    public function defaultAction(ElementButton $defaultAction)
+    "require": {
