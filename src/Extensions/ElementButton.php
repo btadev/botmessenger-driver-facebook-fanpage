@@ -89,4 +89,4 @@ class ElementButton
      * @return $this
      */
     public function payload($payload)
-        return new static($title);
+    {
