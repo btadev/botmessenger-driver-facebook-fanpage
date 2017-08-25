@@ -71,4 +71,5 @@ class Element implements JsonSerializable
     {
         $this->image_url = $image_url;
 
-     * Set the button URL.
+        return $this;
+<?php
