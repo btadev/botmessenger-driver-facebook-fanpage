@@ -106,3 +106,5 @@ class ElementButton
         return $this;
     }
 
+    /**
+    protected $buttons;
