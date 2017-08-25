@@ -131,3 +131,5 @@ class ElementButton
      * Set ratio to one of RATIO_COMPACT, RATIO_TALL, RATIO_FULL.
      * @param string $ratio
      * @return $this
+     */
+     * @param string|Question|IncomingMessage $message
