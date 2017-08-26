@@ -23,3 +23,4 @@ class AddStartButtonPayload extends Command
 
     /**
      * @var Curl
+     */
