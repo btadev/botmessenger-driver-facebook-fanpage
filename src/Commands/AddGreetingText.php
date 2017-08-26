@@ -23,3 +23,4 @@ class AddGreetingText extends Command
 
     /**
      * @var Curl
+     */
