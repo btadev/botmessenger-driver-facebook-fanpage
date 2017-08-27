@@ -25,3 +25,4 @@ class AddGreetingText extends Command
      * @var Curl
      */
     private $http;
+
