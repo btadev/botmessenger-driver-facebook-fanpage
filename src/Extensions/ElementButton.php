@@ -36,4 +36,5 @@ class ElementButton
     const TYPE_WEB_URL = 'web_url';
     const TYPE_PAYMENT = 'payment';
     const TYPE_POSTBACK = 'postback';
-    public function __construct($title)
+    const TYPE_SHARE = 'element_share';
+    }
