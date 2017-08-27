@@ -103,3 +103,4 @@ class Element implements JsonSerializable
     public function addButtons(array $buttons)
     {
         if (isset($buttons) && is_array($buttons)) {
+            foreach ($buttons as $button) {
