@@ -37,3 +37,4 @@ class AddGreetingText extends Command
         $this->http = $http;
     }
 
+    /**
