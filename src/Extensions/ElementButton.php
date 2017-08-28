@@ -86,4 +86,5 @@ class ElementButton
 
     /**
      * @param $payload
-     * Return the event name to match.
+     * @return $this
+class MessagingReferrals extends FacebookEvent
