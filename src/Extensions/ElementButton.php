@@ -180,4 +180,4 @@ class ElementButton
                 }
 
                 if ($this->messenger_extensions) {
-
+                    $buttonArray['messenger_extensions'] = $this->messenger_extensions;
