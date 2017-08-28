@@ -112,4 +112,5 @@ class Element implements JsonSerializable
 
         return $this;
     }
-     *
+
+        $this->elements[] = $element->toArray();
