@@ -28,4 +28,5 @@ class ElementButton
     /** @var bool */
     protected $messenger_extensions = false;
 
-    public function getLastAdReferral()
+    /** @var GenericTemplate */
+
