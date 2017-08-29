@@ -22,4 +22,5 @@ class ElementButton
     /** @var string */
     protected $webview_height_ratio = self::RATIO_FULL;
 
-
+    /** @var string */
+class MediaTemplate implements JsonSerializable, WebAccess
