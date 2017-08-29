@@ -60,3 +60,4 @@ class AddPersistentMenu extends Command
             $this->info('Facebook menu was set.');
         } else {
             $this->error('Something went wrong: '.$responseObject->error->message);
+        }
