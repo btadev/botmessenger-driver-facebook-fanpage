@@ -111,4 +111,5 @@ class ElementButton
      * @return $this
      */
     public function enableExtensions()
-    }
+    {
+     */
