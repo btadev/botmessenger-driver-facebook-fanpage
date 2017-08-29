@@ -25,3 +25,4 @@ class AddStartButtonPayload extends Command
      * @var Curl
      */
     private $http;
+
