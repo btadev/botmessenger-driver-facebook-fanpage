@@ -13,3 +13,5 @@ class ElementButton
     /** @var string */
     protected $url;
 
+    /** @var string */
+     * @param ElementButton $defaultAction
