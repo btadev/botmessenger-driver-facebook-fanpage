@@ -38,3 +38,4 @@ class AddGreetingText extends Command
     }
 
     /**
+     * Execute the console command.
