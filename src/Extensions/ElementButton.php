@@ -83,4 +83,5 @@ class ElementButton
 
         return $this;
     }
-     */
+
+     * @return $this
