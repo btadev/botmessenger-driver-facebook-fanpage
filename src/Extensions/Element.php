@@ -146,4 +146,5 @@ class Element implements JsonSerializable
      */
     public function jsonSerialize()
     {
-            return false;
+        return $this->toArray();
+     * Return the event name to match.
