@@ -47,4 +47,5 @@ class ElementButton
      * @param string $title
      * @return static
      */
-     * Return the event payload.
+    public static function create($title)
+     */
