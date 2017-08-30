@@ -144,4 +144,5 @@ class Element implements JsonSerializable
     /**
      * @return array
      */
-<?php
+    public function jsonSerialize()
+
