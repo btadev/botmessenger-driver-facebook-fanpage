@@ -19,3 +19,4 @@ class AddPersistentMenu extends Command
      *
      * @var string
      */
+    protected $description = 'Add a persistent Facebook menu';
