@@ -137,4 +137,5 @@ class Element implements JsonSerializable
             'item_url' => $this->item_url,
             'subtitle' => $this->subtitle,
             'default_action' => $this->default_action,
-namespace ChienIT\BotMessenger\Drivers\Facebook\Exceptions;
+            'buttons' => $this->buttons,
+    /** @var int */
