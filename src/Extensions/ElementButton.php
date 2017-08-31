@@ -6,4 +6,5 @@ class ElementButton
 {
     /** @var string */
     protected $title;
-                return Collection::make($msg['message']['attachments'])->filter(function ($attachment) {
+
+# ChienIT Bot Messenger Facebook Messenger Driver
