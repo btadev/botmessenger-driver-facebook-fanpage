@@ -133,3 +133,4 @@ class Element implements JsonSerializable
     {
         return [
             'title' => $this->title,
+            'image_url' => $this->image_url,
