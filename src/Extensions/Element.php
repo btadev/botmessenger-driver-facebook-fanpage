@@ -148,4 +148,4 @@ class Element implements JsonSerializable
     {
         return $this->toArray();
     }
-            if (isset($payload['optin']) && isset($payload['optin']['user_ref'])) {
+}
