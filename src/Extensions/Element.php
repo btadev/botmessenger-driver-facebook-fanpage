@@ -135,4 +135,5 @@ class Element implements JsonSerializable
             'title' => $this->title,
             'image_url' => $this->image_url,
             'item_url' => $this->item_url,
-    {
+            'subtitle' => $this->subtitle,
+namespace ChienIT\BotMessenger\Drivers\Facebook;
