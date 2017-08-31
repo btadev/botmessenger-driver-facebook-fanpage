@@ -66,4 +66,5 @@ class ElementButton
      * @return $this
      */
     public function url($url)
-        return false;
+    {
+     */
