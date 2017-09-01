@@ -17,4 +17,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
     ];
 
     /** @var array */
-# ChienIT Bot Messenger Facebook Messenger Driver
+    protected $elements = [];
