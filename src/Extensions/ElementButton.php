@@ -7,4 +7,5 @@ class ElementButton
     /** @var string */
     protected $title;
 
-# ChienIT Bot Messenger Facebook Messenger Driver
+    /** @var string */
+        return new static($title);
