@@ -54,4 +54,5 @@ class ElementButton
 
     /**
      * @param string $title
-
+     */
+    public function state($state)
