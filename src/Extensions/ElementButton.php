@@ -121,3 +121,5 @@ class ElementButton
      * @return $this
      */
     public function disableShare()
+    {
+        });
