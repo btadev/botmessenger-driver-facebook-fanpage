@@ -51,4 +51,5 @@ class ElementButton
     {
         return new static($title);
     }
-otherwise be available to you under applicable patent law.
+
+     */
