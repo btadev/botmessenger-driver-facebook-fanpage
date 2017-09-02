@@ -62,3 +62,4 @@ class AddStartButtonPayload extends Command
         );
 
         $responseObject = json_decode($response->getContent());
+
