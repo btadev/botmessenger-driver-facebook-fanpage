@@ -118,4 +118,5 @@ class ElementButton
     }
 
     /**
-        ];
+     * @return $this
+     * @param Curl $http
