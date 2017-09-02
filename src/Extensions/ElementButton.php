@@ -19,4 +19,5 @@ class ElementButton
     /** @var string */
     protected $payload;
 
-    protected $title;
+    /** @var string */
+class FacebookException extends DriverException
