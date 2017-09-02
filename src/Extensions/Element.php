@@ -140,4 +140,5 @@ class Element implements JsonSerializable
             'buttons' => $this->buttons,
         ];
     }
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
+
+        } else {
