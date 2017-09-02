@@ -1,3 +1,4 @@
 <?php
 
-                    'top_element_style' => $this->top_element_style,
+namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
+    public function shippingCost($shippingCost)
