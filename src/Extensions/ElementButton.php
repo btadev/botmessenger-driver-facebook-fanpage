@@ -178,4 +178,5 @@ class ElementButton
                 if (! is_null($this->webview_share_button)) {
                     $buttonArray['webview_share_button'] = $this->webview_share_button;
                 }
-    {
+
+            if (isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments'])) {
