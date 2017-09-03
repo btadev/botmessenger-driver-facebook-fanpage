@@ -110,4 +110,5 @@ class ElementButton
      * enable messenger extensions.
      * @return $this
      */
-
+    public function enableExtensions()
+    }
