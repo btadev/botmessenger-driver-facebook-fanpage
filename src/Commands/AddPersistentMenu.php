@@ -57,3 +57,4 @@ class AddPersistentMenu extends Command
         $responseObject = json_decode($response->getContent());
 
         if ($response->getStatusCode() == 200) {
+            $this->info('Facebook menu was set.');
