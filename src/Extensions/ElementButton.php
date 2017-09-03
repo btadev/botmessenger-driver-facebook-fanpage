@@ -188,3 +188,5 @@ class ElementButton
             $buttonArray['share_contents'] = $this->shareContents->toArray();
         }
 
+        return $buttonArray;
+    {
