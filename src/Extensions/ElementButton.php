@@ -57,4 +57,5 @@ class ElementButton
      */
     public function __construct($title)
     {
-    }
+        $this->title = $title;
+    /**
