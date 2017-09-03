@@ -147,3 +147,5 @@ class ElementButton
      * @return $this
      */
     public function shareContents($shareContents)
+    {
+        return $this;
