@@ -44,3 +44,4 @@ class WhitelistDomains extends Command
      */
     public function handle()
     {
+        $payload = config('facebook.whitelisted_domains');
