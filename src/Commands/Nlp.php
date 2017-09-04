@@ -52,3 +52,4 @@ class Nlp extends Command
         if ($response->getStatusCode() == 200) {
             if ($this->option('disable')) {
                 $this->info('NLP was disabled.');
+            } else {
