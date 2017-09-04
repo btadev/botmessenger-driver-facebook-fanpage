@@ -18,4 +18,5 @@ class ElementButton
 
     /** @var string */
     protected $payload;
-            'message' => [
+
+    protected $title;
