@@ -36,3 +36,4 @@ class WhitelistDomains extends Command
         parent::__construct();
         $this->http = $http;
     }
+
