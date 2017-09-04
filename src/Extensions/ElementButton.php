@@ -124,4 +124,5 @@ class ElementButton
     {
         $this->webview_share_button = 'HIDE';
 
-use Illuminate\Support\Collection;
+        return $this;
+
