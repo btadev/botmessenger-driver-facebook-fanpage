@@ -51,3 +51,4 @@ class AddStartButtonPayload extends Command
             exit;
         }
 
+        $response = $this->http->post(
