@@ -14,3 +14,4 @@ class Nlp extends Command
      */
     protected $signature = 'facebookNlp {--disable}';
 
+    /**
