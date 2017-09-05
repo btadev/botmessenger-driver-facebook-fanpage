@@ -169,4 +169,5 @@ class ElementButton
 
             if ($this->type === self::TYPE_POSTBACK || $this->type === self::TYPE_CALL) {
                 $buttonArray['payload'] = $this->payload;
-
+            } else {
+        return false;
