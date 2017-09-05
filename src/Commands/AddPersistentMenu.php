@@ -26,3 +26,4 @@ class AddPersistentMenu extends Command
      */
     private $http;
 
+    /**
