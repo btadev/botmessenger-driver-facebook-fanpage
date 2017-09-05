@@ -46,3 +46,4 @@ class WhitelistDomains extends Command
     {
         $payload = config('facebook.whitelisted_domains');
 
+        if (! $payload) {
