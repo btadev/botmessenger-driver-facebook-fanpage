@@ -26,3 +26,4 @@ class WhitelistDomains extends Command
      */
     private $http;
 
+    /**
