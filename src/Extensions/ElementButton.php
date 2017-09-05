@@ -101,3 +101,4 @@ class ElementButton
      */
     public function fallbackUrl($fallback_url)
     {
+    protected $elements = [];
