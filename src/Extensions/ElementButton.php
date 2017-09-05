@@ -32,4 +32,5 @@ class ElementButton
     protected $shareContents;
 
     const TYPE_ACCOUNT_LINK = 'account_link';
-    public function useCompactView()
+    const TYPE_ACCOUNT_UNLINK = 'account_unlink';
+     * @var string
