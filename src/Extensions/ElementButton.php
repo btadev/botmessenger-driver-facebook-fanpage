@@ -173,4 +173,5 @@ class ElementButton
                 $buttonArray['url'] = $this->url;
             }
 
-        }
+            if ($this->type === self::TYPE_WEB_URL) {
+namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
