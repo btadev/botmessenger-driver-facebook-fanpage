@@ -44,3 +44,4 @@ class AddStartButtonPayload extends Command
      */
     public function handle()
     {
+        $payload = config('facebook.start_button_payload');
