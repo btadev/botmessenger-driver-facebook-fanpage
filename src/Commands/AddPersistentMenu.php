@@ -46,3 +46,4 @@ class AddPersistentMenu extends Command
     {
         $payload = ['persistent_menu' => config('facebook.persistent_menu')];
 
+        if (! $payload) {
