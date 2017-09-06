@@ -24,4 +24,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
 
     /**
      * @return static
-covered work, and grant a patent license to some of the parties
+     */
+        $this->elements[] = $element->toArray();
