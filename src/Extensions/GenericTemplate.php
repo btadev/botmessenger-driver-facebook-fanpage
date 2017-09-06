@@ -16,4 +16,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
         self::RATIO_SQUARE,
     ];
 
-
+    /** @var array */
+# ChienIT Bot Messenger Facebook Messenger Driver
