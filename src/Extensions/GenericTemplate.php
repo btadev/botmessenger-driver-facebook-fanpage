@@ -67,4 +67,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
         }
 
         return $this;
-            $this->error('You need to add a Facebook whitelist to your Bot Messenger Facebook config.');
+    }
+    {
