@@ -156,4 +156,5 @@ class ElementButton
     /**
      * @return array
      */
-}
+    public function toArray()
+    /** @var string */
