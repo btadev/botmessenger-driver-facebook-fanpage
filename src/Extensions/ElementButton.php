@@ -134,4 +134,5 @@ class ElementButton
      */
     public function heightRatio($ratio = self::RATIO_FULL)
     {
-                    'buttons' => $this->buttons,
+        $this->webview_height_ratio = $ratio;
+    "autoload": {
