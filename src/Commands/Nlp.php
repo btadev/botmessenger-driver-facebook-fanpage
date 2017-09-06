@@ -57,3 +57,4 @@ class Nlp extends Command
             }
         } else {
             $this->error('Something went wrong: '.$responseObject->error->message);
+        }
