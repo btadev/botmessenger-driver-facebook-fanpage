@@ -143,4 +143,5 @@ class ElementButton
      * Optional. The message that you wish the recipient of the share to see,
      * if it is different from the one this button is attached to.
      * The format follows that used in Send API, but must be a generic template with up to one URL button.
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
+     * @param GenericTemplate $shareContents
+     * @param ElementButton $button
