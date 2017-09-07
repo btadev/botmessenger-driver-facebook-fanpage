@@ -65,3 +65,4 @@ class AddStartButtonPayload extends Command
 
         if ($response->getStatusCode() == 200) {
             $this->info('Get Started payload was set to: '.$payload);
+        } else {
