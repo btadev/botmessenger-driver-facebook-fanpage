@@ -69,4 +69,5 @@ class ElementButton
     {
         $this->url = $url;
 
-<?php
+        return $this;
+        $this->total_tax = $totalTax;
