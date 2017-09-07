@@ -26,3 +26,4 @@ class AddStartButtonPayload extends Command
      */
     private $http;
 
+    /**
