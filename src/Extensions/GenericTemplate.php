@@ -33,4 +33,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
     /**
      * @param Element $element
      * @return $this
-        $this->postal_code = $postalCode;
+     */
+        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
