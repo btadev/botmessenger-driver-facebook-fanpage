@@ -31,3 +31,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
     }
 
     /**
+     * @param Element $element
+use ChienIT\BotMessenger\Interfaces\WebAccess;
