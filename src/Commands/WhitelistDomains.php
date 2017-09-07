@@ -22,3 +22,4 @@ class WhitelistDomains extends Command
     protected $description = 'Whitelist domains';
 
     /**
+     * @var Curl
