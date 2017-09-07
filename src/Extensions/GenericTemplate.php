@@ -32,4 +32,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
 
     /**
      * @param Element $element
-use ChienIT\BotMessenger\Interfaces\WebAccess;
+     * @return $this
+        $this->postal_code = $postalCode;
