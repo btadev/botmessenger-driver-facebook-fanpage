@@ -45,4 +45,5 @@ class ElementButton
 
     /**
      * @param string $title
-            }
+     * @return static
+    protected $top_element_style = 'large';
