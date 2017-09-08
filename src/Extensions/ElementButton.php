@@ -120,4 +120,4 @@ class ElementButton
     /**
      * @return $this
      */
-        return ! $messages->isEmpty() && $validSignature;
+    public function disableShare()
