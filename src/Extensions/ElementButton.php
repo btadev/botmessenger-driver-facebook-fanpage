@@ -159,4 +159,5 @@ class ElementButton
     public function toArray()
     {
         $buttonArray = [
-    }
+            'type' => $this->type,
+under version 3 of the GNU Affero General Public License into a single
