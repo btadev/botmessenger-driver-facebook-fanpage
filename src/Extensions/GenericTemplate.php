@@ -44,4 +44,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
     /**
      * @param array $elements
      * @return $this
-     *
+     */
+            if ($this->type !== self::TYPE_ACCOUNT_LINK && $this->type !== self::TYPE_ACCOUNT_UNLINK) {
