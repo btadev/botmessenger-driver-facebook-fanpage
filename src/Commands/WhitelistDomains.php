@@ -20,3 +20,4 @@ class WhitelistDomains extends Command
      * @var string
      */
     protected $description = 'Whitelist domains';
+
