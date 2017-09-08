@@ -196,4 +196,5 @@ class ElementButton
      */
     public function jsonSerialize()
     {
-
+        return $this->toArray();
+    {
