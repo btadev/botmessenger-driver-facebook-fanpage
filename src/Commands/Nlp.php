@@ -24,3 +24,4 @@ class Nlp extends Command
     /**
      * @var Curl
      */
+    private $http;
