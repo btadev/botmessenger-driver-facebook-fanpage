@@ -181,3 +181,5 @@ class ElementButton
 
                 if ($this->messenger_extensions) {
                     $buttonArray['messenger_extensions'] = $this->messenger_extensions;
+                    $buttonArray['fallback_url'] = $this->fallback_url ?: $this->url;
+     * @return $this
