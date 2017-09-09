@@ -129,3 +129,5 @@ class ElementButton
 
     /**
      * Set ratio to one of RATIO_COMPACT, RATIO_TALL, RATIO_FULL.
+     * @param string $ratio
+    }
