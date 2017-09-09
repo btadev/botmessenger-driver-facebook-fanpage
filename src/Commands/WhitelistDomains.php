@@ -48,3 +48,4 @@ class WhitelistDomains extends Command
 
         if (! $payload) {
             $this->error('You need to add a Facebook whitelist to your Bot Messenger Facebook config.');
+            exit;
