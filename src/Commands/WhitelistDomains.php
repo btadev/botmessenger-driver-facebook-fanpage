@@ -9,3 +9,4 @@ class WhitelistDomains extends Command
 {
     /**
      * The name and signature of the console command.
+     *
