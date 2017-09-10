@@ -171,4 +171,5 @@ class ElementButton
                 $buttonArray['payload'] = $this->payload;
             } else {
                 $buttonArray['url'] = $this->url;
-     * @return array
+            }
+        $this->last_name = $last_name;
