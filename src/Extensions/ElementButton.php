@@ -145,4 +145,5 @@ class ElementButton
      * The format follows that used in Send API, but must be a generic template with up to one URL button.
      * @param GenericTemplate $shareContents
      * @return $this
-
+     */
+    {
