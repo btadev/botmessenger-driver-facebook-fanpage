@@ -174,4 +174,5 @@ class ElementButton
             }
 
             if ($this->type === self::TYPE_WEB_URL) {
-namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
+                $buttonArray['webview_height_ratio'] = $this->webview_height_ratio;
+        return $this;
