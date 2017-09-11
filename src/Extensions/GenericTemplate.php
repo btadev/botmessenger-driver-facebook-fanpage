@@ -80,4 +80,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
                 'payload' => [
                     'template_type' => 'generic',
                     'image_aspect_ratio' => $this->imageAspectRatio,
-
+                    'elements' => $this->elements,
+     *
