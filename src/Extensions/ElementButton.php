@@ -164,4 +164,4 @@ class ElementButton
 
         if ($this->type !== self::TYPE_SHARE) {
             if ($this->type !== self::TYPE_ACCOUNT_LINK && $this->type !== self::TYPE_ACCOUNT_UNLINK) {
-        return 'messaging_referrals';
+                $buttonArray['title'] = $this->title;
