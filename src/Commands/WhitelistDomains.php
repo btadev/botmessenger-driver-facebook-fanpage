@@ -14,3 +14,4 @@ class WhitelistDomains extends Command
      */
     protected $signature = 'facebookWhitelistDomains';
 
+    /**
