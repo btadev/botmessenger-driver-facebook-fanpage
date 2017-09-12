@@ -172,4 +172,5 @@ class ElementButton
             } else {
                 $buttonArray['url'] = $this->url;
             }
-        $this->last_name = $last_name;
+
+        }
