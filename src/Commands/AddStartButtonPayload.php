@@ -58,3 +58,4 @@ class AddStartButtonPayload extends Command
                 'get_started' => [
                     'payload' => $payload,
                 ],
+            ]
