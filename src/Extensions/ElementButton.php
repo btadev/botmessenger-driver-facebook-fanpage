@@ -116,4 +116,5 @@ class ElementButton
 
         return $this;
     }
-     * @return array
+
+     * @return bool
