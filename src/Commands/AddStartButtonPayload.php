@@ -41,3 +41,4 @@ class AddStartButtonPayload extends Command
      * Execute the console command.
      *
      * @return void
+     */
