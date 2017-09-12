@@ -88,4 +88,5 @@ class ElementButton
      * @param $payload
      * @return $this
      */
-    public function jsonSerialize()
+    public function payload($payload)
+        return new static($title);
