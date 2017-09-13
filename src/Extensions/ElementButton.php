@@ -198,4 +198,5 @@ class ElementButton
     {
         return $this->toArray();
     }
-    public function getName()
+}
+        return [
