@@ -107,4 +107,5 @@ class ElementButton
     }
 
     /**
-    protected $buttons;
+     * enable messenger extensions.
+     * @var string
