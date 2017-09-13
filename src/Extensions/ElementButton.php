@@ -152,4 +152,4 @@ class ElementButton
 
         return $this;
     }
-        return false;
+
