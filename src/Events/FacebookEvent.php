@@ -32,3 +32,4 @@ abstract class FacebookEvent implements DriverEventInterface
     {
         return $this->payload;
     }
+}
