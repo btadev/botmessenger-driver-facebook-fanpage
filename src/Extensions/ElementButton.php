@@ -151,4 +151,5 @@ class ElementButton
         $this->shareContents = $shareContents;
 
         return $this;
-
+    }
+        return false;
