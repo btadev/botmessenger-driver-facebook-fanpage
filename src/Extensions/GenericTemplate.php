@@ -88,4 +88,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
 
     /**
      * @return array
-    /**
+     */
+        return 'messaging_checkout_updates';
