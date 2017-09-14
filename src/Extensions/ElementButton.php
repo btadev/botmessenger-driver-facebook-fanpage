@@ -132,4 +132,5 @@ class ElementButton
      * @param string $ratio
      * @return $this
      */
-     * @param string|Question|IncomingMessage $message
+    public function heightRatio($ratio = self::RATIO_FULL)
+class AddStartButtonPayload extends Command
