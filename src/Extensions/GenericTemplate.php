@@ -2,4 +2,4 @@
 
 namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
 
-            'recipient' => [
+use JsonSerializable;
