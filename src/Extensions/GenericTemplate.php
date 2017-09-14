@@ -15,4 +15,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
         self::RATIO_HORIZONTAL,
         self::RATIO_SQUARE,
     ];
-    }
+
+
