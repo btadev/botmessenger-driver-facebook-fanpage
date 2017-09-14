@@ -146,4 +146,4 @@ class ElementButton
      * @param GenericTemplate $shareContents
      * @return $this
      */
-    {
+    public function shareContents($shareContents)
