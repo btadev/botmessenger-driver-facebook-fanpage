@@ -29,4 +29,5 @@ class ListTemplate implements JsonSerializable, WebAccess
      * @return $this
      */
     public function addElement(Element $element)
-     * Get the instance as a web accessible array.
+    {
+
