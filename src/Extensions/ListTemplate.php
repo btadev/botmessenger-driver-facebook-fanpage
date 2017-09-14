@@ -21,3 +21,4 @@ class ListTemplate implements JsonSerializable, WebAccess
      */
     public static function create()
     {
+        return new static;
