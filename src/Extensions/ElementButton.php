@@ -184,4 +184,5 @@ class ElementButton
                     $buttonArray['fallback_url'] = $this->fallback_url ?: $this->url;
                 }
             }
-     * @var string
+        } elseif ($this->type == self::TYPE_SHARE && ! is_null($this->shareContents)) {
+
