@@ -37,3 +37,4 @@ class Nlp extends Command
         $this->http = $http;
     }
 
+    /**
