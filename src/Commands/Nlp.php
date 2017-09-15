@@ -45,3 +45,4 @@ class Nlp extends Command
     public function handle()
     {
         $response = $this->http->post('https://graph.facebook.com/v2.8/me/nlp_configs?access_token='.config('facebook.token'),
+            [], ['nlp_enabled' => ! $this->option('disable')]);
