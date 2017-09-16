@@ -195,4 +195,5 @@ class ElementButton
      * @return array
      */
     public function jsonSerialize()
-class FacebookException extends DriverException
+    {
+
