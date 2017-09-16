@@ -84,4 +84,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
                 ],
             ],
         ];
-        return false;
+    }
