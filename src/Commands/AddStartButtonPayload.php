@@ -67,3 +67,4 @@ class AddStartButtonPayload extends Command
             $this->info('Get Started payload was set to: '.$payload);
         } else {
             $this->error('Something went wrong: '.$responseObject->error->message);
+        }
