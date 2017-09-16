@@ -66,4 +66,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
             $this->imageAspectRatio = $ratio;
         }
 
-
+        return $this;
+            $this->error('You need to add a Facebook whitelist to your Bot Messenger Facebook config.');
