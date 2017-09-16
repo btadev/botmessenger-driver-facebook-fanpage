@@ -20,3 +20,4 @@ class Nlp extends Command
      * @var string
      */
     protected $description = 'Enable/Disable Facebooks built-in natural language processing';
+
