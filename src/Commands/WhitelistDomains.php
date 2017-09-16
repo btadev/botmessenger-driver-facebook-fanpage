@@ -39,3 +39,4 @@ class WhitelistDomains extends Command
 
     /**
      * Execute the console command.
+     *
