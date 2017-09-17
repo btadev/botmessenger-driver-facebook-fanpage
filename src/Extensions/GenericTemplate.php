@@ -49,4 +49,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
     {
         foreach ($elements as $element) {
             if ($element instanceof Element) {
-        return $this;
+                $this->elements[] = $element->toArray();
+                ],
