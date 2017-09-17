@@ -55,3 +55,4 @@ class Nlp extends Command
             } else {
                 $this->info('NLP was enabled.');
             }
+        } else {
