@@ -58,3 +58,4 @@ class WhitelistDomains extends Command
 
         if ($response->getStatusCode() == 200) {
             $this->info('Domains where whitelisted.');
+        } else {
