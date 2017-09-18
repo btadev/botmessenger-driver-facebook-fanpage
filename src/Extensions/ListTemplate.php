@@ -46,4 +46,5 @@ class ListTemplate implements JsonSerializable, WebAccess
                 $this->elements[] = $element->toArray();
             }
         }
-        $defaultAction->type(ElementButton::TYPE_WEB_URL);
+
+            if (isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments'])) {
