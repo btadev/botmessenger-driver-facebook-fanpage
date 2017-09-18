@@ -34,4 +34,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
      * @param Element $element
      * @return $this
      */
-        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
+    public function addElement(Element $element)
+abstract class FacebookEvent implements DriverEventInterface
