@@ -17,4 +17,5 @@ class ListTemplate implements JsonSerializable, WebAccess
     protected $top_element_style = 'large';
 
     /**
-     * @return array A download for the audio file.
+     * @return static
+  Moreover, your license from a particular copyright holder is
