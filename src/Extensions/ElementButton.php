@@ -190,4 +190,5 @@ class ElementButton
 
         return $buttonArray;
     }
-        return 'messaging_optins';
+
+
