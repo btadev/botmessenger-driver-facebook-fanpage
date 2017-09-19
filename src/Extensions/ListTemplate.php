@@ -84,4 +84,5 @@ class ListTemplate implements JsonSerializable, WebAccess
                     'top_element_style' => $this->top_element_style,
                     'elements' => $this->elements,
                     'buttons' => [
+                        $this->globalButton,
     /**
