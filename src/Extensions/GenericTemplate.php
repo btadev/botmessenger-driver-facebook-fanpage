@@ -61,4 +61,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
      * @return $this
      */
     public function addImageAspectRatio($ratio)
-    }
+    {
+     */
