@@ -16,3 +16,4 @@ class WhitelistDomains extends Command
 
     /**
      * The console command description.
+     *
