@@ -13,3 +13,4 @@ class MessagingDeliveries extends FacebookEvent
     {
         return 'messaging_deliveries';
     }
+}
