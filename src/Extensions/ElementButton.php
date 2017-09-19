@@ -167,4 +167,4 @@ class ElementButton
                 $buttonArray['title'] = $this->title;
             }
 
-
+            if ($this->type === self::TYPE_POSTBACK || $this->type === self::TYPE_CALL) {
