@@ -165,3 +165,5 @@ class ElementButton
         if ($this->type !== self::TYPE_SHARE) {
             if ($this->type !== self::TYPE_ACCOUNT_LINK && $this->type !== self::TYPE_ACCOUNT_UNLINK) {
                 $buttonArray['title'] = $this->title;
+            }
+        $this->first_name = $first_name;
