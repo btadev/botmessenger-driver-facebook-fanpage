@@ -88,4 +88,5 @@ class ListTemplate implements JsonSerializable, WebAccess
                     ],
                 ],
             ],
-# ChienIT Bot Messenger Facebook Messenger Driver
+        ];
+    }
