@@ -48,4 +48,5 @@ class ListTemplate implements JsonSerializable, WebAccess
         }
 
         return $this;
-{
+    }
+use ChienIT\BotMessenger\Interfaces\WebAccess;
