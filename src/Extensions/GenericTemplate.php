@@ -20,4 +20,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
     protected $elements = [];
 
     /** @var string */
-        return $this;
+    protected $imageAspectRatio = self::RATIO_HORIZONTAL;
+     * Determine if the request is for this driver.
