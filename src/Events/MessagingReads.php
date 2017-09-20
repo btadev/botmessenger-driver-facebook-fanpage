@@ -9,3 +9,4 @@ class MessagingReads extends FacebookEvent
      *
      * @return string
      */
+    public function getName()
