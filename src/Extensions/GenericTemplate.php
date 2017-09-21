@@ -64,4 +64,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
     {
         if (in_array($ratio, self::$allowedRatios)) {
             $this->imageAspectRatio = $ratio;
-    {
+        }
+            'attachment_id' => $this->attachment_id,
