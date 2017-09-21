@@ -25,3 +25,5 @@ class ListTemplate implements JsonSerializable, WebAccess
     }
 
     /**
+     * @param Element $element
+     * @return bool
