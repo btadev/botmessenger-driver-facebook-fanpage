@@ -66,4 +66,5 @@ class ListTemplate implements JsonSerializable, WebAccess
      */
     public function useCompactView()
     {
-use ChienIT\BotMessenger\Exceptions\Base\DriverException;
+        $this->top_element_style = 'compact';
+    /**
