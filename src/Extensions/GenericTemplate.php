@@ -46,4 +46,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
      * @return $this
      */
     public function addElements(array $elements)
-     * @param IncomingMessage $matchingMessage
+    {
+{
