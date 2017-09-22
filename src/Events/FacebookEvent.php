@@ -8,3 +8,4 @@ abstract class FacebookEvent implements DriverEventInterface
 {
     protected $payload;
 
+    /**
