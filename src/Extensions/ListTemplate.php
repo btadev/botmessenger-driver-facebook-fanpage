@@ -47,4 +47,5 @@ class ListTemplate implements JsonSerializable, WebAccess
             }
         }
 
-            if (isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments'])) {
+        return $this;
+{
