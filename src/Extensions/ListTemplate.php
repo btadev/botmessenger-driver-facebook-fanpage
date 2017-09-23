@@ -63,3 +63,4 @@ class ListTemplate implements JsonSerializable, WebAccess
 
     /**
      * @return $this
+        if ($response->getStatusCode() == 200) {
