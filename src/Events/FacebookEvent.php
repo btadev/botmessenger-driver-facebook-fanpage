@@ -22,3 +22,4 @@ abstract class FacebookEvent implements DriverEventInterface
      * @return string
      */
     abstract public function getName();
+
