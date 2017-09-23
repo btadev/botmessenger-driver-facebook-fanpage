@@ -10,3 +10,4 @@ abstract class FacebookEvent implements DriverEventInterface
 
     /**
      * @param $payload
+     */
