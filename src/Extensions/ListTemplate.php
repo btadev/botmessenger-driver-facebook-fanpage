@@ -16,4 +16,5 @@ class ListTemplate implements JsonSerializable, WebAccess
     /** @var string */
     protected $top_element_style = 'large';
 
-        return $this->messages;
+    /**
+     * @return array A download for the audio file.
