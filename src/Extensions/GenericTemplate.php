@@ -19,4 +19,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
     /** @var array */
     protected $elements = [];
 
-     * @return $this
+    /** @var string */
+        return $this;
