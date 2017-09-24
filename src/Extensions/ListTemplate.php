@@ -39,4 +39,5 @@ class ListTemplate implements JsonSerializable, WebAccess
      * @param array $elements
      * @return $this
      */
-# ChienIT Bot Messenger Facebook Messenger Driver
+    public function addElements(array $elements)
+    /**
