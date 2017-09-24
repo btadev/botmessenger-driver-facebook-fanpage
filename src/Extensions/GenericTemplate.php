@@ -11,4 +11,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
     const RATIO_SQUARE = 'square';
 
     /** @var array */
-class ReceiptAddress implements JsonSerializable
+    private static $allowedRatios = [
+        "php": ">=7.0",
