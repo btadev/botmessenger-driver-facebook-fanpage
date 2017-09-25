@@ -36,4 +36,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
      */
     public function addElement(Element $element)
     {
-        return false;
+        $this->elements[] = $element->toArray();
+        ];
