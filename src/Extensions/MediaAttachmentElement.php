@@ -22,3 +22,5 @@ class MediaAttachmentElement implements JsonSerializable
     public static function create($mediaType)
     {
         return new static($mediaType);
+    }
+     * Return the event name to match.
