@@ -9,3 +9,4 @@ class ButtonTemplate implements JsonSerializable, WebAccess
 {
     /** @var string */
     protected $text;
+
