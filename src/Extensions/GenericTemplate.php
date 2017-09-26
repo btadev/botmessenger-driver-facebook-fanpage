@@ -35,4 +35,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
      * @return $this
      */
     public function addElement(Element $element)
-abstract class FacebookEvent implements DriverEventInterface
+    {
+        return false;
