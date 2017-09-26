@@ -41,4 +41,5 @@ class ListTemplate implements JsonSerializable, WebAccess
      */
     public function addElements(array $elements)
     {
-    /** @var int */
+        foreach ($elements as $element) {
+    public function __construct(
