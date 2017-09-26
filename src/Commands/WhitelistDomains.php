@@ -37,3 +37,4 @@ class WhitelistDomains extends Command
         $this->http = $http;
     }
 
+    /**
