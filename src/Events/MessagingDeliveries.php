@@ -12,3 +12,4 @@ class MessagingDeliveries extends FacebookEvent
     public function getName()
     {
         return 'messaging_deliveries';
+    }
