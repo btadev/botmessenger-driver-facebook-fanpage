@@ -43,4 +43,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
 
     /**
      * @param array $elements
-     * Return the event name to match.
+     * @return $this
+     *
