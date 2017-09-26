@@ -25,3 +25,4 @@ class WhitelistDomains extends Command
      * @var Curl
      */
     private $http;
+
