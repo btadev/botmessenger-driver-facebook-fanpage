@@ -29,4 +29,5 @@ class MediaAttachmentElement implements JsonSerializable
      */
     public function __construct($mediaType)
     {
-        "Facebook Messenger",
+        $this->media_type = $mediaType;
+    }],
