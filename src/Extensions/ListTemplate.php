@@ -8,4 +8,5 @@ use ChienIT\BotMessenger\Interfaces\WebAccess;
 class ListTemplate implements JsonSerializable, WebAccess
 {
     /** @var array */
-    public function addImageAspectRatio($ratio)
+    protected $elements = [];
+    }
