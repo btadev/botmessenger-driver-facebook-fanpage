@@ -75,4 +75,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
     public function toArray()
     {
         return [
-    /**
+            'attachment' => [
+
