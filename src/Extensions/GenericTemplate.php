@@ -102,4 +102,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
      */
     public function toWebDriver()
     {
-    protected $signature = 'facebookAddMenu';
+        return [
