@@ -24,3 +24,4 @@ abstract class FacebookEvent implements DriverEventInterface
     abstract public function getName();
 
     /**
+     * Return the event payload.
