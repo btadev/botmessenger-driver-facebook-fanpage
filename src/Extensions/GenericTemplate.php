@@ -107,4 +107,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
             'elements' => $this->elements,
         ];
     }
-{
+}
+        return 'messaging_checkout_updates';
