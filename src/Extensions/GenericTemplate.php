@@ -104,4 +104,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
     {
         return [
             'type' => 'list',
-    }
+            'elements' => $this->elements,
+     * Return the event name to match.
