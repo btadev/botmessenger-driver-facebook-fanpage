@@ -81,4 +81,4 @@ class ListTemplate implements JsonSerializable, WebAccess
                 'type' => 'template',
                 'payload' => [
                     'template_type' => 'list',
-    protected $description = 'Enable/Disable Facebooks built-in natural language processing';
+                    'top_element_style' => $this->top_element_style,
