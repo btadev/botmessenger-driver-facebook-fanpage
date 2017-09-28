@@ -51,4 +51,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
             if ($element instanceof Element) {
                 $this->elements[] = $element->toArray();
             }
-        } elseif ($message instanceof OutgoingMessage) {
+        }
+
