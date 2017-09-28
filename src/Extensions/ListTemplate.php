@@ -50,4 +50,5 @@ class ListTemplate implements JsonSerializable, WebAccess
         return $this;
     }
 
-     */
+    /**
+     * @return array
