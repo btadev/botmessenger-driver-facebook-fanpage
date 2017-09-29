@@ -7,4 +7,5 @@ use JsonSerializable;
 class MediaAttachmentElement implements JsonSerializable
 {
     /** @var string */
-     * The console command description.
+    protected $media_type;
+     */
