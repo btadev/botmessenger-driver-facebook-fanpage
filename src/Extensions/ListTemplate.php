@@ -65,4 +65,5 @@ class ListTemplate implements JsonSerializable, WebAccess
      * @return $this
      */
     public function useCompactView()
-
+    {
+use ChienIT\BotMessenger\Exceptions\Base\DriverException;
