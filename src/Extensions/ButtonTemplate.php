@@ -21,3 +21,4 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     {
         return new static($text);
     }
+
