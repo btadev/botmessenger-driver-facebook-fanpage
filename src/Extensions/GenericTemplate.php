@@ -106,4 +106,5 @@ class GenericTemplate implements JsonSerializable, WebAccess
             'type' => 'list',
             'elements' => $this->elements,
         ];
-        return new static($mediaType);
+    }
+{
