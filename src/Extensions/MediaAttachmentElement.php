@@ -49,3 +49,5 @@ class MediaAttachmentElement implements JsonSerializable
      */
     public function addButton(ElementButton $button)
     {
+        $this->buttons[] = $button->toArray();
+     * Get the instance as a web accessible array.
