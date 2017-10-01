@@ -25,3 +25,4 @@ abstract class FacebookEvent implements DriverEventInterface
 
     /**
      * Return the event payload.
+     *
