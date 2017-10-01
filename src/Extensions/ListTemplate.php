@@ -79,4 +79,4 @@ class ListTemplate implements JsonSerializable, WebAccess
         return [
             'attachment' => [
                 'type' => 'template',
-    public function jsonSerialize()
+                'payload' => [
