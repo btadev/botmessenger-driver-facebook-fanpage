@@ -64,4 +64,5 @@ class ListTemplate implements JsonSerializable, WebAccess
     /**
      * @return $this
      */
-    /** @var string */
+    public function useCompactView()
+
