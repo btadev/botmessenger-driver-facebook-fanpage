@@ -76,4 +76,5 @@ class MediaAttachmentElement implements JsonSerializable
     {
         return [
             'media_type' => $this->media_type,
-     * @return $this
+            'attachment_id' => $this->attachment_id,
+THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
