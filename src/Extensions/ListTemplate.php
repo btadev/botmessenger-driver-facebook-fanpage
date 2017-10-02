@@ -107,4 +107,5 @@ class ListTemplate implements JsonSerializable, WebAccess
      */
     public function toWebDriver()
     {
-{
+        return [
+     * @var Curl
