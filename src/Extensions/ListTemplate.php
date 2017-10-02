@@ -45,4 +45,5 @@ class ListTemplate implements JsonSerializable, WebAccess
             if ($element instanceof Element) {
                 $this->elements[] = $element->toArray();
             }
-     */
+        }
+        $defaultAction->type(ElementButton::TYPE_WEB_URL);
