@@ -76,4 +76,5 @@ class ListTemplate implements JsonSerializable, WebAccess
      */
     public function toArray()
     {
-     * @var string
+        return [
+}
