@@ -13,3 +13,4 @@ class MessagingReferrals extends FacebookEvent
     {
         return 'messaging_referrals';
     }
+}
