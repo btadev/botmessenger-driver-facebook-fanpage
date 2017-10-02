@@ -13,3 +13,4 @@ class MessagingOptins extends FacebookEvent
     {
         return 'messaging_optins';
     }
+}
