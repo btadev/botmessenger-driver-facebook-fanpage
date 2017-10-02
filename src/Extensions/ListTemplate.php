@@ -11,4 +11,5 @@ class ListTemplate implements JsonSerializable, WebAccess
     protected $elements = [];
 
     /** @var array */
-use Symfony\Component\HttpFoundation\Response;
+    protected $globalButton;
+     * @return bool
