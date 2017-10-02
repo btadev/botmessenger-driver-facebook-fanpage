@@ -63,4 +63,5 @@ class MediaAttachmentElement implements JsonSerializable
         foreach ($buttons as $button) {
             if ($button instanceof ElementButton) {
                 $this->buttons[] = $button->toArray();
-}
+            }
+        $this->fallback_url = $fallback_url;
