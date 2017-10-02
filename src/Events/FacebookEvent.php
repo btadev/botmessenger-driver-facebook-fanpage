@@ -28,3 +28,4 @@ abstract class FacebookEvent implements DriverEventInterface
      *
      * @return mixed
      */
+    public function getPayload()
