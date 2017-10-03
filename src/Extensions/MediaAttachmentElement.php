@@ -10,4 +10,4 @@ class MediaAttachmentElement implements JsonSerializable
     protected $media_type;
 
     /** @var string */
-     */
+    protected $attachment_id;
