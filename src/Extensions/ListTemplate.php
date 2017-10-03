@@ -14,4 +14,5 @@ class ListTemplate implements JsonSerializable, WebAccess
     protected $globalButton;
 
     /** @var string */
+    protected $top_element_style = 'large';
 
