@@ -10,3 +10,4 @@ class Element implements JsonSerializable
     protected $title;
 
     /** @var string */
+    protected $image_url;
