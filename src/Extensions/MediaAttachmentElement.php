@@ -73,4 +73,5 @@ class MediaAttachmentElement implements JsonSerializable
      * @return array
      */
     public function toArray()
-
+    {
+    "name": "chiendevit/botmessenger-driver-facebook-fanpage",
