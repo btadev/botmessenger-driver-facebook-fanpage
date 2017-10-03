@@ -6,3 +6,4 @@ use ChienIT\BotMessenger\Exceptions\Base\DriverException;
 
 class FacebookException extends DriverException
 {
+}
