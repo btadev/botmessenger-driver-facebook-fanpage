@@ -23,3 +23,4 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     }
 
     public function __construct($text)
+    {
