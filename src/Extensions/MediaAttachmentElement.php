@@ -69,3 +69,5 @@ class MediaAttachmentElement implements JsonSerializable
         return $this;
     }
 
+    /**
+the library.  If this is what you want to do, use the GNU Lesser General
