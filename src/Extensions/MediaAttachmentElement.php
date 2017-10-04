@@ -54,3 +54,5 @@ class MediaAttachmentElement implements JsonSerializable
         return $this;
     }
 
+    /**
+        if ($response->getStatusCode() == 200) {
