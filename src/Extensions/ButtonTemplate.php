@@ -62,3 +62,4 @@ class ButtonTemplate implements JsonSerializable, WebAccess
             'attachment' => [
                 'type' => 'template',
                 'payload' => [
+                    'template_type' => 'button',
