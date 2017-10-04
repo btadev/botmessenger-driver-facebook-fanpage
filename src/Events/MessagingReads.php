@@ -11,3 +11,4 @@ class MessagingReads extends FacebookEvent
      */
     public function getName()
     {
+        return 'messaging_reads';
