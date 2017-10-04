@@ -7,3 +7,4 @@ class MessagingReferrals extends FacebookEvent
     /**
      * Return the event name to match.
      *
+     * @return string
