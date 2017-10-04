@@ -33,4 +33,5 @@ class MediaAttachmentElement implements JsonSerializable
     }
 
     /**
+     * @param $attachmentId
 
