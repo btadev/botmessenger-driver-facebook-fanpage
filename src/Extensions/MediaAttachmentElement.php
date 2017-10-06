@@ -64,4 +64,5 @@ class MediaAttachmentElement implements JsonSerializable
             if ($button instanceof ElementButton) {
                 $this->buttons[] = $button->toArray();
             }
-        $this->fallback_url = $fallback_url;
+        }
+    }
