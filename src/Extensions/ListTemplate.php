@@ -100,4 +100,4 @@ class ListTemplate implements JsonSerializable, WebAccess
     }
 
     /**
-use ChienIT\BotMessenger\Exceptions\Base\DriverException;
+     * Get the instance as a web accessible array.
