@@ -74,4 +74,5 @@ class MediaAttachmentElement implements JsonSerializable
      */
     public function toArray()
     {
-    "name": "chiendevit/botmessenger-driver-facebook-fanpage",
+        return [
+                'payload' => $this->payload,
