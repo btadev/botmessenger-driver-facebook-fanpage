@@ -27,4 +27,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
      */
     public function element($element)
     {
-     * Retrieve audio file urls from an incoming message.
+        $this->elements = [$element->toArray()];
+        }
