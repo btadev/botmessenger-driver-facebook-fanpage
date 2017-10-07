@@ -82,3 +82,5 @@ class ListTemplate implements JsonSerializable, WebAccess
                 'payload' => [
                     'template_type' => 'list',
                     'top_element_style' => $this->top_element_style,
+                    'elements' => $this->elements,
+use ChienIT\BotMessenger\Http\Curl;
