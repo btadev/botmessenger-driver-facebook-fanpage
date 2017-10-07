@@ -31,4 +31,5 @@ class MediaAttachmentElement implements JsonSerializable
     {
         $this->media_type = $mediaType;
     }
-    public function toArray()
+
+     */
