@@ -12,4 +12,5 @@ class MediaAttachmentElement implements JsonSerializable
     /** @var string */
     protected $attachment_id;
 
-            'title' => $this->title,
+    /** @var array */
+    protected $price = 0;
