@@ -57,4 +57,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
     }
 
     /**
-namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
+     * Get the instance as a web accessible array.
+    {
