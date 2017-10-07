@@ -71,4 +71,5 @@ class ListTemplate implements JsonSerializable, WebAccess
         return $this;
     }
 
-     */
+    /**
+        if (empty($this->messages)) {
