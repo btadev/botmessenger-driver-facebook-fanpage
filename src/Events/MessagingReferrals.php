@@ -9,3 +9,4 @@ class MessagingReferrals extends FacebookEvent
      *
      * @return string
      */
+    public function getName()
