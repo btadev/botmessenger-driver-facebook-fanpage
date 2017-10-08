@@ -80,3 +80,4 @@ class Element implements JsonSerializable
      */
     public function itemUrl($item_url)
     {
+        $this->item_url = $item_url;
