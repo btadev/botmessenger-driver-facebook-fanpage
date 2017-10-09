@@ -55,4 +55,5 @@ class MediaAttachmentElement implements JsonSerializable
     }
 
     /**
-        if ($response->getStatusCode() == 200) {
+     * @param array $buttons
+     *
