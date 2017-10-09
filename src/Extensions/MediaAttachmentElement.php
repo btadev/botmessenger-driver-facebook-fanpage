@@ -25,4 +25,5 @@ class MediaAttachmentElement implements JsonSerializable
     }
 
     /**
-        return $this;
+     * @param $mediaType
+     */
