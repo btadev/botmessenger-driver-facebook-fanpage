@@ -75,4 +75,5 @@ class MediaAttachmentElement implements JsonSerializable
     public function toArray()
     {
         return [
-                'payload' => $this->payload,
+            'media_type' => $this->media_type,
+     * @return $this
