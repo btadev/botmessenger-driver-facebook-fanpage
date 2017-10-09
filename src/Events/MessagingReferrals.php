@@ -11,3 +11,4 @@ class MessagingReferrals extends FacebookEvent
      */
     public function getName()
     {
+        return 'messaging_referrals';
