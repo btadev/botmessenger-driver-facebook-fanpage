@@ -13,3 +13,4 @@ class MessagingReads extends FacebookEvent
     {
         return 'messaging_reads';
     }
+}
