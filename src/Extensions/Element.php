@@ -25,3 +25,4 @@ class Element implements JsonSerializable
     protected $default_action;
 
     /**
+     * @param $title
