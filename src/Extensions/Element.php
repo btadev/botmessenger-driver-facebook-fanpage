@@ -56,3 +56,4 @@ class Element implements JsonSerializable
      * @param string $subtitle
      * @return $this
      */
+    public function subtitle($subtitle)
