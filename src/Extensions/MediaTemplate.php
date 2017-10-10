@@ -26,4 +26,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
      * @return $this
      */
     public function element($element)
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
+    {
+     * Retrieve audio file urls from an incoming message.
