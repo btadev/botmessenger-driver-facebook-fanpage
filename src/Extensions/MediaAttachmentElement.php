@@ -70,4 +70,4 @@ class MediaAttachmentElement implements JsonSerializable
     }
 
     /**
-the library.  If this is what you want to do, use the GNU Lesser General
+     * @return array
