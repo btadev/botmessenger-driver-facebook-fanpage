@@ -51,4 +51,5 @@ class MediaAttachmentElement implements JsonSerializable
     {
         $this->buttons[] = $button->toArray();
 
-occurring solely as a consequence of using peer-to-peer transmission
+        return $this;
+use JsonSerializable;
