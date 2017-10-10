@@ -17,4 +17,4 @@ class MediaAttachmentElement implements JsonSerializable
 
     /**
      * @param $mediaType
-    protected $shipping_cost;
+     * @return static
