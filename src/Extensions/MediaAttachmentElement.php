@@ -16,4 +16,5 @@ class MediaAttachmentElement implements JsonSerializable
     protected $buttons;
 
     /**
-    /**
+     * @param $mediaType
+    protected $shipping_cost;
