@@ -14,3 +14,4 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     protected $buttons = [];
 
     /**
+     * @param $text
