@@ -44,3 +44,4 @@ class Element implements JsonSerializable
     /**
      * @param string $title
      * @return $this
+     */
