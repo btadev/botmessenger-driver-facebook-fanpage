@@ -75,3 +75,4 @@ class Element implements JsonSerializable
     }
 
     /**
+     * @param string $item_url
