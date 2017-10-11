@@ -96,4 +96,5 @@ class ListTemplate implements JsonSerializable, WebAccess
      */
     public function jsonSerialize()
     {
-
+        return $this->toArray();
+    public function getName()
