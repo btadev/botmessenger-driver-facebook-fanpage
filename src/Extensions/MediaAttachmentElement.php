@@ -40,4 +40,5 @@ class MediaAttachmentElement implements JsonSerializable
     {
         $this->attachment_id = $attachmentId;
 
-<?php
+        return $this;
+
