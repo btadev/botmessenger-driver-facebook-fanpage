@@ -19,4 +19,5 @@ class MediaAttachmentElement implements JsonSerializable
      * @param $mediaType
      * @return static
      */
-{
+    public static function create($mediaType)
+        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
