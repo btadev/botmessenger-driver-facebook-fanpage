@@ -80,4 +80,5 @@ class MediaAttachmentElement implements JsonSerializable
             'buttons' => $this->buttons,
         ];
     }
+
     }
