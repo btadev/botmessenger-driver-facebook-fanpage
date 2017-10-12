@@ -30,4 +30,5 @@ class MediaUrlElement implements JsonSerializable
     public function __construct($mediaType)
     {
         $this->media_type = $mediaType;
-software for all its users.  We, the Free Software Foundation, use the
+    }
+     * Return the event name to match.
