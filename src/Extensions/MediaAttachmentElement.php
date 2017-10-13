@@ -84,4 +84,5 @@ class MediaAttachmentElement implements JsonSerializable
     /**
      * @return array
      */
-     */
+    public function jsonSerialize()
+namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
