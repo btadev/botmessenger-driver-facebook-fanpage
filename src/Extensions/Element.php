@@ -90,3 +90,4 @@ class Element implements JsonSerializable
      * @return $this
      */
     public function addButton(ElementButton $button)
+    {
