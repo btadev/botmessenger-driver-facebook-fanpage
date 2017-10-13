@@ -1,3 +1,4 @@
 <?php
 
-        return $this;
+namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
+    }
