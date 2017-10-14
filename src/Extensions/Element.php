@@ -59,3 +59,4 @@ class Element implements JsonSerializable
     public function subtitle($subtitle)
     {
         $this->subtitle = $subtitle;
+
