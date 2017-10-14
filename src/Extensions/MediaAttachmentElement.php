@@ -88,4 +88,4 @@ class MediaAttachmentElement implements JsonSerializable
     {
         return $this->toArray();
     }
-class MessagingDeliveries extends FacebookEvent
+}
