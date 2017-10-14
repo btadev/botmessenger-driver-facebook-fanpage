@@ -57,4 +57,4 @@ class MediaAttachmentElement implements JsonSerializable
     /**
      * @param array $buttons
      * @return $this
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
+     */
