@@ -109,3 +109,4 @@ class Element implements JsonSerializable
                 }
             }
         }
+
