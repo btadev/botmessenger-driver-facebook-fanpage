@@ -4,4 +4,5 @@ namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
 
 use JsonSerializable;
 use ChienIT\BotMessenger\Interfaces\WebAccess;
-            $buttonArray['share_contents'] = $this->shareContents->toArray();
+
+        }
