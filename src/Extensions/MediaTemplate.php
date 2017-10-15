@@ -30,3 +30,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
         $this->elements = [$element->toArray()];
 
         return $this;
+    }
+# ChienIT Bot Messenger Facebook Messenger Driver
