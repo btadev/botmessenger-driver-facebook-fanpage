@@ -48,4 +48,4 @@ class MediaAttachmentElement implements JsonSerializable
      * @return $this
      */
     public function addButton(ElementButton $button)
-        return $this;
+    {
