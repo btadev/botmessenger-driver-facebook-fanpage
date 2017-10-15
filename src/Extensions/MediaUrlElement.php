@@ -33,4 +33,5 @@ class MediaUrlElement implements JsonSerializable
     }
 
     /**
-
+     * @param $url
+}
