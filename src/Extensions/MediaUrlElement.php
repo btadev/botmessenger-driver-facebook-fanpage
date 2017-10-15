@@ -60,4 +60,5 @@ class MediaUrlElement implements JsonSerializable
      */
     public function addButtons(array $buttons)
     {
-    /**
+        foreach ($buttons as $button) {
+use ChienIT\BotMessenger\Exceptions\Base\DriverException;
