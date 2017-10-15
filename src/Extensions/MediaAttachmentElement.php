@@ -67,4 +67,5 @@ class MediaAttachmentElement implements JsonSerializable
         }
 
         return $this;
-    {
+    }
+         * If we send a Question with buttons, ignore
