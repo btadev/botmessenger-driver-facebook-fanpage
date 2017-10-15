@@ -86,3 +86,4 @@ class ButtonTemplate implements JsonSerializable, WebAccess
      */
     public function toWebDriver()
     {
+        return [
