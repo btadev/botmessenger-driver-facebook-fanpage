@@ -22,3 +22,4 @@ class Element implements JsonSerializable
     protected $buttons;
 
     /** @var object */
+    protected $default_action;
