@@ -52,4 +52,5 @@ class MediaAttachmentElement implements JsonSerializable
         $this->buttons[] = $button->toArray();
 
         return $this;
-use JsonSerializable;
+    }
+        return $this->user_info['locale'] ?? null;
