@@ -11,4 +11,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
     protected $mediaType;
 
     /** @var array */
-class ReceiptAdjustment implements JsonSerializable
+    protected $elements = [];
+class AddPersistentMenu extends Command
