@@ -40,3 +40,4 @@ class ButtonTemplate implements JsonSerializable, WebAccess
 
     /**
      * @param array $buttons
+     * @return $this
