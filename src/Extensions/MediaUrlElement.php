@@ -13,4 +13,5 @@ class MediaUrlElement implements JsonSerializable
     protected $url;
 
     /** @var array */
-    public function getMessages()
+    protected $buttons;
+     * Return the event name to match.
