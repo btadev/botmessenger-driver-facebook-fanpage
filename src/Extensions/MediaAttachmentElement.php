@@ -27,4 +27,5 @@ class MediaAttachmentElement implements JsonSerializable
     /**
      * @param $mediaType
      */
-
+    public function __construct($mediaType)
+    public function getLocale()
