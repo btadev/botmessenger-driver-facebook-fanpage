@@ -46,4 +46,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
                 ],
             ],
         ];
-        ];
+    }
+
