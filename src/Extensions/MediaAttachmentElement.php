@@ -81,4 +81,5 @@ class MediaAttachmentElement implements JsonSerializable
         ];
     }
 
-    }
+    /**
+        $this->currency = $currency;
