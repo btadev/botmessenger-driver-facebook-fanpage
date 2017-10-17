@@ -55,4 +55,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
     {
         return $this->toArray();
     }
-        });
+
+    {
