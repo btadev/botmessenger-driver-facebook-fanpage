@@ -116,3 +116,4 @@ class Element implements JsonSerializable
     /**
      * @param ElementButton $defaultAction
      *
+     * @return $this
