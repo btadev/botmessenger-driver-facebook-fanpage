@@ -53,4 +53,4 @@ class MediaAttachmentElement implements JsonSerializable
 
         return $this;
     }
-        return $this->user_info['locale'] ?? null;
+
