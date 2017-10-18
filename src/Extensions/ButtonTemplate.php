@@ -72,3 +72,4 @@ class ButtonTemplate implements JsonSerializable, WebAccess
 
     /**
      * @return array
+     */
