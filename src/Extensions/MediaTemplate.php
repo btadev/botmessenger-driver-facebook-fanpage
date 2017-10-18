@@ -70,4 +70,3 @@ class MediaTemplate implements JsonSerializable, WebAccess
         ];
     }
 }
-use ChienIT\BotMessenger\Http\Curl;
