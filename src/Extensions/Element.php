@@ -132,3 +132,4 @@ class Element implements JsonSerializable
     public function toArray()
     {
         return [
+            'title' => $this->title,
