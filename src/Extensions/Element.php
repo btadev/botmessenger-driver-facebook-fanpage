@@ -48,3 +48,4 @@ class Element implements JsonSerializable
     public function title($title)
     {
         $this->title = $title;
+
