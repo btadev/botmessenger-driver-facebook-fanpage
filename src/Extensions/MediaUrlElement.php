@@ -78,4 +78,5 @@ class MediaUrlElement implements JsonSerializable
             'media_type' => $this->media_type,
             'url' => $this->url,
             'buttons' => $this->buttons,
-    /**
+        ];
+    public function addAddress(ReceiptAddress $address)
