@@ -69,3 +69,5 @@ class MediaUrlElement implements JsonSerializable
         return $this;
     }
 
+    /**
+
