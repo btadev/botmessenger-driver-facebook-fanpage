@@ -123,3 +123,4 @@ class Element implements JsonSerializable
         $defaultAction->type(ElementButton::TYPE_WEB_URL);
         $this->default_action = $defaultAction->toArray();
 
+        return $this;
