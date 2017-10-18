@@ -24,4 +24,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
     /**
      * @param $element
      * @return $this
-     * The console command description.
+     */
+    "homepage": "http://github.com/chiendevit/botmessenger-driver-facebook-fanpage",
