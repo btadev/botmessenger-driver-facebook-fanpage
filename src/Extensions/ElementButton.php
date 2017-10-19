@@ -30,3 +30,4 @@ class ElementButton
 
     /** @var GenericTemplate */
     protected $shareContents;
+
