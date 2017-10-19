@@ -139,3 +139,4 @@ class Element implements JsonSerializable
             'default_action' => $this->default_action,
             'buttons' => $this->buttons,
         ];
+    }
