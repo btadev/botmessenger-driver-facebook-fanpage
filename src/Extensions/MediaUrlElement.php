@@ -1,3 +1,4 @@
 <?php
 
-    protected $user_info;
+namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
+            'location')->pluck('payload')->first();
