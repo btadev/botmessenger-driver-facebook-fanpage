@@ -25,3 +25,4 @@ class MediaUrlElement implements JsonSerializable
     }
 
     /**
+            $buttonArray['content_type'] = $this->contentType;
