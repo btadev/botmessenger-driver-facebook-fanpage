@@ -62,4 +62,5 @@ class MediaAttachmentElement implements JsonSerializable
     {
         foreach ($buttons as $button) {
             if ($button instanceof ElementButton) {
-            'subtotal' => $this->subtotal,
+                $this->buttons[] = $button->toArray();
+}
