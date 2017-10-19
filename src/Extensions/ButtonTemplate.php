@@ -59,3 +59,4 @@ class ButtonTemplate implements JsonSerializable, WebAccess
     public function toArray()
     {
         return [
+            'attachment' => [
