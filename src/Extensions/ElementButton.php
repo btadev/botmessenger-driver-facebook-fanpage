@@ -6,3 +6,4 @@ class ElementButton
 {
     /** @var string */
     protected $title;
+
