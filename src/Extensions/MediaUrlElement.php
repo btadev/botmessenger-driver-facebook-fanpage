@@ -37,3 +37,5 @@ class MediaUrlElement implements JsonSerializable
      * @return $this
      */
     public function url($url)
+    {
+    private $http;
