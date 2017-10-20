@@ -9,4 +9,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
 {
     /** @var string */
     protected $mediaType;
-namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
+
+    }
