@@ -37,4 +37,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
      */
     public function toArray()
     {
+        return [
     {
