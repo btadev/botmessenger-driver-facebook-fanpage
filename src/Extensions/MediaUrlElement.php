@@ -58,4 +58,4 @@ class MediaUrlElement implements JsonSerializable
      * @param array $buttons
      * @return $this
      */
-     */
+    public function addButtons(array $buttons)
