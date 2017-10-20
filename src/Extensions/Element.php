@@ -124,3 +124,4 @@ class Element implements JsonSerializable
         $this->default_action = $defaultAction->toArray();
 
         return $this;
+    }
