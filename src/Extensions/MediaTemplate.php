@@ -13,4 +13,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
     /** @var array */
     protected $elements = [];
 
-     * @return array
+    /**
+        $this->payload = $payload;
