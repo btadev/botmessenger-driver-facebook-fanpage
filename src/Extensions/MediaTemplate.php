@@ -3,4 +3,5 @@
 namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
 
 use JsonSerializable;
-     * Return the event name to match.
+use ChienIT\BotMessenger\Interfaces\WebAccess;
+            $buttonArray['share_contents'] = $this->shareContents->toArray();
