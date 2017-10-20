@@ -17,4 +17,5 @@ class MediaUrlElement implements JsonSerializable
 
     /**
      * @param $mediaType
-use ChienIT\BotMessenger\Http\Curl;
+     * @return static
+
