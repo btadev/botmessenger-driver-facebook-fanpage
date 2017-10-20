@@ -40,3 +40,4 @@ class ElementButton
     const TYPE_CALL = 'phone_number';
 
     const RATIO_COMPACT = 'compact';
+    const RATIO_TALL = 'tall';
