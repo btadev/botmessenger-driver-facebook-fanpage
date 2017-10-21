@@ -31,3 +31,4 @@ class ElementButton
     /** @var GenericTemplate */
     protected $shareContents;
 
+    const TYPE_ACCOUNT_LINK = 'account_link';
