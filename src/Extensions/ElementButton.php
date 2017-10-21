@@ -39,3 +39,4 @@ class ElementButton
     const TYPE_SHARE = 'element_share';
     const TYPE_CALL = 'phone_number';
 
+    const RATIO_COMPACT = 'compact';
