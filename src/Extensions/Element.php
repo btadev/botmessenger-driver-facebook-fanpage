@@ -119,3 +119,4 @@ class Element implements JsonSerializable
      * @return $this
      */
     public function defaultAction(ElementButton $defaultAction)
+    {
