@@ -61,4 +61,5 @@ class MediaAttachmentElement implements JsonSerializable
     public function addButtons(array $buttons)
     {
         foreach ($buttons as $button) {
-make it effectively proprietary.  To prevent this, the GPL assures that
+            if ($button instanceof ElementButton) {
+            'subtotal' => $this->subtotal,
