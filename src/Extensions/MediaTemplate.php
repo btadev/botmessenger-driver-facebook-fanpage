@@ -40,4 +40,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
         return [
             'attachment' => [
                 'type' => 'template',
-     * Return the event name to match.
+                'payload' => [
+    }
