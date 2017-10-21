@@ -25,4 +25,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
      * @param $element
      * @return $this
      */
-    "homepage": "http://github.com/chiendevit/botmessenger-driver-facebook-fanpage",
+    public function element($element)
+namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
