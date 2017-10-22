@@ -44,4 +44,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
                     'template_type' => 'media',
                     'elements' => $this->elements,
                 ],
-    /** @var int */
+            ],
+use ChienIT\BotMessenger\Exceptions\Base\DriverException;
