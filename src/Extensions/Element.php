@@ -28,3 +28,4 @@ class Element implements JsonSerializable
      * @param $title
      * @return static
      */
+    public static function create($title)
