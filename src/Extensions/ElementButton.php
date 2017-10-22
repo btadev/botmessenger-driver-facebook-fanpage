@@ -23,3 +23,4 @@ class ElementButton
     protected $webview_height_ratio = self::RATIO_FULL;
 
     /** @var string */
+    protected $webview_share_button;
