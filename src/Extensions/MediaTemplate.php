@@ -64,4 +64,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
      */
     public function toWebDriver()
     {
-ChienIT Bot Messenger Driver to connect Facebook messenger with [ChienIT Bot Messenger](https://github.com/chiendevit/BotMessenger)
+        return [
+     */
