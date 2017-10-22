@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
 
-     * @return array
+use JsonSerializable;
+     * Return the event name to match.
