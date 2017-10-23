@@ -7,3 +7,4 @@ use JsonSerializable;
 class Element implements JsonSerializable
 {
     /** @var string */
+    protected $title;
