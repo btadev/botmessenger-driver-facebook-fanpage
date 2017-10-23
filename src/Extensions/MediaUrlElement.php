@@ -3,4 +3,5 @@
 namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
 
 use JsonSerializable;
-    protected $title;
+
+        parent::__construct();
