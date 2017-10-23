@@ -23,3 +23,4 @@ class Element implements JsonSerializable
 
     /** @var object */
     protected $default_action;
+
