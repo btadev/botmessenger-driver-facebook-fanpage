@@ -19,3 +19,4 @@ class Element implements JsonSerializable
     protected $subtitle;
 
     /** @var object */
+    protected $buttons;
