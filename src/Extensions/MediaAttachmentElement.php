@@ -86,4 +86,5 @@ class MediaAttachmentElement implements JsonSerializable
      */
     public function jsonSerialize()
     {
-    public function getMessages()
+        return $this->toArray();
+    {
