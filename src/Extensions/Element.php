@@ -143,3 +143,4 @@ class Element implements JsonSerializable
 
     /**
      * @return array
+     */
