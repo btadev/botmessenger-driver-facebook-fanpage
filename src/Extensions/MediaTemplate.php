@@ -66,4 +66,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
     {
         return [
             'type' => $this->mediaType,
-     * Determine if the request is for this driver.
+            'elements' => $this->elements,
+    public function getFiles(array $message)
