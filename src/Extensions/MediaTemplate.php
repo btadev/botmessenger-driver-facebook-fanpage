@@ -12,4 +12,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
 
     /** @var array */
     protected $elements = [];
-class AddPersistentMenu extends Command
+
+     * @return array
