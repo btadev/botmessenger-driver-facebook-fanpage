@@ -66,4 +66,5 @@ class MediaUrlElement implements JsonSerializable
             }
         }
 
-# ChienIT Bot Messenger Facebook Messenger Driver
+        return $this;
+    {
