@@ -137,3 +137,4 @@ class Element implements JsonSerializable
             'item_url' => $this->item_url,
             'subtitle' => $this->subtitle,
             'default_action' => $this->default_action,
+            'buttons' => $this->buttons,
