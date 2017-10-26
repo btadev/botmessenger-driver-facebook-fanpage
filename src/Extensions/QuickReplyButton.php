@@ -20,4 +20,5 @@ class QuickReplyButton implements QuestionActionInterface
 
     const TYPE_TEXT = 'text';
 
-    protected $contentType = self::TYPE_TEXT;
+    /**
+            ],
