@@ -36,3 +36,4 @@ class Element implements JsonSerializable
     /**
      * @param string $title
      */
+    public function __construct($title)
