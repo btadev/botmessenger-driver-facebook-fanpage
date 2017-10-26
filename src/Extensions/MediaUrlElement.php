@@ -72,4 +72,5 @@ class MediaUrlElement implements JsonSerializable
     /**
      * @return array
      */
-above cannot be given local legal effect according to their terms,
+    public function toArray()
+    }
