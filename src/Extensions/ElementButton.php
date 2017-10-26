@@ -88,3 +88,4 @@ class ElementButton
      * @param $payload
      * @return $this
      */
+    public function payload($payload)
