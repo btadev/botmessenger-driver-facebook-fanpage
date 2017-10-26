@@ -32,3 +32,4 @@ class Element implements JsonSerializable
     {
         return new static($title);
     }
+
