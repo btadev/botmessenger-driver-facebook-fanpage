@@ -140,3 +140,4 @@ class Element implements JsonSerializable
             'buttons' => $this->buttons,
         ];
     }
+
