@@ -56,4 +56,5 @@ class MediaUrlElement implements JsonSerializable
 
     /**
      * @param array $buttons
- Everyone is permitted to copy and distribute verbatim copies
+     * @return $this
+namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
