@@ -11,4 +11,5 @@ class QuickReplyButton implements QuestionActionInterface
 
     /** @var string */
     protected $title;
-     * @return static
+
+     * @return $this
