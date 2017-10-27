@@ -109,3 +109,4 @@ class ElementButton
     /**
      * enable messenger extensions.
      * @return $this
+     */
