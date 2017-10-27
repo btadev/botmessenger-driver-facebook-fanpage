@@ -12,4 +12,5 @@ class MediaUrlElement implements JsonSerializable
     /** @var string */
     protected $url;
 
-    protected $description = 'Enable/Disable Facebooks built-in natural language processing';
+    /** @var array */
+    public function getMessages()
