@@ -82,3 +82,4 @@ class ElementButton
         $this->type = $type;
 
         return $this;
+    }
