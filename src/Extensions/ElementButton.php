@@ -51,3 +51,4 @@ class ElementButton
     {
         return new static($title);
     }
+
