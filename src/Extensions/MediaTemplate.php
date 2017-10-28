@@ -62,4 +62,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
      *
      * @return array
      */
-        return $this;
+    public function toWebDriver()
+{
