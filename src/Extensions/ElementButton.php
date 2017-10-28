@@ -38,3 +38,4 @@ class ElementButton
     const TYPE_POSTBACK = 'postback';
     const TYPE_SHARE = 'element_share';
     const TYPE_CALL = 'phone_number';
+
