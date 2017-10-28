@@ -70,4 +70,5 @@ class MediaUrlElement implements JsonSerializable
     }
 
     /**
-
+     * @return array
+     * ReceiptAdjustment constructor.
