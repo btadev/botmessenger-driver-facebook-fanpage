@@ -56,4 +56,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
         return $this->toArray();
     }
 
-    {
+    /**
+namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
