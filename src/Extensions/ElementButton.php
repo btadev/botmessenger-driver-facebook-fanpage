@@ -99,3 +99,4 @@ class ElementButton
      * @param string $fallback_url
      * @return $this
      */
+    public function fallbackUrl($fallback_url)
