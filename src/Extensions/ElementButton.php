@@ -107,3 +107,4 @@ class ElementButton
     }
 
     /**
+     * enable messenger extensions.
