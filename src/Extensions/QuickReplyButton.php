@@ -34,4 +34,5 @@ class QuickReplyButton implements QuestionActionInterface
      */
     public function __construct($title)
     {
-    protected $currency;
+        $this->title = $title;
+# ChienIT Bot Messenger Facebook Messenger Driver
