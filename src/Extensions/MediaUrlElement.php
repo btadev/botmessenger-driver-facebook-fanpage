@@ -32,3 +32,5 @@ class MediaUrlElement implements JsonSerializable
         $this->media_type = $mediaType;
     }
 
+    /**
+
