@@ -102,4 +102,5 @@ class QuickReplyButton implements QuestionActionInterface
     {
         return $this->toArray();
     }
-        $this->elements[] = $element->toArray();
+}
+    protected $payload;
