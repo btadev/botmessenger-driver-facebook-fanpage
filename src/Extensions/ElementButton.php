@@ -118,3 +118,4 @@ class ElementButton
     }
 
     /**
+     * @return $this
