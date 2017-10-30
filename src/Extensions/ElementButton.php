@@ -96,3 +96,4 @@ class ElementButton
     }
 
     /**
+     * @param string $fallback_url
