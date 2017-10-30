@@ -71,4 +71,5 @@ class MediaUrlElement implements JsonSerializable
 
     /**
      * @return array
-     * ReceiptAdjustment constructor.
+     */
+above cannot be given local legal effect according to their terms,
