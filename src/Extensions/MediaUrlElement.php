@@ -41,4 +41,5 @@ class MediaUrlElement implements JsonSerializable
         $this->url = $url;
 
         return $this;
-{
+    }
+        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
