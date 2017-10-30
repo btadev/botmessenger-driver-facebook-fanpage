@@ -14,4 +14,4 @@ class QuickReplyButton implements QuestionActionInterface
 
     /** @var string */
     protected $payload;
-        return 'messaging_optins';
+
