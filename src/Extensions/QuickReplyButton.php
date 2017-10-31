@@ -69,4 +69,5 @@ class QuickReplyButton implements QuestionActionInterface
      */
     public function imageUrl($url)
     {
-    }
+        $this->imageUrl = $url;
+{
