@@ -89,4 +89,3 @@ class MediaUrlElement implements JsonSerializable
         return $this->toArray();
     }
 }
-the predecessor has it or can get it with reasonable efforts.
