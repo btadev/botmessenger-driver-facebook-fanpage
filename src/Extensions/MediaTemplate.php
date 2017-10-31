@@ -69,4 +69,5 @@ class MediaTemplate implements JsonSerializable, WebAccess
             'elements' => $this->elements,
         ];
     }
-    public function matchesRequest()
+}
+use ChienIT\BotMessenger\Http\Curl;
