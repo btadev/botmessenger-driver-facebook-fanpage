@@ -16,4 +16,5 @@ class MediaUrlElement implements JsonSerializable
     protected $buttons;
 
     /**
-     * @return int
+     * @param $mediaType
+use ChienIT\BotMessenger\Http\Curl;
