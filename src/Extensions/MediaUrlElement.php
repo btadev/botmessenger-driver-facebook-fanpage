@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
 
-        return false;
+use JsonSerializable;
+    protected $title;
