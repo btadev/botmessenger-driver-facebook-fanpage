@@ -90,3 +90,5 @@ class QuickReplyButton implements QuestionActionInterface
             ];
         } else {
             $buttonArray['content_type'] = $this->contentType;
+        }
+            if ($this->option('disable')) {
