@@ -19,4 +19,5 @@ class MediaUrlElement implements JsonSerializable
      * @param $mediaType
      * @return static
      */
+    public static function create($mediaType)
      */
