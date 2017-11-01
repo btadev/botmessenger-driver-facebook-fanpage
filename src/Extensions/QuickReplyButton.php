@@ -21,4 +21,5 @@ class QuickReplyButton implements QuestionActionInterface
     const TYPE_TEXT = 'text';
 
     /**
-            ],
+     * @param string $title
+        }
