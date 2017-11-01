@@ -54,4 +54,4 @@ class QuickReplyButton implements QuestionActionInterface
      * @param $payload
      * @return $this
      */
-        if (count($messages) === 0) {
+    public function payload($payload)
