@@ -140,3 +140,4 @@ class ElementButton
     }
 
     /**
+     * Optional. The message that you wish the recipient of the share to see,
