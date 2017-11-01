@@ -22,4 +22,5 @@ class ReceiptAddress implements JsonSerializable
     protected $state;
 
     /** @var string */
-class MessagingReads extends FacebookEvent
+    protected $country;
+        return ! $messages->isEmpty() && $validSignature;
