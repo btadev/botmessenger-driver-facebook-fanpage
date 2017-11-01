@@ -29,4 +29,5 @@ class MediaUrlElement implements JsonSerializable
      */
     public function __construct($mediaType)
     {
-        "psr-4": {
+        $this->media_type = $mediaType;
+software for all its users.  We, the Free Software Foundation, use the
