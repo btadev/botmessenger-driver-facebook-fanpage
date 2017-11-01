@@ -80,4 +80,5 @@ class MediaUrlElement implements JsonSerializable
             'buttons' => $this->buttons,
         ];
     }
-        $response = $this->http->post('https://graph.facebook.com/v2.6/me/messenger_profile?access_token='.config('facebook.token'),
+
+and the Corresponding Source of the work is not available for anyone
