@@ -14,3 +14,4 @@ class ElementButton
     protected $url;
 
     /** @var string */
+    protected $fallback_url;
