@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
 
-    public function __construct(Curl $http)
+use ChienIT\BotMessenger\Interfaces\QuestionActionInterface;
+    }
