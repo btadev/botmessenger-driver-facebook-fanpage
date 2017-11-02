@@ -78,3 +78,4 @@ class ElementButton
      * @return $this
      */
     public function type($type)
+    {
