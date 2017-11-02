@@ -104,3 +104,4 @@ class ElementButton
         $this->fallback_url = $fallback_url;
 
         return $this;
+    }
