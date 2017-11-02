@@ -44,4 +44,5 @@ class ReceiptAddress implements JsonSerializable
     }
 
     /**
-        return new static;
+     * @param string $street
+<?php
