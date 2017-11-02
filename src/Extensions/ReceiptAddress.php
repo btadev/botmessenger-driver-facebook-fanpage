@@ -9,4 +9,5 @@ class ReceiptAddress implements JsonSerializable
     /** @var string */
     protected $street_1;
 
-        $this->messages = $messages;
+    /** @var string */
+            return isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments']);
