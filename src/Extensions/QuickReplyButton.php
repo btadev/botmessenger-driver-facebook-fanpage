@@ -79,4 +79,4 @@ class QuickReplyButton implements QuestionActionInterface
      */
     public function toArray()
     {
-            }
+        $buttonArray = [];
