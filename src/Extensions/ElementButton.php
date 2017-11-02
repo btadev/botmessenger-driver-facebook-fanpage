@@ -124,3 +124,4 @@ class ElementButton
     {
         $this->webview_share_button = 'HIDE';
 
+        return $this;
