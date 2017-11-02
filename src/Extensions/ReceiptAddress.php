@@ -41,4 +41,4 @@ class ReceiptAddress implements JsonSerializable
         $this->street_1 = $street;
 
         return $this;
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
+    }
