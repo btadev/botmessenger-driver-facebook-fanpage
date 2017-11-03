@@ -61,4 +61,5 @@ class QuickReplyButton implements QuestionActionInterface
         return $this;
     }
 
-    public function jsonSerialize()
+    /**
+        return $this;
