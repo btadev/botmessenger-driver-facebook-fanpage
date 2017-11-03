@@ -35,4 +35,5 @@ class MediaUrlElement implements JsonSerializable
     /**
      * @param $url
      * @return $this
-price.  Our General Public Licenses are designed to make sure that you
+     */
+        return [
