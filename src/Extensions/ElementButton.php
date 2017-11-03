@@ -161,3 +161,4 @@ class ElementButton
         $buttonArray = [
             'type' => $this->type,
         ];
+
