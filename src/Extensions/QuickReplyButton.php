@@ -22,4 +22,5 @@ class QuickReplyButton implements QuestionActionInterface
 
     /**
      * @param string $title
-        }
+     * @return static
+     * Return the event name to match.
