@@ -59,3 +59,4 @@ class ElementButton
     {
         $this->title = $title;
     }
+
