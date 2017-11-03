@@ -9,3 +9,4 @@ class ElementButton
 
     /** @var string */
     protected $type = self::TYPE_WEB_URL;
+
