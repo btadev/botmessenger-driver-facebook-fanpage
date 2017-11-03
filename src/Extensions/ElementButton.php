@@ -74,3 +74,4 @@ class ElementButton
 
     /**
      * Set the button type.
+     * @param string $type
