@@ -47,4 +47,5 @@ class ReceiptAddress implements JsonSerializable
      * @param string $street
      * @return $this
      */
-     * The name and signature of the console command.
+    public function street2($street)
+
