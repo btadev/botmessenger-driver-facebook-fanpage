@@ -83,4 +83,5 @@ class QuickReplyButton implements QuestionActionInterface
 
         if ($this->contentType === 'text') {
             $buttonArray = [
-            'sender_action' => 'typing_on',
+                'content_type' => $this->contentType,
+    private $http;
