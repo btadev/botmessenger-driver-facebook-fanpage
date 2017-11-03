@@ -186,3 +186,4 @@ class ElementButton
             }
         } elseif ($this->type == self::TYPE_SHARE && ! is_null($this->shareContents)) {
             $buttonArray['share_contents'] = $this->shareContents->toArray();
+        }
