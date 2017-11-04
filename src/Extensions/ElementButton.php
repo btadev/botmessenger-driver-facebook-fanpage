@@ -64,3 +64,4 @@ class ElementButton
      * Set the button URL.
      * @param string $url
      * @return $this
+     */
