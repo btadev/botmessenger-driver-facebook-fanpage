@@ -32,4 +32,4 @@ class QuickReplyButton implements QuestionActionInterface
     /**
      * @param string $title
      */
-class QuickReplyButton implements QuestionActionInterface
+    public function __construct($title)
