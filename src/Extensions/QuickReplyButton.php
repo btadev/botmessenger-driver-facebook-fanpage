@@ -89,4 +89,4 @@ class QuickReplyButton implements QuestionActionInterface
                 'image_url' => $this->imageUrl,
             ];
         } else {
-                return new Video($item['url'], $item);
+            $buttonArray['content_type'] = $this->contentType;
