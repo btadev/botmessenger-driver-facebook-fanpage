@@ -73,3 +73,4 @@ class ElementButton
     }
 
     /**
+     * Set the button type.
