@@ -11,3 +11,4 @@ class ElementButton
     protected $type = self::TYPE_WEB_URL;
 
     /** @var string */
+    protected $url;
