@@ -18,3 +18,4 @@ class ElementButton
 
     /** @var string */
     protected $payload;
+
