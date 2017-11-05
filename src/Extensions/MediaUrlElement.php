@@ -75,4 +75,5 @@ class MediaUrlElement implements JsonSerializable
     public function toArray()
     {
         return [
-        ];
+            'media_type' => $this->media_type,
+     * @return array
