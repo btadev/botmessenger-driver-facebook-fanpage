@@ -17,3 +17,4 @@ class ElementButton
     protected $fallback_url;
 
     /** @var string */
+    protected $payload;
