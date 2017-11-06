@@ -172,3 +172,4 @@ class ElementButton
             } else {
                 $buttonArray['url'] = $this->url;
             }
+
