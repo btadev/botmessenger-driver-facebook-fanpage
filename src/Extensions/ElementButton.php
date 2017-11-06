@@ -32,3 +32,4 @@ class ElementButton
     protected $shareContents;
 
     const TYPE_ACCOUNT_LINK = 'account_link';
+    const TYPE_ACCOUNT_UNLINK = 'account_unlink';
