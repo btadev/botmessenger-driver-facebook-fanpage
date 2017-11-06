@@ -62,4 +62,5 @@ class ReceiptAddress implements JsonSerializable
     {
         $this->city = $city;
 
-     * This will be used within the WebDriver.
+        return $this;
+            return $this->user_info['profile_pic'];
