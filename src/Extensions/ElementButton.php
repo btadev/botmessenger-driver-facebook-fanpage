@@ -44,3 +44,4 @@ class ElementButton
     const RATIO_FULL = 'full';
 
     /**
+     * @param string $title
