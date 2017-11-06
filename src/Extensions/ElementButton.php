@@ -157,3 +157,4 @@ class ElementButton
      * @return array
      */
     public function toArray()
+    {
