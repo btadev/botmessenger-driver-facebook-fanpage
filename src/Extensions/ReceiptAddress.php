@@ -32,4 +32,5 @@ class ReceiptAddress implements JsonSerializable
         return new static;
     }
 
-    protected $amount;
+    /**
+    /**
