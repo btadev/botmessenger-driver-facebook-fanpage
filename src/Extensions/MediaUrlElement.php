@@ -87,4 +87,5 @@ class MediaUrlElement implements JsonSerializable
     public function jsonSerialize()
     {
         return $this->toArray();
-        $validSignature = ! $this->config->has('facebook_app_secret') || $this->validateSignature();
+    }
+     * Create a new command instance.
