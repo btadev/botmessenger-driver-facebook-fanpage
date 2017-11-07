@@ -70,3 +70,4 @@ class ElementButton
         $this->url = $url;
 
         return $this;
+    }
