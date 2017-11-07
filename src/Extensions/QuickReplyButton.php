@@ -43,4 +43,5 @@ class QuickReplyButton implements QuestionActionInterface
      * @param string $type
      * @return $this
      */
-        return false;
+    public function type($type)
+            ],
