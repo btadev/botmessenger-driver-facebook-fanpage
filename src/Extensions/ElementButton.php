@@ -28,3 +28,4 @@ class ElementButton
     /** @var bool */
     protected $messenger_extensions = false;
 
+    /** @var GenericTemplate */
