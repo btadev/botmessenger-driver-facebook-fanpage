@@ -37,4 +37,5 @@ class QuickReplyButton implements QuestionActionInterface
         $this->title = $title;
     }
 
-     */
+    /**
+{
