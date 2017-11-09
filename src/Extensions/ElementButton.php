@@ -26,3 +26,4 @@ class ElementButton
     protected $webview_share_button;
 
     /** @var bool */
+    protected $messenger_extensions = false;
