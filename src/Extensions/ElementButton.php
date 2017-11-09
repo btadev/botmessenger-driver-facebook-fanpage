@@ -158,3 +158,4 @@ class ElementButton
      */
     public function toArray()
     {
+        $buttonArray = [
