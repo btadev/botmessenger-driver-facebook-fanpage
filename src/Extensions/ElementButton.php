@@ -100,3 +100,4 @@ class ElementButton
      * @return $this
      */
     public function fallbackUrl($fallback_url)
+    {
