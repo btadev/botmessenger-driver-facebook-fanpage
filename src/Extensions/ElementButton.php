@@ -155,3 +155,4 @@ class ElementButton
 
     /**
      * @return array
+     */
