@@ -115,3 +115,4 @@ class ElementButton
         $this->messenger_extensions = true;
 
         return $this;
+    }
