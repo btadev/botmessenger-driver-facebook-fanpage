@@ -18,3 +18,4 @@ class ReceiptAddress implements JsonSerializable
     /** @var string */
     protected $postal_code;
 
+}
