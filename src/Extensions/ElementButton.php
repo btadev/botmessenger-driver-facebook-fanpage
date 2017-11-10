@@ -133,3 +133,4 @@ class ElementButton
      * @return $this
      */
     public function heightRatio($ratio = self::RATIO_FULL)
+    {
