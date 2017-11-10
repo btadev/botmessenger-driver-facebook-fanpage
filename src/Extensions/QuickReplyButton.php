@@ -49,4 +49,5 @@ class QuickReplyButton implements QuestionActionInterface
 
         return $this;
     }
-{
+
+        $this->total_cost = $totalCost;
