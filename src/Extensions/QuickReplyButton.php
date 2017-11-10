@@ -71,4 +71,5 @@ class QuickReplyButton implements QuestionActionInterface
     {
         $this->imageUrl = $url;
 
-    protected $amount;
+        return $this;
+    public function paymentMethod($paymentMethod)
