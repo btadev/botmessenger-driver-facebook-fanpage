@@ -63,4 +63,5 @@ class ReceiptAddress implements JsonSerializable
         $this->city = $city;
 
         return $this;
-            return $this->user_info['profile_pic'];
+    }
+     */
