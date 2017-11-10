@@ -77,4 +77,5 @@ class ReceiptAddress implements JsonSerializable
     }
 
     /**
-        "ChienIT",
+     * @param $state
+     */
