@@ -16,4 +16,5 @@ class ReceiptAddress implements JsonSerializable
     protected $city;
 
     /** @var string */
-    protected $isPostback = false;
+    protected $postal_code;
+
