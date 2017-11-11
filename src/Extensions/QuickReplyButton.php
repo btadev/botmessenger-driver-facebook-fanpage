@@ -85,4 +85,5 @@ class QuickReplyButton implements QuestionActionInterface
             $buttonArray = [
                 'content_type' => $this->contentType,
                 'title' => $this->title,
-    }
+                'payload' => $this->payload,
+     * @var string
