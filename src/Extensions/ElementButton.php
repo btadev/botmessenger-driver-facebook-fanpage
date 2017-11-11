@@ -45,3 +45,4 @@ class ElementButton
 
     /**
      * @param string $title
+     * @return static
