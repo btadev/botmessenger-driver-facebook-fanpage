@@ -51,4 +51,5 @@ class QuickReplyButton implements QuestionActionInterface
     }
 
     /**
-     * @param string $amount
+     * @param $payload
+    }
