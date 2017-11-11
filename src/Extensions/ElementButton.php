@@ -189,3 +189,4 @@ class ElementButton
         }
 
         return $buttonArray;
+    }
