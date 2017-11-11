@@ -42,3 +42,4 @@ class ElementButton
     const RATIO_COMPACT = 'compact';
     const RATIO_TALL = 'tall';
     const RATIO_FULL = 'full';
+
