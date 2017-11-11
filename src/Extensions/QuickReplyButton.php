@@ -44,4 +44,5 @@ class QuickReplyButton implements QuestionActionInterface
      * @return $this
      */
     public function type($type)
-            ],
+    {
+can do so.  This is fundamentally incompatible with the aim of
