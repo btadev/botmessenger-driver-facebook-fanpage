@@ -149,3 +149,4 @@ class ElementButton
     public function shareContents($shareContents)
     {
         $this->shareContents = $shareContents;
+
