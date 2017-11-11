@@ -38,4 +38,5 @@ class ReceiptAddress implements JsonSerializable
      */
     public function street1($street)
     {
-        $this->user_info = (array) $user_info;
+        $this->street_1 = $street;
+                ])->isEmpty() === false;
