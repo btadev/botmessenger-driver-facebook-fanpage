@@ -92,4 +92,5 @@ class ReceiptAddress implements JsonSerializable
      * @return $this
      */
     public function country($country)
-}
+    {
+    "require": {
