@@ -53,3 +53,4 @@ class ElementButton
     }
 
     /**
+     * @param string $title
