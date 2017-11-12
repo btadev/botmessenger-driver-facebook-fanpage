@@ -113,3 +113,4 @@ class ElementButton
     public function enableExtensions()
     {
         $this->messenger_extensions = true;
+
