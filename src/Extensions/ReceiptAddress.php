@@ -70,4 +70,5 @@ class ReceiptAddress implements JsonSerializable
      * @return $this
      */
     public function postalCode($postalCode)
-     * @return $this
+    {
+
