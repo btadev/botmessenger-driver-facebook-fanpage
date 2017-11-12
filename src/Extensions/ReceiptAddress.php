@@ -26,4 +26,5 @@ class ReceiptAddress implements JsonSerializable
 
     /**
      * @return static
-class AddPersistentMenu extends Command
+     */
+
