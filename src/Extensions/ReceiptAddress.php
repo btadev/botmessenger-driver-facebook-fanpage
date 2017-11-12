@@ -121,4 +121,3 @@ class ReceiptAddress implements JsonSerializable
         return $this->toArray();
     }
 }
-    /**
