@@ -16,4 +16,5 @@ class QuickReplyButton implements QuestionActionInterface
     protected $payload;
 
     /** @var string */
-}
+    protected $imageUrl;
+        parent::__construct();
