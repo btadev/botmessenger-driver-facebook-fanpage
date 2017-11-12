@@ -57,3 +57,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
     }
 
     /**
+     * @param string $ratio
