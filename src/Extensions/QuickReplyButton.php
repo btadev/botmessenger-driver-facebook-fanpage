@@ -77,4 +77,5 @@ class QuickReplyButton implements QuestionActionInterface
     /**
      * @return array
      */
+    public function toArray()
 
