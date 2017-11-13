@@ -162,3 +162,4 @@ class ElementButton
             'type' => $this->type,
         ];
 
+        if ($this->type !== self::TYPE_SHARE) {
