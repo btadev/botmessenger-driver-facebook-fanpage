@@ -97,4 +97,4 @@ class ReceiptAddress implements JsonSerializable
 
         return $this;
     }
-    protected $street_2;
+
