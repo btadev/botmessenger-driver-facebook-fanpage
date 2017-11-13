@@ -87,3 +87,5 @@ class QuickReplyButton implements QuestionActionInterface
                 'title' => $this->title,
                 'payload' => $this->payload,
                 'image_url' => $this->imageUrl,
+            ];
+                    'summary' => $this->summary,
