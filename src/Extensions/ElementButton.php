@@ -136,3 +136,4 @@ class ElementButton
     {
         $this->webview_height_ratio = $ratio;
 
+        return $this;
