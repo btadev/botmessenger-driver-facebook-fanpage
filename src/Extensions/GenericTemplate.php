@@ -28,3 +28,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
     public static function create()
     {
         return new static;
+    }
