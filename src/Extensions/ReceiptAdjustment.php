@@ -23,4 +23,5 @@ class ReceiptAdjustment implements JsonSerializable
 
     /**
      * ReceiptAdjustment constructor.
-    public function getProfilePic()
+     * @param $name
+    {
