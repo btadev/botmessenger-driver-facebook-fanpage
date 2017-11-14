@@ -101,4 +101,5 @@ class QuickReplyButton implements QuestionActionInterface
     public function jsonSerialize()
     {
         return $this->toArray();
-    public function __construct($text)
+    }
+        $this->elements[] = $element->toArray();
