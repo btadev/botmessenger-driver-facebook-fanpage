@@ -10,3 +10,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
     const RATIO_HORIZONTAL = 'horizontal';
     const RATIO_SQUARE = 'square';
 
+    /** @var array */
