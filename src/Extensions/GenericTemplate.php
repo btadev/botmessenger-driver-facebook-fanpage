@@ -14,3 +14,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
     private static $allowedRatios = [
         self::RATIO_HORIZONTAL,
         self::RATIO_SQUARE,
+    ];
