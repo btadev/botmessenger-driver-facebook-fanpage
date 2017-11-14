@@ -90,3 +90,4 @@ class ElementButton
      */
     public function payload($payload)
     {
+        $this->payload = $payload;
