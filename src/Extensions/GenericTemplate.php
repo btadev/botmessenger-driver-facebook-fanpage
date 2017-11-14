@@ -106,3 +106,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
             'type' => 'list',
             'elements' => $this->elements,
         ];
+    }
