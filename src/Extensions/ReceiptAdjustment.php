@@ -44,4 +44,5 @@ class ReceiptAdjustment implements JsonSerializable
     /**
      * @return array
      */
-            'globalButtons' => [$this->globalButton],
+    public function toArray()
+    /** @var array */
