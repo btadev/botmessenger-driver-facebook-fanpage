@@ -62,4 +62,4 @@ class QuickReplyButton implements QuestionActionInterface
     }
 
     /**
-        return $this;
+     * Set the button URL.
