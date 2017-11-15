@@ -94,4 +94,5 @@ class ReceiptAddress implements JsonSerializable
     public function country($country)
     {
         $this->country = $country;
-    {
+
+
