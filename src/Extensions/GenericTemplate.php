@@ -102,3 +102,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
      */
     public function toWebDriver()
     {
+        return [
