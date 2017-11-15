@@ -103,4 +103,4 @@ class ReceiptAddress implements JsonSerializable
      */
     public function toArray()
     {
-        $this->street_1 = $street;
+        return [
