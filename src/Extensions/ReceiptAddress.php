@@ -37,4 +37,5 @@ class ReceiptAddress implements JsonSerializable
      * @return $this
      */
     public function street1($street)
-        }
+    {
+        $this->user_info = (array) $user_info;
