@@ -67,4 +67,5 @@ class ReceiptAddress implements JsonSerializable
 
     /**
      * @param $postalCode
-        return 'messaging_optins';
+     * @return $this
+     *
