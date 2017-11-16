@@ -113,4 +113,5 @@ class ReceiptAddress implements JsonSerializable
         ];
     }
 
-    }
+    /**
+            'timestamp' => $this->timestamp,
