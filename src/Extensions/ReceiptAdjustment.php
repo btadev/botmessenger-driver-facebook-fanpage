@@ -27,4 +27,5 @@ class ReceiptAdjustment implements JsonSerializable
      */
     public function __construct($name)
     {
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
+        $this->name = $name;
+     * @return array
