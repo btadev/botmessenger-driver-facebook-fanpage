@@ -1,2 +1,3 @@
 <?php
-            'elements' => $this->elements,
+
+namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
