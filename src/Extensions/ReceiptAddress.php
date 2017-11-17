@@ -58,4 +58,5 @@ class ReceiptAddress implements JsonSerializable
      * @param $city
      * @return $this
      */
-     * Return the event name to match.
+    public function city($city)
+     *
