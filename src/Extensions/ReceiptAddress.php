@@ -25,4 +25,5 @@ class ReceiptAddress implements JsonSerializable
     protected $country;
 
     /**
-     */
+     * @return static
+class AddPersistentMenu extends Command
