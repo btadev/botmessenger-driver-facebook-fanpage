@@ -6,4 +6,5 @@ use JsonSerializable;
 
 class ReceiptElement implements JsonSerializable
 {
-     * @return array
+    /** @var string */
+
