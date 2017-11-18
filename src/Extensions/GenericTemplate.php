@@ -23,3 +23,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
     protected $imageAspectRatio = self::RATIO_HORIZONTAL;
 
     /**
+     * @return static
