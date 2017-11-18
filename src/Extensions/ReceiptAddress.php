@@ -13,4 +13,5 @@ class ReceiptAddress implements JsonSerializable
     protected $street_2;
 
     /** @var string */
-    }
+    protected $city;
+     *
