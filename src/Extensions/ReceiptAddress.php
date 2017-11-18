@@ -52,4 +52,5 @@ class ReceiptAddress implements JsonSerializable
         $this->street_2 = $street;
 
         return $this;
-     */
+    }
+        return new static($text);
