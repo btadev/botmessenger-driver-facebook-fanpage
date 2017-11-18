@@ -81,4 +81,5 @@ class QuickReplyButton implements QuestionActionInterface
     {
         $buttonArray = [];
 
-    protected $name;
+        if ($this->contentType === 'text') {
+     * @return array
