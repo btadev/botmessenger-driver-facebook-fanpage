@@ -8,4 +8,5 @@ class ReceiptAddress implements JsonSerializable
 {
     /** @var string */
     protected $street_1;
-    {
+
+        $this->messages = $messages;
