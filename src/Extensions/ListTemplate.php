@@ -13,3 +13,4 @@ class ListTemplate implements JsonSerializable, WebAccess
     /** @var array */
     protected $globalButton;
 
+    /** @var string */
