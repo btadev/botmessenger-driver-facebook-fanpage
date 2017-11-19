@@ -21,4 +21,5 @@ class ReceiptAddress implements JsonSerializable
     /** @var string */
     protected $state;
 
-    /**
+    /** @var string */
+class MessagingReads extends FacebookEvent
