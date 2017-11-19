@@ -11,3 +11,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
     const RATIO_SQUARE = 'square';
 
     /** @var array */
+    private static $allowedRatios = [
