@@ -97,4 +97,4 @@ class QuickReplyButton implements QuestionActionInterface
 
     /**
      * @return array
-     * @return $this
+     */
