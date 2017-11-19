@@ -52,4 +52,5 @@ class ReceiptAdjustment implements JsonSerializable
         ];
     }
 
-            $this->info('Get Started payload was set to: '.$payload);
+    /**
+            'attachment' => [
