@@ -25,4 +25,4 @@ class ReceiptAdjustment implements JsonSerializable
      * ReceiptAdjustment constructor.
      * @param $name
      */
-
+    public function __construct($name)
