@@ -122,3 +122,4 @@ class ElementButton
      */
     public function disableShare()
     {
+        $this->webview_share_button = 'HIDE';
