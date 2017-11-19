@@ -7,4 +7,5 @@ use JsonSerializable;
 class ReceiptElement implements JsonSerializable
 {
     /** @var string */
-
+    protected $title;
+    }
