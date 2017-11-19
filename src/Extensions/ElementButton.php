@@ -178,3 +178,4 @@ class ElementButton
                 if (! is_null($this->webview_share_button)) {
                     $buttonArray['webview_share_button'] = $this->webview_share_button;
                 }
+
