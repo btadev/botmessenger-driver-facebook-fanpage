@@ -12,4 +12,4 @@ class ReceiptElement implements JsonSerializable
     /** @var string */
     protected $subtitle;
 
-     * @return $this
+    /** @var int */
