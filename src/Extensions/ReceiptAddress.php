@@ -99,4 +99,5 @@ class ReceiptAddress implements JsonSerializable
     }
 
     /**
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
+     * @return array
+     */
