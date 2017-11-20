@@ -41,3 +41,4 @@ class ReceiptAdjustment implements JsonSerializable
         return $this;
     }
 
+    }
