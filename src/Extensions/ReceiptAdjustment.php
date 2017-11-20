@@ -16,3 +16,4 @@ class ReceiptAdjustment implements JsonSerializable
      * @param $name
      * @return static
      */
+{
