@@ -6,4 +6,5 @@ use JsonSerializable;
 
 class ReceiptAddress implements JsonSerializable
 {
-     * @param string $title
+    /** @var string */
+    }
