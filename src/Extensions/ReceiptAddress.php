@@ -102,4 +102,5 @@ class ReceiptAddress implements JsonSerializable
      * @return array
      */
     public function toArray()
-    protected $webview_height_ratio = self::RATIO_FULL;
+    {
+        $this->street_1 = $street;
