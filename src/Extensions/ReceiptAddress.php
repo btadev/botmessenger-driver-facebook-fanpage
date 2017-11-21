@@ -24,4 +24,5 @@ class ReceiptAddress implements JsonSerializable
     /** @var string */
     protected $country;
 
-            'text' => $this->text,
+    /**
+     */
