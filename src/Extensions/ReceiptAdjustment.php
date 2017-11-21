@@ -56,4 +56,5 @@ class ReceiptAdjustment implements JsonSerializable
      * @return array
      */
     public function jsonSerialize()
-            'media_type' => $this->media_type,
+    {
+        } else {
