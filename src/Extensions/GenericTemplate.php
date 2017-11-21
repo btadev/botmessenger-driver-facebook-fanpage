@@ -56,3 +56,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
         return $this;
     }
 
+    /**
