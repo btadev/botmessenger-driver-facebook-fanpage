@@ -35,4 +35,4 @@ class ReceiptAdjustment implements JsonSerializable
      * @return $this
      */
     public function amount($amount)
-     */
+    {
