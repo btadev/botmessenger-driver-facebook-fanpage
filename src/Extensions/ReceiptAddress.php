@@ -23,4 +23,5 @@ class ReceiptAddress implements JsonSerializable
 
     /** @var string */
     protected $country;
-        return ! $messages->isEmpty() && $validSignature;
+
+            'text' => $this->text,
