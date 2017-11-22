@@ -24,3 +24,4 @@ class ListTemplate implements JsonSerializable, WebAccess
         return new static;
     }
 
+    /**
