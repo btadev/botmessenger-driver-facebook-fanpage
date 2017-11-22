@@ -10,4 +10,5 @@ class ReceiptAdjustment implements JsonSerializable
     protected $name;
 
     /** @var int */
-     * @return string
+    protected $amount;
+<?php
