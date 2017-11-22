@@ -16,3 +16,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
         self::RATIO_SQUARE,
     ];
 
+    /** @var array */
