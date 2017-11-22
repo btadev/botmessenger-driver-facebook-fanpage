@@ -28,4 +28,5 @@ class ReceiptElement implements JsonSerializable
      * @param $title
      * @return static
      */
-    public function getName()
+    public static function create($title)
+     * @return $this
