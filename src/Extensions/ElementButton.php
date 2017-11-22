@@ -179,3 +179,4 @@ class ElementButton
                     $buttonArray['webview_share_button'] = $this->webview_share_button;
                 }
 
+                if ($this->messenger_extensions) {
