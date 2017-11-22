@@ -16,4 +16,5 @@ class ReceiptAdjustment implements JsonSerializable
      * @param $name
      * @return static
      */
-{
+    public static function create($name)
+}
