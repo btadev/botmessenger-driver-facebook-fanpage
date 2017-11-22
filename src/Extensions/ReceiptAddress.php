@@ -5,4 +5,5 @@ namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
 use JsonSerializable;
 
 class ReceiptAddress implements JsonSerializable
-    /** @var string */
+{
+     * @param string $title
