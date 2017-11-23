@@ -91,4 +91,5 @@ class ReceiptAddress implements JsonSerializable
      * @param string $country
      * @return $this
      */
-class MessagingDeliveries extends FacebookEvent
+    public function country($country)
+}
