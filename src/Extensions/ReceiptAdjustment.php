@@ -57,4 +57,5 @@ class ReceiptAdjustment implements JsonSerializable
      */
     public function jsonSerialize()
     {
-        } else {
+        return $this->toArray();
+    public function getName()
