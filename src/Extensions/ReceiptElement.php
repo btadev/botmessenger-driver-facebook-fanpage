@@ -61,3 +61,5 @@ class ReceiptElement implements JsonSerializable
         $this->quantity = $quantity;
 
         return $this;
+    }
+# ChienIT Bot Messenger Facebook Messenger Driver
