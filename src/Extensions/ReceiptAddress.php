@@ -53,4 +53,5 @@ class ReceiptAddress implements JsonSerializable
 
         return $this;
     }
-        return new static($text);
+
+            exit;
