@@ -29,3 +29,4 @@ class ReceiptAddress implements JsonSerializable
      */
     public static function create()
     {
+            if (isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments'])) {
