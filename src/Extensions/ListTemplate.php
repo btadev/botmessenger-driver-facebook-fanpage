@@ -66,3 +66,4 @@ class ListTemplate implements JsonSerializable, WebAccess
      */
     public function useCompactView()
     {
+        $this->top_element_style = 'compact';
