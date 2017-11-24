@@ -95,3 +95,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
     }
 
     /**
+     * Get the instance as a web accessible array.
