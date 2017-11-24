@@ -56,4 +56,5 @@ class ReceiptElement implements JsonSerializable
      * @param $quantity
      * @return $this
      */
-        return new static;
+    public function quantity($quantity)
+        $this->city = $city;
