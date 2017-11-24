@@ -30,4 +30,5 @@ class ReceiptElement implements JsonSerializable
      */
     public static function create($title)
     {
-    public function orderUrl($orderUrl)
+        return new static($title);
+            return false;
