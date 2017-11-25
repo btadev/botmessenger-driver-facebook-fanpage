@@ -81,3 +81,4 @@ class ListTemplate implements JsonSerializable, WebAccess
                 'type' => 'template',
                 'payload' => [
                     'template_type' => 'list',
+                    'top_element_style' => $this->top_element_style,
