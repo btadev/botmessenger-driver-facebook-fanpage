@@ -40,4 +40,5 @@ class ReceiptAddress implements JsonSerializable
     {
         $this->street_1 = $street;
 
-    protected $subtotal;
+        return $this;
+namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
