@@ -65,4 +65,5 @@ class ReceiptAddress implements JsonSerializable
         return $this;
     }
 
-     * @return array
+    /**
+use ChienIT\BotMessenger\Exceptions\Base\DriverException;
