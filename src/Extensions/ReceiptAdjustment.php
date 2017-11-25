@@ -53,4 +53,5 @@ class ReceiptAdjustment implements JsonSerializable
     }
 
     /**
-            'attachment' => [
+     * @return array
+class MessagingReads extends FacebookEvent
