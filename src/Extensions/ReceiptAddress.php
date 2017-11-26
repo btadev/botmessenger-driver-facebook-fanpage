@@ -73,4 +73,5 @@ class ReceiptAddress implements JsonSerializable
     {
         $this->postal_code = $postalCode;
 
-<?php
+        return $this;
+        $responseObject = json_decode($response->getContent());
