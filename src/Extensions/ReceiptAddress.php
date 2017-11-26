@@ -66,4 +66,5 @@ class ReceiptAddress implements JsonSerializable
     }
 
     /**
-use ChienIT\BotMessenger\Exceptions\Base\DriverException;
+     * @param $postalCode
+        return 'messaging_optins';
