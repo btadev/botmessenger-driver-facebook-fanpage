@@ -49,4 +49,4 @@ class ReceiptElement implements JsonSerializable
     {
         $this->subtitle = $subtitle;
 
-}
+        return $this;
