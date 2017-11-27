@@ -44,3 +44,4 @@ class ReceiptElement implements JsonSerializable
     /**
      * @param string $subtitle
      * @return $this
+     */
