@@ -54,4 +54,5 @@ class ReceiptAdjustment implements JsonSerializable
 
     /**
      * @return array
-class MessagingReads extends FacebookEvent
+     */
+
