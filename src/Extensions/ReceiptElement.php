@@ -38,3 +38,5 @@ class ReceiptElement implements JsonSerializable
      */
     public function __construct($title)
     {
+        $this->title = $title;
+class MessagingReferrals extends FacebookEvent
