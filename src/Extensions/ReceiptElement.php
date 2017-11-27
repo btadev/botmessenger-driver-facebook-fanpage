@@ -16,4 +16,5 @@ class ReceiptElement implements JsonSerializable
     protected $quantity;
 
     /** @var int */
-namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
+    protected $price = 0;
+
