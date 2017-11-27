@@ -82,4 +82,5 @@ class ReceiptAddress implements JsonSerializable
      */
     public function state($state)
     {
-# ChienIT Bot Messenger Facebook Messenger Driver
+        $this->state = $state;
+    /**
