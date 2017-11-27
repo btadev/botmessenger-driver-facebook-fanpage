@@ -192,3 +192,4 @@ class ElementButton
     }
 
     /**
+     * @return array
