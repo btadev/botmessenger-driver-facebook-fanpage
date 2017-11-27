@@ -101,4 +101,5 @@ class ReceiptAddress implements JsonSerializable
     /**
      * @return array
      */
-     * @return void
+    public function toArray()
+    protected $webview_height_ratio = self::RATIO_FULL;
