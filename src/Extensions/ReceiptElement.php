@@ -14,4 +14,4 @@ class ReceiptElement implements JsonSerializable
 
     /** @var int */
     protected $quantity;
-     * Execute the console command.
+
