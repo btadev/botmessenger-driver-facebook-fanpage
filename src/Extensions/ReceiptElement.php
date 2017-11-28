@@ -86,4 +86,5 @@ class ReceiptElement implements JsonSerializable
     }
 
     /**
+     * @param string $image_url
      */
