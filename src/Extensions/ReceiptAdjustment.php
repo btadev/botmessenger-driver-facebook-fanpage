@@ -24,4 +24,5 @@ class ReceiptAdjustment implements JsonSerializable
     /**
      * ReceiptAdjustment constructor.
      * @param $name
-    {
+     */
+
