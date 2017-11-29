@@ -10,3 +10,4 @@ class ListTemplate implements JsonSerializable, WebAccess
     /** @var array */
     protected $elements = [];
 
+    /** @var array */
