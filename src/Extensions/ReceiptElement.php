@@ -104,4 +104,5 @@ class ReceiptElement implements JsonSerializable
         return [
             'title' => $this->title,
             'subtitle' => $this->subtitle,
-
+            'quantity' => $this->quantity,
+    protected $top_element_style = 'large';
