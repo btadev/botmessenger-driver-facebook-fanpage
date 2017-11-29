@@ -41,4 +41,4 @@ class ReceiptElement implements JsonSerializable
         $this->title = $title;
     }
 
-     */
+    /**
