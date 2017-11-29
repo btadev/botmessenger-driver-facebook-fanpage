@@ -76,3 +76,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
     {
         return [
             'attachment' => [
+                'type' => 'template',
