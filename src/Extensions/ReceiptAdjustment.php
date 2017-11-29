@@ -34,4 +34,5 @@ class ReceiptAdjustment implements JsonSerializable
      * @param string $amount
      * @return $this
      */
-use Illuminate\Console\Command;
+    public function amount($amount)
+     */
