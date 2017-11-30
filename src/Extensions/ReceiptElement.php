@@ -36,4 +36,5 @@ class ReceiptElement implements JsonSerializable
     /**
      * @param string $title
      */
-            $this->error('You need to add a Facebook greeting text to your Bot Messenger Facebook config.');
+    public function __construct($title)
+    protected $summary;
