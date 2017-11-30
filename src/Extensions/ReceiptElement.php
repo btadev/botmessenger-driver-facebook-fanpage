@@ -67,3 +67,5 @@ class ReceiptElement implements JsonSerializable
      * @param $price
      * @return $this
      */
+    public function price($price)
+                return Collection::make($msg['message']['attachments'])->filter(function ($attachment) {
