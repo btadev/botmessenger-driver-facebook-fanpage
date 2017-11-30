@@ -24,3 +24,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
 
     /**
      * @return static
+     */
