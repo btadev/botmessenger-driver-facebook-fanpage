@@ -46,4 +46,5 @@ class ReceiptAdjustment implements JsonSerializable
      */
     public function toArray()
     {
-    /** @var string */
+        return [
+     */
