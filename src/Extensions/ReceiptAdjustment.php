@@ -6,4 +6,5 @@ use JsonSerializable;
 
 class ReceiptAdjustment implements JsonSerializable
 {
-            'subtotal' => $this->subtotal,
+    /** @var string */
+    }
