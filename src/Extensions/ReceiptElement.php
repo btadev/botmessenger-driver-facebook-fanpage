@@ -62,4 +62,5 @@ class ReceiptElement implements JsonSerializable
 
         return $this;
     }
-# ChienIT Bot Messenger Facebook Messenger Driver
+
+            $this->error('Something went wrong: '.$responseObject->error->message);
