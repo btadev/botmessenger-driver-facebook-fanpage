@@ -51,4 +51,5 @@ class ReceiptAdjustment implements JsonSerializable
             'amount' => $this->amount,
         ];
     }
-    /** @var int */
+
+            $this->info('Get Started payload was set to: '.$payload);
