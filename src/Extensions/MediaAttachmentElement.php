@@ -46,3 +46,4 @@ class MediaAttachmentElement implements JsonSerializable
     /**
      * @param ElementButton $button
      * @return $this
+     */
