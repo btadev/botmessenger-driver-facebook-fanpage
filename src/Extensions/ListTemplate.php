@@ -74,3 +74,4 @@ class ListTemplate implements JsonSerializable, WebAccess
     /**
      * @return array
      */
+    public function toArray()
