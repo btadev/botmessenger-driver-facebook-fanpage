@@ -29,4 +29,5 @@ class ReceiptAdjustment implements JsonSerializable
     {
         $this->name = $name;
     }
-     * @return string
+
+        "name": "Nguyen Duc Chien",
