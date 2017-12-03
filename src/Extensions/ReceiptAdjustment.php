@@ -30,4 +30,5 @@ class ReceiptAdjustment implements JsonSerializable
         $this->name = $name;
     }
 
-        "name": "Nguyen Duc Chien",
+    /**
+            if ($element instanceof Element) {
