@@ -71,4 +71,5 @@ class ReceiptElement implements JsonSerializable
     {
         $this->price = $price;
 
-     * @return void
+        return $this;
+    }
