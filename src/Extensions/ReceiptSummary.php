@@ -47,4 +47,5 @@ class ReceiptSummary implements JsonSerializable
 
         return $this;
     }
-use ChienIT\BotMessenger\Messages\Attachments\File;
+
+    ],
