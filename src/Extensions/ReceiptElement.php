@@ -110,4 +110,5 @@ class ReceiptElement implements JsonSerializable
             'image_url' => $this->image_url,
         ];
     }
-                    return (isset($attachment['type'])) && $attachment['type'] === 'image';
+
+        }
