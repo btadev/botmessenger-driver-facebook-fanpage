@@ -31,4 +31,5 @@ class ReceiptAdjustment implements JsonSerializable
     }
 
     /**
-            if ($element instanceof Element) {
+     * @param string $amount
+
