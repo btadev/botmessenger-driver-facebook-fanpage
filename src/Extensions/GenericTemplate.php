@@ -91,3 +91,4 @@ class GenericTemplate implements JsonSerializable, WebAccess
      */
     public function jsonSerialize()
     {
+        return $this->toArray();
