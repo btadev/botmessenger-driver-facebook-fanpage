@@ -54,4 +54,4 @@ class ReceiptElement implements JsonSerializable
 
     /**
      * @param $quantity
-        $responseObject = json_decode($response->getContent());
+     * @return $this
