@@ -54,4 +54,4 @@ class ReceiptSummary implements JsonSerializable
      */
     public function totalTax($totalTax)
     {
-        $this->media_type = $mediaType;
+        $this->total_tax = $totalTax;
