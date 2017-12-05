@@ -47,3 +47,4 @@ class ReceiptElement implements JsonSerializable
      */
     public function subtitle($subtitle)
     {
+        return [
