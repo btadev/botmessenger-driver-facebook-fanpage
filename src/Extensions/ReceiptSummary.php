@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
 
-
+use JsonSerializable;
+use ChienIT\BotMessenger\Exceptions\Base\DriverException;
