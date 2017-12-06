@@ -102,4 +102,5 @@ class ReceiptElement implements JsonSerializable
     public function toArray()
     {
         return [
-
+            'title' => $this->title,
+            $this->loadMessages();
