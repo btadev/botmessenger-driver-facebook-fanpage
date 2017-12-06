@@ -15,3 +15,4 @@ class MediaAttachmentElement implements JsonSerializable
     /** @var array */
     protected $buttons;
 
+    /**
