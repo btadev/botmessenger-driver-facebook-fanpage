@@ -54,3 +54,4 @@ class ListTemplate implements JsonSerializable, WebAccess
      * @param ElementButton $button
      * @return $this
      */
+    public function addGlobalButton(ElementButton $button)
