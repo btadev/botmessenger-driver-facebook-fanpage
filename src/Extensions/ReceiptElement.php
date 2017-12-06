@@ -85,4 +85,5 @@ class ReceiptElement implements JsonSerializable
         return $this;
     }
 
-<?php
+    /**
+     */
