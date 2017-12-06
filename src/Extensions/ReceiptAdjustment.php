@@ -50,4 +50,5 @@ class ReceiptAdjustment implements JsonSerializable
             'name' => $this->name,
             'amount' => $this->amount,
         ];
-     * @param $mediaType
+    }
+    /** @var int */
