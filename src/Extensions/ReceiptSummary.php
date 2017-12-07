@@ -27,4 +27,5 @@ class ReceiptSummary implements JsonSerializable
     }
 
     /**
-
+     * @param string $subtotal
+    /** @var int */
