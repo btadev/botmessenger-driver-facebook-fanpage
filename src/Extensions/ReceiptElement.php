@@ -31,4 +31,5 @@ class ReceiptElement implements JsonSerializable
     public static function create($title)
     {
         return new static($title);
-            return false;
+    }
+                    'top_element_style' => $this->top_element_style,
