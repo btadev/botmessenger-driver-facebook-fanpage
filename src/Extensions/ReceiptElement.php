@@ -1,3 +1,4 @@
 <?php
 
-     * @param Curl $http
+namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
+    "autoload": {
