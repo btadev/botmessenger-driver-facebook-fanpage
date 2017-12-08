@@ -58,4 +58,5 @@ class ReceiptElement implements JsonSerializable
      */
     public function quantity($quantity)
     {
-        if (in_array($ratio, self::$allowedRatios)) {
+        $this->quantity = $quantity;
+            if ($adjustment instanceof ReceiptAdjustment) {
