@@ -38,3 +38,4 @@ class ListTemplate implements JsonSerializable, WebAccess
     /**
      * @param array $elements
      * @return $this
+     */
