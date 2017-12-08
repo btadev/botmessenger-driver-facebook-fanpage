@@ -23,4 +23,5 @@ class ReceiptSummary implements JsonSerializable
      */
     public static function create()
     {
-     */
+        return new static;
+    {
