@@ -13,4 +13,5 @@ class ReceiptSummary implements JsonSerializable
     protected $shipping_cost;
 
     /** @var int */
-            'subtitle' => $this->subtitle,
+    protected $total_tax;
+    {
