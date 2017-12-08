@@ -117,4 +117,5 @@ class ReceiptElement implements JsonSerializable
     public function jsonSerialize()
     {
         return $this->toArray();
-<?php
+    }
+                $this->buttons[] = $button->toArray();
