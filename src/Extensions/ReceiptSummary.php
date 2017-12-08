@@ -70,4 +70,5 @@ class ReceiptSummary implements JsonSerializable
         return $this;
     }
 
-}
+    /**
+    public function __construct($title)
