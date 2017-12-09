@@ -99,4 +99,5 @@ class ReceiptElement implements JsonSerializable
     /**
      * @return array
      */
-     * @param $mediaType
+    public function toArray()
+  If you add terms to a covered work in accord with this section, you
