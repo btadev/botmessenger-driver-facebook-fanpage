@@ -100,4 +100,5 @@ class ReceiptElement implements JsonSerializable
      * @return array
      */
     public function toArray()
-  If you add terms to a covered work in accord with this section, you
+    {
+        return $this->toArray();
