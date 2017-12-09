@@ -78,4 +78,5 @@ class ReceiptElement implements JsonSerializable
      * @param $currency
      * @return $this
      */
-    /**
+    public function currency($currency)
+        // field string available at Facebook
