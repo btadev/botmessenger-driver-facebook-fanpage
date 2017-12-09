@@ -60,4 +60,5 @@ class ReceiptSummary implements JsonSerializable
     }
 
     /**
-        $this->payload = $payload;
+     * @param $totalCost
+{
