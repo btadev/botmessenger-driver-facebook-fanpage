@@ -8,4 +8,5 @@ use ChienIT\BotMessenger\Interfaces\WebAccess;
 class ReceiptTemplate implements JsonSerializable, WebAccess
 {
     /** @var string */
-                    return (isset($attachment['type'])) && $attachment['type'] === 'image';
+    protected $recipient_name;
+
