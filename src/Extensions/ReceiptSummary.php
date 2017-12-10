@@ -37,4 +37,5 @@ class ReceiptSummary implements JsonSerializable
         return $this;
     }
 
-            "ChienIT\\BotMessenger\\Drivers\\Facebook\\": "src/"
+    /**
+            'text' => $this->text,
