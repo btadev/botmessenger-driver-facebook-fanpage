@@ -65,4 +65,5 @@ class ReceiptElement implements JsonSerializable
 
     /**
      * @param $price
-     */
+     * @return $this
+            }
