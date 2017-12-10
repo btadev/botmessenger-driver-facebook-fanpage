@@ -17,3 +17,4 @@ class ListTemplate implements JsonSerializable, WebAccess
     protected $top_element_style = 'large';
 
     /**
+     * @return static
