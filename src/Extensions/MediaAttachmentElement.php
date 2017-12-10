@@ -6,3 +6,4 @@ use JsonSerializable;
 
 class MediaAttachmentElement implements JsonSerializable
 {
+    /** @var string */
