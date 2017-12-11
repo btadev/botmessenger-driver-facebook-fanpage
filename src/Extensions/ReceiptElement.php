@@ -32,4 +32,4 @@ class ReceiptElement implements JsonSerializable
     {
         return new static($title);
     }
-                    'top_element_style' => $this->top_element_style,
+
