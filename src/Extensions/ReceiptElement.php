@@ -91,4 +91,5 @@ class ReceiptElement implements JsonSerializable
      */
     public function image($image_url)
     {
-    protected $url;
+        $this->image_url = $image_url;
+        "Messenger"
