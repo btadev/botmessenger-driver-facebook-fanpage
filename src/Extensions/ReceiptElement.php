@@ -93,4 +93,5 @@ class ReceiptElement implements JsonSerializable
     {
         $this->image_url = $image_url;
 
-     * Retrieve the chat message.
+        return $this;
+}
