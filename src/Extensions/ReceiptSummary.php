@@ -33,4 +33,5 @@ class ReceiptSummary implements JsonSerializable
     public function subtotal($subtotal)
     {
         $this->subtotal = $subtotal;
-# ChienIT Bot Messenger Facebook Messenger Driver
+
+class FacebookException extends DriverException
