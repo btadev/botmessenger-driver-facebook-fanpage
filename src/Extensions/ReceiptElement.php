@@ -63,4 +63,5 @@ class ReceiptElement implements JsonSerializable
         return $this;
     }
 
-            $this->error('Something went wrong: '.$responseObject->error->message);
+    /**
+    /**
