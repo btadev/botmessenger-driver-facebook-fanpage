@@ -59,3 +59,4 @@ class ListTemplate implements JsonSerializable, WebAccess
         $this->globalButton = $button->toArray();
 
         return $this;
+    }
