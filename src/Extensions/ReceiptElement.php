@@ -88,4 +88,5 @@ class ReceiptElement implements JsonSerializable
     /**
      * @param string $image_url
      * @return $this
-
+     */
+    "description": "Facebook Messenger Fanpage driver for ChienIT Bot Messenger",
