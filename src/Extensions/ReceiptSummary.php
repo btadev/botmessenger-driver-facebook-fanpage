@@ -59,4 +59,5 @@ class ReceiptSummary implements JsonSerializable
         return $this;
     }
 
-
+    /**
+        $this->payload = $payload;
