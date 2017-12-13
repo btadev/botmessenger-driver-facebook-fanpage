@@ -11,4 +11,5 @@ class ReceiptSummary implements JsonSerializable
 
     /** @var int */
     protected $shipping_cost;
-    public static function create($title = '')
+
+            if ($this->option('disable')) {
