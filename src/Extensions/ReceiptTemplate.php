@@ -26,4 +26,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     protected $order_url;
 
     /** @var string */
-class MessagingCheckoutUpdates extends FacebookEvent
+    protected $timestamp;
+     * @param $url
