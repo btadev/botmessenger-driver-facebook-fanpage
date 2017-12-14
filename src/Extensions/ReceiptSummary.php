@@ -36,4 +36,5 @@ class ReceiptSummary implements JsonSerializable
 
         return $this;
     }
-        return isset($this->user_info['last_ad_referral']) ? $this->user_info['last_ad_referral'] : null;
+
+            "ChienIT\\BotMessenger\\Drivers\\Facebook\\": "src/"
