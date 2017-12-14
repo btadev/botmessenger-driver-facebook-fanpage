@@ -75,4 +75,5 @@ class ReceiptSummary implements JsonSerializable
      */
     public function toArray()
     {
-                $this->buttons[] = $button->toArray();
+        return [
+     * @return array
