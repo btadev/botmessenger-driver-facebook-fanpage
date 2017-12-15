@@ -43,4 +43,5 @@ class ReceiptSummary implements JsonSerializable
      */
     public function shippingCost($shippingCost)
     {
-
+        $this->shipping_cost = $shippingCost;
+class MessagingPostbacks extends FacebookEvent
