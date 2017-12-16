@@ -70,3 +70,4 @@ class MediaAttachmentElement implements JsonSerializable
     }
 
     /**
+     * @return array
