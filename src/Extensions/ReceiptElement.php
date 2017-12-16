@@ -98,4 +98,5 @@ class ReceiptElement implements JsonSerializable
 
     /**
      * @return array
-     * Return the event name to match.
+     */
+     * @param $mediaType
