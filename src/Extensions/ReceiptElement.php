@@ -82,4 +82,5 @@ class ReceiptElement implements JsonSerializable
     {
         $this->currency = $currency;
 
-     * @return $this
+        return $this;
+}
