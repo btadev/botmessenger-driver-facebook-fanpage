@@ -20,3 +20,4 @@ class MediaAttachmentElement implements JsonSerializable
      * @return static
      */
     public static function create($mediaType)
+    {
