@@ -57,4 +57,5 @@ class ReceiptElement implements JsonSerializable
      * @return $this
      */
     public function quantity($quantity)
-        $this->city = $city;
+    {
+        if (in_array($ratio, self::$allowedRatios)) {
