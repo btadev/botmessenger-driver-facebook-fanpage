@@ -85,4 +85,5 @@ class ReceiptSummary implements JsonSerializable
 
     /**
      * @return array
-use ChienIT\BotMessenger\Exceptions\Base\DriverException;
+     */
+any patent claim is infringed by making, using, selling, offering for
