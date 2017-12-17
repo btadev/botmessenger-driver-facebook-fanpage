@@ -16,4 +16,4 @@ class ReceiptSummary implements JsonSerializable
     protected $total_tax;
 
     /** @var int */
-<?php
+    protected $total_cost;
