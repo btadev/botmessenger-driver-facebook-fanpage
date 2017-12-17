@@ -86,4 +86,5 @@ class ReceiptSummary implements JsonSerializable
     /**
      * @return array
      */
-any patent claim is infringed by making, using, selling, offering for
+    public function jsonSerialize()
+    }
