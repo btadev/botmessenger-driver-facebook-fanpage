@@ -10,4 +10,5 @@ class ReceiptSummary implements JsonSerializable
     protected $subtotal;
 
     /** @var int */
-     * @param $attachmentId
+    protected $shipping_cost;
+    public static function create($title = '')
