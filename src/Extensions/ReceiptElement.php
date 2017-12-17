@@ -114,4 +114,5 @@ class ReceiptElement implements JsonSerializable
     /**
      * @return array
      */
-
+    public function jsonSerialize()
+     * @param $attachmentId
