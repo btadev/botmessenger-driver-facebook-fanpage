@@ -28,3 +28,4 @@ class MediaUrlElement implements JsonSerializable
      * @param $mediaType
      */
     public function __construct($mediaType)
+    {
