@@ -19,4 +19,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     /** @var string */
     protected $currency;
 
-class FacebookException extends DriverException
+    /** @var string */
+     * @param string $country
