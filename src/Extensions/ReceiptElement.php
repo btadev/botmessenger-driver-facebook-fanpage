@@ -118,4 +118,5 @@ class ReceiptElement implements JsonSerializable
     {
         return $this->toArray();
     }
-                $this->buttons[] = $button->toArray();
+}
+{
