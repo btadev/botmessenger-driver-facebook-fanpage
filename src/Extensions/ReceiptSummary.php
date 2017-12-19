@@ -41,4 +41,5 @@ class ReceiptSummary implements JsonSerializable
      * @param string $shippingCost
      * @return $this
      */
-     * @return string
+    public function shippingCost($shippingCost)
+<?php
