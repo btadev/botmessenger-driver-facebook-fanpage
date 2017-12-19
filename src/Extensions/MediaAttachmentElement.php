@@ -61,3 +61,4 @@ class MediaAttachmentElement implements JsonSerializable
     public function addButtons(array $buttons)
     {
         foreach ($buttons as $button) {
+            if ($button instanceof ElementButton) {
