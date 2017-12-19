@@ -91,4 +91,3 @@ class ReceiptSummary implements JsonSerializable
         return $this->toArray();
     }
 }
-    protected $price = 0;
