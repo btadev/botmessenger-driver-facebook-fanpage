@@ -74,3 +74,4 @@ class MediaAttachmentElement implements JsonSerializable
      */
     public function toArray()
     {
+        return [
