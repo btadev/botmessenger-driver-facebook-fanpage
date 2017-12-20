@@ -20,4 +20,5 @@ class ReceiptSummary implements JsonSerializable
 
     /**
      * @return static
-    {
+     */
+    /**
