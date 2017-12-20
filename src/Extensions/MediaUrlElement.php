@@ -25,3 +25,4 @@ class MediaUrlElement implements JsonSerializable
     }
 
     /**
+     * @param $mediaType
