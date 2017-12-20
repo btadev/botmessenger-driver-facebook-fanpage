@@ -106,4 +106,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     /**
      * @param $orderUrl
      * @return $this
-namespace ChienIT\BotMessenger\Drivers\Facebook\Exceptions;
+     */
+    /**
