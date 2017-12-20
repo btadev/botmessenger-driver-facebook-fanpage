@@ -88,3 +88,4 @@ class MediaAttachmentElement implements JsonSerializable
     {
         return $this->toArray();
     }
+}
