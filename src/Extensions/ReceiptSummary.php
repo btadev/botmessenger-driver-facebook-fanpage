@@ -46,4 +46,5 @@ class ReceiptSummary implements JsonSerializable
         $this->shipping_cost = $shippingCost;
 
         return $this;
-
+    }
+use ChienIT\BotMessenger\Messages\Attachments\File;
