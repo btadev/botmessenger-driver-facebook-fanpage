@@ -74,4 +74,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      * @param $orderNumber
      * @return $this
      */
-        return $this->messages;
+    public function orderNumber($orderNumber)
+        $payload = config('facebook.whitelisted_domains');
