@@ -13,3 +13,4 @@ class MediaUrlElement implements JsonSerializable
     protected $url;
 
     /** @var array */
+    protected $buttons;
