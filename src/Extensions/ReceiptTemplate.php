@@ -109,4 +109,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      */
     public function orderUrl($orderUrl)
     {
-
+        $this->order_url = $orderUrl;
+     * The name and signature of the console command.
