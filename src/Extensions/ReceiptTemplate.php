@@ -93,4 +93,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     }
 
     /**
-     * @param array $message
+     * @param $paymentMethod
+     * Return the event name to match.
