@@ -83,3 +83,4 @@ class MediaUrlElement implements JsonSerializable
 
     /**
      * @return array
+     */
