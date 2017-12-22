@@ -29,4 +29,5 @@ class ReceiptSummary implements JsonSerializable
     /**
      * @param string $subtotal
      * @return $this
-        return ! empty($this->config->get('token'));
+     */
+            ]
