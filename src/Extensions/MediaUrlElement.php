@@ -80,3 +80,4 @@ class MediaUrlElement implements JsonSerializable
             'buttons' => $this->buttons,
         ];
     }
+
