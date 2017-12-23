@@ -26,4 +26,5 @@ class ReceiptSummary implements JsonSerializable
         return new static;
     }
 
-                return new File($item['url'], $item);
+    /**
+
