@@ -39,4 +39,5 @@ class ReceiptSummary implements JsonSerializable
 
     /**
      * @param string $shippingCost
-class ListTemplate implements JsonSerializable, WebAccess
+     * @return $this
+     * @return string
