@@ -142,4 +142,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      */
     public function addElements(array $elements)
     {
-                    return (isset($attachment['type'])) && $attachment['type'] === 'image';
+        foreach ($elements as $element) {
+
