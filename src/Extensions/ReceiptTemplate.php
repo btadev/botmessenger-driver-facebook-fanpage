@@ -43,4 +43,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     /**
      * @return static
      */
-<?php
+    public static function create()
+    {
