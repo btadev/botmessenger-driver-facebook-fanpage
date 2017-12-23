@@ -59,4 +59,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
         return $this;
     }
 
-    {
+    /**
+        $payload = config('facebook.whitelisted_domains');
