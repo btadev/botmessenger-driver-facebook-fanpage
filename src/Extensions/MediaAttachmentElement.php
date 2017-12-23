@@ -81,3 +81,4 @@ class MediaAttachmentElement implements JsonSerializable
         ];
     }
 
+    /**
