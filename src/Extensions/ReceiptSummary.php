@@ -38,4 +38,5 @@ class ReceiptSummary implements JsonSerializable
     }
 
     /**
-            'text' => $this->text,
+     * @param string $shippingCost
+class ListTemplate implements JsonSerializable, WebAccess
