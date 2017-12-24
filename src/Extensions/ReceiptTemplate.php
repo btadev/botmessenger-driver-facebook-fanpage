@@ -63,4 +63,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      * @param $name
      * @return $this
      */
-class FacebookException extends DriverException
+    public function merchantName($name)
+<?php
