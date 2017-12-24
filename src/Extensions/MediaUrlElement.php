@@ -39,3 +39,4 @@ class MediaUrlElement implements JsonSerializable
     public function url($url)
     {
         $this->url = $url;
+
