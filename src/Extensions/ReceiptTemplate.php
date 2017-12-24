@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
 
-    public function getName()
+use JsonSerializable;
+class MessagingDeliveries extends FacebookEvent
