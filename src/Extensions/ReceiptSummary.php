@@ -34,4 +34,5 @@ class ReceiptSummary implements JsonSerializable
     {
         $this->subtotal = $subtotal;
 
-class FacebookException extends DriverException
+        return $this;
+     * @return $this
