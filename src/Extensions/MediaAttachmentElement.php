@@ -65,3 +65,4 @@ class MediaAttachmentElement implements JsonSerializable
                 $this->buttons[] = $button->toArray();
             }
         }
+
