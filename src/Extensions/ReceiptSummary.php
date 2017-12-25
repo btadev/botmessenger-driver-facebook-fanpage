@@ -45,3 +45,5 @@ class ReceiptSummary implements JsonSerializable
     {
         $this->shipping_cost = $shippingCost;
 
+        return $this;
+
