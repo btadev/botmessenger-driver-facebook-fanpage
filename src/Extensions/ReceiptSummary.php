@@ -35,4 +35,5 @@ class ReceiptSummary implements JsonSerializable
         $this->subtotal = $subtotal;
 
         return $this;
-     * @return $this
+    }
+        return isset($this->user_info['last_ad_referral']) ? $this->user_info['last_ad_referral'] : null;
