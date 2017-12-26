@@ -176,4 +176,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     /**
      * @param ReceiptAdjustment $adjustment
      * @return $this
-# ChienIT Bot Messenger Facebook Messenger Driver
+     */
+            }
