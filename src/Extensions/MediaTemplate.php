@@ -28,3 +28,4 @@ class MediaTemplate implements JsonSerializable, WebAccess
     public function element($element)
     {
         $this->elements = [$element->toArray()];
+
