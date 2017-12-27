@@ -95,4 +95,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     /**
      * @param $paymentMethod
      * @return $this
-     * Load Facebook messages.
+     */
+                $buttonArray['webview_height_ratio'] = $this->webview_height_ratio;
