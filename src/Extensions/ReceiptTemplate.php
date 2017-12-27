@@ -130,4 +130,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      * @return $this
      */
     public function addElement(ReceiptElement $element)
-{
+    {
+
