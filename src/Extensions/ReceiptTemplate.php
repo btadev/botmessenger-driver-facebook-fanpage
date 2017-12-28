@@ -46,4 +46,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     public static function create()
     {
         return new static;
-
+    }
