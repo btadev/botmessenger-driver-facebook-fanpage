@@ -77,4 +77,5 @@ class ReceiptSummary implements JsonSerializable
     {
         return [
             'subtotal' => $this->subtotal,
-    /**
+            'shipping_cost' => $this->shipping_cost,
+
