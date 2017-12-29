@@ -203,4 +203,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      * @return array
      */
     public function toArray()
-class ListTemplate implements JsonSerializable, WebAccess
+    {
+     */
