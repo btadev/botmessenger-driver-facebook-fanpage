@@ -7,3 +7,4 @@ use ChienIT\BotMessenger\Interfaces\WebAccess;
 
 class MediaTemplate implements JsonSerializable, WebAccess
 {
+    /** @var string */
