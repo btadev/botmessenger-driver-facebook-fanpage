@@ -17,3 +17,4 @@ class MediaTemplate implements JsonSerializable, WebAccess
      * @return static
      */
     public static function create()
+    {
