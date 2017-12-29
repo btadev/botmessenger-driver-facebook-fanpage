@@ -148,4 +148,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
             }
         }
 
-        return $this->toArray();
+        return $this;
+
