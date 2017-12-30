@@ -18,4 +18,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
 
     /** @var string */
     protected $currency;
-    public function addButton(ElementButton $button)
+
+class FacebookException extends DriverException
