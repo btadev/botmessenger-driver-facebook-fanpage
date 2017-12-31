@@ -22,3 +22,4 @@ class MediaUrlElement implements JsonSerializable
     public static function create($mediaType)
     {
         return new static($mediaType);
+    }
