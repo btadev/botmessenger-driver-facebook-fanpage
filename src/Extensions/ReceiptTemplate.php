@@ -107,4 +107,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      * @param $orderUrl
      * @return $this
      */
-    /**
+    public function orderUrl($orderUrl)
+    public function isConfigured()
