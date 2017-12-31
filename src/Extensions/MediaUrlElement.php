@@ -52,3 +52,4 @@ class MediaUrlElement implements JsonSerializable
         $this->buttons[] = $button->toArray();
 
         return $this;
+    }
