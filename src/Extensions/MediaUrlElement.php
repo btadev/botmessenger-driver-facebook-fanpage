@@ -50,3 +50,4 @@ class MediaUrlElement implements JsonSerializable
     public function addButton(ElementButton $button)
     {
         $this->buttons[] = $button->toArray();
+
