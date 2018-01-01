@@ -25,3 +25,4 @@ class MediaTemplate implements JsonSerializable, WebAccess
      * @param $element
      * @return $this
      */
+    public function element($element)
