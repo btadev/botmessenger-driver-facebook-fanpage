@@ -234,4 +234,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     }
 
     /**
-    public function getName()
+     * Get the instance as a web accessible array.
+        return $this;
