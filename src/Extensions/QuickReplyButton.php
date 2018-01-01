@@ -66,3 +66,4 @@ class QuickReplyButton implements QuestionActionInterface
      *
      * @param string $url
      * @return $this
+     */
