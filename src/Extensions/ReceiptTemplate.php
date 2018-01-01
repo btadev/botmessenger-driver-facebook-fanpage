@@ -29,3 +29,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     protected $timestamp;
 
     /** @var array */
+    protected $elements = [];
+GNU General Public License for most of our software; it applies also to
