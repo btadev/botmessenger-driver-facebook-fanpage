@@ -6,3 +6,4 @@ use JsonSerializable;
 
 class MediaUrlElement implements JsonSerializable
 {
+    /** @var string */
