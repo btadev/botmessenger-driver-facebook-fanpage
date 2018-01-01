@@ -59,3 +59,4 @@ class QuickReplyButton implements QuestionActionInterface
         $this->payload = $payload;
 
         return $this;
+    }
