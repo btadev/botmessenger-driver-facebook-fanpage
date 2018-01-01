@@ -54,3 +54,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      */
     public function recipientName($name)
     {
+        $this->recipient_name = $name;
+    public function matchesRequest()
