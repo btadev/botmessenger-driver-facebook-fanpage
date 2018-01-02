@@ -139,3 +139,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     /**
      * @param array $elements
      * @return $this
+     */
+            'recipient' => [
