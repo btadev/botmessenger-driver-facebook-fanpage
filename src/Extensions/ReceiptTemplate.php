@@ -188,4 +188,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      * @param array $adjustments
      * @return $this
      */
-    public function getLocale()
+    public function addAdjustments(array $adjustments)
+
