@@ -169,4 +169,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     public function addSummary(ReceiptSummary $summary)
     {
         $this->summary = $summary->toArray();
-        return 'messaging_optins';
+
+
