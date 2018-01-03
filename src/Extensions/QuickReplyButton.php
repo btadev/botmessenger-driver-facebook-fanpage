@@ -10,3 +10,4 @@ class QuickReplyButton implements QuestionActionInterface
     protected $contentType = self::TYPE_TEXT;
 
     /** @var string */
+    protected $title;
