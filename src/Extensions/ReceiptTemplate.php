@@ -152,4 +152,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     }
 
     /**
-    const TYPE_MESSAGE_TAG = 'MESSAGE_TAG';
+     * @param ReceiptAddress $address
+     * @param $mediaType
