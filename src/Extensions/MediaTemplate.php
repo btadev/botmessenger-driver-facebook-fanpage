@@ -64,3 +64,4 @@ class MediaTemplate implements JsonSerializable, WebAccess
      */
     public function toWebDriver()
     {
+        return [
