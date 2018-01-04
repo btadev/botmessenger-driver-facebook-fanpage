@@ -204,4 +204,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      */
     public function toArray()
     {
-     */
+        return [
+                $this->info('NLP was enabled.');
