@@ -94,4 +94,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
 
     /**
      * @param $paymentMethod
-     * Return the event name to match.
+     * @return $this
+     * Load Facebook messages.
