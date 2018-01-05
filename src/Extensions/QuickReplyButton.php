@@ -28,3 +28,4 @@ class QuickReplyButton implements QuestionActionInterface
     {
         return new static($title);
     }
+
