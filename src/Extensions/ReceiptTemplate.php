@@ -96,4 +96,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      * @param $paymentMethod
      * @return $this
      */
-                $buttonArray['webview_height_ratio'] = $this->webview_height_ratio;
+    public function paymentMethod($paymentMethod)
+    /**
