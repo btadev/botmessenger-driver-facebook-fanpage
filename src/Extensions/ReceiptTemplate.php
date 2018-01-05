@@ -239,4 +239,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      *
      * @return array
      */
-<?php
+    public function toWebDriver()
+    /**
