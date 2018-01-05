@@ -31,3 +31,4 @@ class ReceiptAddress implements JsonSerializable
     {
         return new static;
     }
+
