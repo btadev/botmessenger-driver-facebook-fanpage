@@ -192,4 +192,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     {
         foreach ($adjustments as $adjustment) {
             if ($adjustment instanceof ReceiptAdjustment) {
-    protected $item_url;
+                $this->adjustments[] = $adjustment->toArray();
