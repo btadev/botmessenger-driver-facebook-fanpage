@@ -252,4 +252,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
             'timestamp' => $this->timestamp,
             'elements' => $this->elements,
             'address' => $this->address,
-            $this->error('Something went wrong: '.$responseObject->error->message);
+            'summary' => $this->summary,
+        $response = $this->http->post(
