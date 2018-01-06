@@ -26,4 +26,5 @@ class User extends BotMessengerUser implements UserInterface
         $this->user_info = (array) $user_info;
     }
 
-     * @return array
+    /**
+    }
