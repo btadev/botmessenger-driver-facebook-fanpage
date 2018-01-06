@@ -82,4 +82,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     }
 
     /**
-     */
+     * @param $currency
+    private static $allowedRatios = [
