@@ -56,4 +56,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     {
         $this->recipient_name = $name;
 
-class ReceiptSummary implements JsonSerializable
+        return $this;
+
