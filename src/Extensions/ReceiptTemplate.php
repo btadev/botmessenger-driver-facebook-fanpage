@@ -182,4 +182,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
         $this->adjustments[] = $adjustment->toArray();
 
         return $this;
-     * @param $name
+    }
+
