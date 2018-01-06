@@ -47,3 +47,4 @@ class MediaUrlElement implements JsonSerializable
      * @param ElementButton $button
      * @return $this
      */
+    public function addButton(ElementButton $button)
