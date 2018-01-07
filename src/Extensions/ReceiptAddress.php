@@ -30,3 +30,4 @@ class ReceiptAddress implements JsonSerializable
     public static function create()
     {
         return new static;
+    }
