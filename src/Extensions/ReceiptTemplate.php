@@ -253,4 +253,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
             'elements' => $this->elements,
             'address' => $this->address,
             'summary' => $this->summary,
-        $response = $this->http->post(
+            'adjustments' => $this->adjustments,
+        if (empty($this->messages)) {
