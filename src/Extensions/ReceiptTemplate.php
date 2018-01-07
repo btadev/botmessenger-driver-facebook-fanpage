@@ -210,4 +210,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
                 'payload' => [
                     'template_type' => 'receipt',
                     'recipient_name' => $this->recipient_name,
+                    'merchant_name' => $this->merchant_name,
 
