@@ -30,3 +30,4 @@ class QuickReplyButton implements QuestionActionInterface
     }
 
     /**
+     * @param string $title
