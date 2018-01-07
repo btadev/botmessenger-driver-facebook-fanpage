@@ -65,4 +65,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      */
     public function merchantName($name)
     {
-    protected $media_type;
+        $this->merchant_name = $name;
