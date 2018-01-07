@@ -35,4 +35,5 @@ class User extends BotMessengerUser implements UserInterface
             return $this->user_info['profile_pic'];
         }
 
-    /**
+        // Workplace (Facebook for companies) uses picture parameter
+{
