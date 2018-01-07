@@ -10,3 +10,4 @@ class ReceiptAddress implements JsonSerializable
     protected $street_1;
 
     /** @var string */
+    protected $street_2;
