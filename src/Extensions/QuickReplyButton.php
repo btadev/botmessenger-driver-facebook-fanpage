@@ -18,3 +18,4 @@ class QuickReplyButton implements QuestionActionInterface
     /** @var string */
     protected $imageUrl;
 
+    const TYPE_TEXT = 'text';
