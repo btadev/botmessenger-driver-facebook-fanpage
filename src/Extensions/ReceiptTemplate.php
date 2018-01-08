@@ -217,4 +217,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
                     'order_url' => $this->order_url,
                     'timestamp' => $this->timestamp,
                     'elements' => $this->elements,
-    public function jsonSerialize()
+                    'address' => $this->address,
+                ],
