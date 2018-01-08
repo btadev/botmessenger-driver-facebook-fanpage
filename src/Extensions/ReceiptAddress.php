@@ -22,3 +22,4 @@ class ReceiptAddress implements JsonSerializable
     protected $state;
 
     /** @var string */
+    protected $country;
