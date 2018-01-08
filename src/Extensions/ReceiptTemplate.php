@@ -138,4 +138,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
 
     /**
      * @param array $elements
-    protected function loadMessages()
+     * @return $this
