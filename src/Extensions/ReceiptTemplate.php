@@ -185,4 +185,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     }
 
     /**
-        } else {
+     * @param array $adjustments
