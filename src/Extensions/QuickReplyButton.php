@@ -63,3 +63,4 @@ class QuickReplyButton implements QuestionActionInterface
 
     /**
      * Set the button URL.
+     *
