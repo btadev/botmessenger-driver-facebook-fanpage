@@ -74,3 +74,4 @@ class MediaUrlElement implements JsonSerializable
      */
     public function toArray()
     {
+        return [
