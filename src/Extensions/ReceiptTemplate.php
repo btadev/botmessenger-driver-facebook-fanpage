@@ -113,4 +113,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
 
         return $this;
     }
-        if (empty($this->messages)) {
+
+
