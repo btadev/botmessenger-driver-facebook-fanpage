@@ -49,3 +49,4 @@ class ReceiptAddress implements JsonSerializable
      */
     public function street2($street)
     {
+        $this->street_2 = $street;
