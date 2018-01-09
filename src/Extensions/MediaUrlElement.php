@@ -81,3 +81,4 @@ class MediaUrlElement implements JsonSerializable
         ];
     }
 
+    /**
