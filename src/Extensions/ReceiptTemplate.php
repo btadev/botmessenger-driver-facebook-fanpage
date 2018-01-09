@@ -131,4 +131,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      */
     public function addElement(ReceiptElement $element)
     {
-
+        $this->elements[] = $element->toArray();
+{
