@@ -135,4 +135,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
 
         return $this;
     }
-class MessagingReads extends FacebookEvent
+
+
