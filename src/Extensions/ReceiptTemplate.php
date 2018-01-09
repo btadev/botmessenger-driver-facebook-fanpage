@@ -233,4 +233,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
         return $this->toArray();
     }
 
-class FacebookImageDriver extends FacebookDriver
+    /**
+    public function getName()
