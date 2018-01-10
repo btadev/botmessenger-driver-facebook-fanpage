@@ -54,3 +54,4 @@ class QuickReplyButton implements QuestionActionInterface
      * @param $payload
      * @return $this
      */
+    public function payload($payload)
