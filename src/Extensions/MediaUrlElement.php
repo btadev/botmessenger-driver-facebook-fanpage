@@ -64,3 +64,4 @@ class MediaUrlElement implements JsonSerializable
             if ($button instanceof ElementButton) {
                 $this->buttons[] = $button->toArray();
             }
+        }
