@@ -61,4 +61,5 @@ class User extends BotMessengerUser implements UserInterface
      * @return string
      */
     public function getGender()
-            }
+    {
+    public function __construct($payload)
