@@ -55,4 +55,4 @@ class User extends BotMessengerUser implements UserInterface
     public function getTimezone()
     {
         return isset($this->user_info['timezone']) ? $this->user_info['timezone'] : null;
-class MediaTemplate implements JsonSerializable, WebAccess
+    }
