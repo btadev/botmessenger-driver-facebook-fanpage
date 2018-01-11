@@ -99,3 +99,4 @@ class ReceiptAddress implements JsonSerializable
     }
 
     /**
+     * @return array
