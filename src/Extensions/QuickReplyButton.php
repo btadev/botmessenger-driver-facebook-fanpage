@@ -24,3 +24,4 @@ class QuickReplyButton implements QuestionActionInterface
      * @param string $title
      * @return static
      */
+    public static function create($title = '')
