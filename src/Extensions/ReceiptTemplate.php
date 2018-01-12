@@ -225,4 +225,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
         ];
     }
 
-        array $user_info = []
+    /**
+        $this->fallback_url = $fallback_url;
