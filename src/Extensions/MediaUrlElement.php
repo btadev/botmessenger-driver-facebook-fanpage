@@ -77,3 +77,4 @@ class MediaUrlElement implements JsonSerializable
         return [
             'media_type' => $this->media_type,
             'url' => $this->url,
+            'buttons' => $this->buttons,
