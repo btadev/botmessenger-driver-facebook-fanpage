@@ -23,4 +23,5 @@ class User extends BotMessengerUser implements UserInterface
         $this->first_name = $first_name;
         $this->last_name = $last_name;
         $this->username = $username;
-     */
+        $this->user_info = (array) $user_info;
+     * Return the event name to match.
