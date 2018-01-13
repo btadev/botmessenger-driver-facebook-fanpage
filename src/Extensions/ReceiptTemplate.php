@@ -163,4 +163,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     }
 
     /**
-        });
+     * @param ReceiptSummary $summary
+
