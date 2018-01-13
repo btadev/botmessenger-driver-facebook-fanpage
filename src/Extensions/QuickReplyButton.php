@@ -102,3 +102,4 @@ class QuickReplyButton implements QuestionActionInterface
     {
         return $this->toArray();
     }
+}
