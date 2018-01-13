@@ -6,3 +6,4 @@ use ChienIT\BotMessenger\Interfaces\QuestionActionInterface;
 
 class QuickReplyButton implements QuestionActionInterface
 {
+    /** @var string */
