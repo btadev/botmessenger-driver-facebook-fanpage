@@ -144,4 +144,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     {
         foreach ($elements as $element) {
             if ($element instanceof ReceiptElement) {
-        $this->http = $http;
+                $this->elements[] = $element->toArray();
