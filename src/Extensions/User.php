@@ -53,4 +53,4 @@ class User extends BotMessengerUser implements UserInterface
      * @return int
      */
     public function getTimezone()
-}
+    {
