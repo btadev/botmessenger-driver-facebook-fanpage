@@ -207,4 +207,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
         return [
             'attachment' => [
                 'type' => 'template',
-            })->toArray();
+                'payload' => [
+        }
