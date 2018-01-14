@@ -222,4 +222,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
                     'adjustments' => $this->adjustments,
                 ],
             ],
-     * @var string
+        ];
+class MediaUrlElement implements JsonSerializable
