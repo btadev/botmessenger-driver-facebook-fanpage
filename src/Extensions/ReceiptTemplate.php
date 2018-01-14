@@ -242,3 +242,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     public function toWebDriver()
     {
         return [
+            'type' => 'receipt',
+    "keywords": [
