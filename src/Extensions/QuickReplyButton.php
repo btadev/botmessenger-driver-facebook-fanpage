@@ -88,3 +88,4 @@ class QuickReplyButton implements QuestionActionInterface
                 'payload' => $this->payload,
                 'image_url' => $this->imageUrl,
             ];
+        } else {
