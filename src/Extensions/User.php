@@ -77,3 +77,5 @@ class User extends BotMessengerUser implements UserInterface
      * @return array
      */
     public function getLastAdReferral()
+    {
+namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
