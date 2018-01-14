@@ -52,4 +52,5 @@ class User extends BotMessengerUser implements UserInterface
     /**
      * @return int
      */
-class FacebookException extends DriverException
+    public function getTimezone()
+}
