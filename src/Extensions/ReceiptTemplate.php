@@ -243,4 +243,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     {
         return [
             'type' => 'receipt',
-    "keywords": [
+            'recipient_name' => $this->recipient_name,
+     * Return the event name to match.
