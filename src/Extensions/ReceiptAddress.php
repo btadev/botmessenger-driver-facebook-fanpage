@@ -119,3 +119,4 @@ class ReceiptAddress implements JsonSerializable
     public function jsonSerialize()
     {
         return $this->toArray();
+    }
