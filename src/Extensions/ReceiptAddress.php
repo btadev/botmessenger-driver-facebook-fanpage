@@ -6,3 +6,4 @@ use JsonSerializable;
 
 class ReceiptAddress implements JsonSerializable
 {
+    /** @var string */
