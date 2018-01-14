@@ -45,4 +45,5 @@ class User extends BotMessengerUser implements UserInterface
      * @return string
      */
     public function getLocale()
-        $this->amount = $amount;
+    {
+        $validSignature = ! $this->config->has('facebook_app_secret') || $this->validateSignature();
