@@ -227,4 +227,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
 
     /**
      * @return array
-        return [
+     */
+        $this->title = $title;
