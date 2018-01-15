@@ -232,4 +232,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     {
         return $this->toArray();
     }
-        return 'messaging_deliveries';
+
+class FacebookImageDriver extends FacebookDriver
