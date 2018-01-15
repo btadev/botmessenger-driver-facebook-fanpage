@@ -196,4 +196,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
             }
         }
 
-     *
+        return $this;
+        foreach ($elements as $element) {
