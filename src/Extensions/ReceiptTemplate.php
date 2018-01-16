@@ -174,4 +174,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     }
 
     /**
-
+     * @param ReceiptAdjustment $adjustment
+class MessagingPostbacks extends FacebookEvent
