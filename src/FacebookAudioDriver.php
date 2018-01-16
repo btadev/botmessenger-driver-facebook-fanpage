@@ -16,4 +16,5 @@ class FacebookAudioDriver extends FacebookDriver
      * @return bool
      */
     public function matchesRequest()
-    /** @var string */
+    {
+    public static function create()
