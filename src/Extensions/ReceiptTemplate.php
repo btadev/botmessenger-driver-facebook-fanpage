@@ -247,3 +247,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
             'merchant_name' => $this->merchant_name,
             'order_number' => $this->order_number,
             'currency' => $this->currency,
+            'payment_method' => $this->payment_method,
+        return isset($this->user_info['gender']) ? $this->user_info['gender'] : null;
