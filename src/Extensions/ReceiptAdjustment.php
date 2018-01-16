@@ -20,3 +20,4 @@ class ReceiptAdjustment implements JsonSerializable
     {
         return new static($name);
     }
+
