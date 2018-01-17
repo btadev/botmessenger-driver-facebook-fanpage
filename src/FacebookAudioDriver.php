@@ -10,4 +10,5 @@ class FacebookAudioDriver extends FacebookDriver
 {
     const DRIVER_NAME = 'FacebookAudio';
 
-    {
+    /**
+{
