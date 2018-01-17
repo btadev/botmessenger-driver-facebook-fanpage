@@ -235,4 +235,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
 
     /**
      * Get the instance as a web accessible array.
-        return $this;
+     * This will be used within the WebDriver.
+            [],
