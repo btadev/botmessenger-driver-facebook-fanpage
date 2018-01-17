@@ -18,3 +18,4 @@ class ReceiptAdjustment implements JsonSerializable
      */
     public static function create($name)
     {
+        return new static($name);
