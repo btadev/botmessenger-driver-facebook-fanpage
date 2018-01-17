@@ -46,3 +46,4 @@ class QuickReplyButton implements QuestionActionInterface
     public function type($type)
     {
         $this->contentType = $type;
+
