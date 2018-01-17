@@ -241,4 +241,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      */
     public function toWebDriver()
     {
-            return $msg['optin']['user_ref'];
+        return [
