@@ -66,3 +66,4 @@ class ReceiptAddress implements JsonSerializable
     }
 
     /**
+     * @param $postalCode
