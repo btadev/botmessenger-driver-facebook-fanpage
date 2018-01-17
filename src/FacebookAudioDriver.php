@@ -11,4 +11,5 @@ class FacebookAudioDriver extends FacebookDriver
     const DRIVER_NAME = 'FacebookAudio';
 
     /**
-{
+     * Determine if the request is for this driver.
+
