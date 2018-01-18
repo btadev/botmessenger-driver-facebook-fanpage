@@ -68,4 +68,5 @@ class User extends BotMessengerUser implements UserInterface
     /**
      * @return bool
      */
-     */
+    public function getIsPaymentEnabled()
+use ChienIT\BotMessenger\Interfaces\WebAccess;
