@@ -13,4 +13,5 @@ class FacebookAudioDriver extends FacebookDriver
     /**
      * Determine if the request is for this driver.
      *
-     */
+     * @return bool
+    public function handle()
