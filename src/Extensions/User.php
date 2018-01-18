@@ -70,4 +70,4 @@ class User extends BotMessengerUser implements UserInterface
      */
     public function getIsPaymentEnabled()
     {
-    public function toArray()
+        return isset($this->user_info['is_payment_enabled']) ? $this->user_info['is_payment_enabled'] : null;
