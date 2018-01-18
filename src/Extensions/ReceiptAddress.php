@@ -59,3 +59,4 @@ class ReceiptAddress implements JsonSerializable
      * @return $this
      */
     public function city($city)
+    {
