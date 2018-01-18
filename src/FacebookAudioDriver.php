@@ -29,4 +29,4 @@ class FacebookAudioDriver extends FacebookDriver
         });
 
         return ! $messages->isEmpty() && $validSignature;
-
+    }
