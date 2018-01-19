@@ -80,3 +80,4 @@ class ReceiptAddress implements JsonSerializable
      * @param $state
      * @return $this
      */
+    public function state($state)
