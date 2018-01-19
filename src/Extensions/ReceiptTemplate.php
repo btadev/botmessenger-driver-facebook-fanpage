@@ -226,4 +226,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     }
 
     /**
-        $this->fallback_url = $fallback_url;
+     * @return array
+        return [
