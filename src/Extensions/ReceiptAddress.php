@@ -26,3 +26,4 @@ class ReceiptAddress implements JsonSerializable
 
     /**
      * @return static
+     */
