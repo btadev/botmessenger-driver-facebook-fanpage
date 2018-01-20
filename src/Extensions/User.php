@@ -78,4 +78,5 @@ class User extends BotMessengerUser implements UserInterface
      */
     public function getLastAdReferral()
     {
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
+        return isset($this->user_info['last_ad_referral']) ? $this->user_info['last_ad_referral'] : null;
+     */
