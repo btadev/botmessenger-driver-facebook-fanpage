@@ -67,4 +67,5 @@ class User extends BotMessengerUser implements UserInterface
 
     /**
      * @return bool
-                    return (isset($attachment['type'])) && $attachment['type'] === 'file';
+     */
+     */
