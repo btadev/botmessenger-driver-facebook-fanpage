@@ -20,4 +20,5 @@ class User extends BotMessengerUser implements UserInterface
         array $user_info = []
     ) {
         $this->id = $id;
-        if ($response->getStatusCode() == 200) {
+        $this->first_name = $first_name;
+     * Return the event payload.
