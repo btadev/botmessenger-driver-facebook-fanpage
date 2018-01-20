@@ -7,4 +7,5 @@ use ChienIT\BotMessenger\Users\User as BotMessengerUser;
 
 class User extends BotMessengerUser implements UserInterface
 {
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
+    /**
+    }
