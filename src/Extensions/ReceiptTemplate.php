@@ -223,4 +223,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
                 ],
             ],
         ];
-class MediaUrlElement implements JsonSerializable
+    }
+
