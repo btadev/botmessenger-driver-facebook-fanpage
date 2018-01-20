@@ -36,4 +36,5 @@ class User extends BotMessengerUser implements UserInterface
         }
 
         // Workplace (Facebook for companies) uses picture parameter
-{
+        if (isset($this->user_info['picture'])) {
+        // Workplace (Facebook for companies) uses picture parameter
