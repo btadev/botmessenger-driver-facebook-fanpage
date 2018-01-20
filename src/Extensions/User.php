@@ -47,4 +47,4 @@ class User extends BotMessengerUser implements UserInterface
     public function getLocale()
     {
         return $this->user_info['locale'] ?? null;
-    {
+    }
