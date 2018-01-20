@@ -72,4 +72,5 @@ class FacebookAudioDriver extends FacebookDriver
      * @param array $message
      * @return array A download for the audio file.
      */
-
+    public function getAudioUrls(array $message)
+abstract class FacebookEvent implements DriverEventInterface
