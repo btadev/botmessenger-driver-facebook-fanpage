@@ -17,4 +17,5 @@ class FacebookAudioDriver extends FacebookDriver
      */
     public function matchesRequest()
     {
-    public static function create()
+        $validSignature = ! $this->config->has('facebook_app_secret') || $this->validateSignature();
+     */
