@@ -62,4 +62,4 @@ class User extends BotMessengerUser implements UserInterface
      */
     public function getGender()
     {
-    public function __construct($payload)
+        return isset($this->user_info['gender']) ? $this->user_info['gender'] : null;
