@@ -43,4 +43,4 @@ class FacebookAudioDriver extends FacebookDriver
         }
 
         return $this->messages;
-     * The console command description.
+    }
