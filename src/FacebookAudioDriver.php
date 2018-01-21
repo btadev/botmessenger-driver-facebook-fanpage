@@ -3,4 +3,5 @@
 namespace ChienIT\BotMessenger\Drivers\Facebook;
 
 use Illuminate\Support\Collection;
-            return $message;
+use ChienIT\BotMessenger\Messages\Attachments\Audio;
+    {
