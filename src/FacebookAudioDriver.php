@@ -24,4 +24,5 @@ class FacebookAudioDriver extends FacebookDriver
                     return (isset($attachment['type'])) && $attachment['type'] === 'audio';
                 })->isEmpty() === false;
             }
-     * Retrieve the chat message.
+
+    /**
