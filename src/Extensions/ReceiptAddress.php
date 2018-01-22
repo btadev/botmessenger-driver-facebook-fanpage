@@ -108,3 +108,4 @@ class ReceiptAddress implements JsonSerializable
             'street_2' => $this->street_2,
             'city' => $this->city,
             'postal_code' => $this->postal_code,
+            'state' => $this->state,
