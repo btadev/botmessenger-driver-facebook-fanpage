@@ -41,4 +41,5 @@ class User extends BotMessengerUser implements UserInterface
         }
     }
 
-<?php
+    /**
+                    'type' => $attachmentType,
