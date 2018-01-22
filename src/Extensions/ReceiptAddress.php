@@ -104,3 +104,4 @@ class ReceiptAddress implements JsonSerializable
     public function toArray()
     {
         return [
+            'street_1' => $this->street_1,
