@@ -214,4 +214,5 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
                     'order_number' => $this->order_number,
                     'currency' => $this->currency,
                     'payment_method' => $this->payment_method,
-                ],
+                    'order_url' => $this->order_url,
+# ChienIT Bot Messenger Facebook Messenger Driver
