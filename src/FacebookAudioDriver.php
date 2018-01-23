@@ -63,4 +63,5 @@ class FacebookAudioDriver extends FacebookDriver
             $messages = [new IncomingMessage('', '', '')];
         }
 
-            'globalButtons' => [$this->globalButton],
+        $this->messages = $messages;
+            'shipping_cost' => $this->shipping_cost,
