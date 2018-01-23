@@ -39,3 +39,5 @@ class User extends BotMessengerUser implements UserInterface
         if (isset($this->user_info['picture'])) {
             return $this->user_info['picture']['data']['url'];
         }
+    }
+use ChienIT\BotMessenger\Messages\Attachments\Video;
