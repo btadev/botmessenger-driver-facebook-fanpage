@@ -55,4 +55,5 @@ class FacebookAudioDriver extends FacebookDriver
         })->transform(function ($msg) {
             $message = new IncomingMessage(Audio::PATTERN, $msg['sender']['id'], $msg['recipient']['id'], $msg);
             $message->setAudio($this->getAudioUrls($msg));
-     * Execute the console command.
+
+    const DRIVER_NAME = 'FacebookFile';
