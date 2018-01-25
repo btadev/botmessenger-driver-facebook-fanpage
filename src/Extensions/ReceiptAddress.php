@@ -83,3 +83,4 @@ class ReceiptAddress implements JsonSerializable
     public function state($state)
     {
         $this->state = $state;
+
