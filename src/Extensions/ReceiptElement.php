@@ -19,3 +19,4 @@ class ReceiptElement implements JsonSerializable
     protected $price = 0;
 
     /** @var string */
+    protected $currency;
