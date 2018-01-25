@@ -21,3 +21,4 @@ class ReceiptElement implements JsonSerializable
     /** @var string */
     protected $currency;
 
+    /** @var string */
