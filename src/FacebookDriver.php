@@ -32,4 +32,5 @@ use ChienIT\BotMessenger\Drivers\Facebook\Exceptions\FacebookException;
 
 class FacebookDriver extends HttpDriver implements VerifiesService
 {
-    public function getName()
+    const HANDOVER_INBOX_PAGE_ID = '263902037430900';
+        return 'messaging_deliveries';
