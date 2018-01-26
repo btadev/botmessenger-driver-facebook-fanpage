@@ -64,4 +64,5 @@ class FacebookAudioDriver extends FacebookDriver
         }
 
         $this->messages = $messages;
-            'shipping_cost' => $this->shipping_cost,
+    }
+        }
