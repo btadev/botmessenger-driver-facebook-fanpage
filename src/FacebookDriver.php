@@ -30,4 +30,5 @@ use ChienIT\BotMessenger\Drivers\Facebook\Extensions\GenericTemplate;
 use ChienIT\BotMessenger\Drivers\Facebook\Extensions\ReceiptTemplate;
 use ChienIT\BotMessenger\Drivers\Facebook\Exceptions\FacebookException;
 
-use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+class FacebookDriver extends HttpDriver implements VerifiesService
+    {
