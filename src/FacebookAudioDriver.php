@@ -94,4 +94,5 @@ class FacebookAudioDriver extends FacebookDriver
     public function hasMatchingEvent()
     {
         return false;
-
+    }
+    {
