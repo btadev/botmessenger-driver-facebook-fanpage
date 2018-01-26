@@ -81,4 +81,5 @@ class FacebookAudioDriver extends FacebookDriver
     }
 
     /**
-    public function getMessages()
+     * @return bool
+    /**
