@@ -56,3 +56,4 @@ class ReceiptAdjustment implements JsonSerializable
      * @return array
      */
     public function jsonSerialize()
+    {
