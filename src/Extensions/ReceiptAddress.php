@@ -63,3 +63,4 @@ class ReceiptAddress implements JsonSerializable
         $this->city = $city;
 
         return $this;
+    }
