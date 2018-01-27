@@ -17,4 +17,4 @@ class User extends BotMessengerUser implements UserInterface
         $first_name = null,
         $last_name = null,
         $username = null,
-
+        array $user_info = []
