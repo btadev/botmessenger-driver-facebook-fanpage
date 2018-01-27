@@ -46,4 +46,5 @@ class FacebookAudioDriver extends FacebookDriver
     }
 
     /**
-     * @return static
+     * Load Facebook messages.
+
