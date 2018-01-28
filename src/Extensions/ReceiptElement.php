@@ -53,3 +53,4 @@ class ReceiptElement implements JsonSerializable
     }
 
     /**
+     * @param $quantity
