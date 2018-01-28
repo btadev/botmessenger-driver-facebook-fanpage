@@ -11,3 +11,4 @@ class ReceiptAdjustment implements JsonSerializable
 
     /** @var int */
     protected $amount;
+
