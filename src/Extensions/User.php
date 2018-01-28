@@ -73,4 +73,5 @@ class User extends BotMessengerUser implements UserInterface
         return isset($this->user_info['is_payment_enabled']) ? $this->user_info['is_payment_enabled'] : null;
     }
 
-     */
+    /**
+            'https://graph.facebook.com/v2.6/me/messenger_profile?access_token='.config('facebook.token'),
