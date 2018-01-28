@@ -111,3 +111,4 @@ class ReceiptAddress implements JsonSerializable
             'state' => $this->state,
             'country' => $this->country,
         ];
+    }
