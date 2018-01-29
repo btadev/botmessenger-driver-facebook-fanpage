@@ -44,4 +44,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     /** @var string */
     protected $content;
 
-}
+    /** @var array */
+     */
