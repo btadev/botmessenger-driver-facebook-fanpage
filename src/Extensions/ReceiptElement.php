@@ -89,3 +89,4 @@ class ReceiptElement implements JsonSerializable
      * @param string $image_url
      * @return $this
      */
+    public function image($image_url)
