@@ -80,4 +80,5 @@ class FacebookAudioDriver extends FacebookDriver
             })->toArray();
     }
 
-    }
+    /**
+    public function getMessages()
