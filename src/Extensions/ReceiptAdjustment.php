@@ -51,3 +51,4 @@ class ReceiptAdjustment implements JsonSerializable
             'amount' => $this->amount,
         ];
     }
+
