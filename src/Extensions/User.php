@@ -75,3 +75,5 @@ class User extends BotMessengerUser implements UserInterface
 
     /**
      * @return array
+     */
+    }
