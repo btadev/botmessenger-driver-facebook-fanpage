@@ -103,3 +103,4 @@ class ReceiptAddress implements JsonSerializable
      */
     public function toArray()
     {
+        return [
