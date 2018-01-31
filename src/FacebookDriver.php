@@ -31,4 +31,5 @@ use ChienIT\BotMessenger\Drivers\Facebook\Extensions\ReceiptTemplate;
 use ChienIT\BotMessenger\Drivers\Facebook\Exceptions\FacebookException;
 
 class FacebookDriver extends HttpDriver implements VerifiesService
-    {
+{
+    public function getName()
