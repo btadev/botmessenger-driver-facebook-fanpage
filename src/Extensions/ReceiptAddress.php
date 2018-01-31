@@ -72,3 +72,4 @@ class ReceiptAddress implements JsonSerializable
     public function postalCode($postalCode)
     {
         $this->postal_code = $postalCode;
+
