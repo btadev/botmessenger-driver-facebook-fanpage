@@ -16,4 +16,5 @@ use Symfony\Component\HttpFoundation\Request;
 use ChienIT\BotMessenger\Drivers\Events\GenericEvent;
 use Symfony\Component\HttpFoundation\Response;
 use ChienIT\BotMessenger\Interfaces\DriverEventInterface;
+use ChienIT\BotMessenger\Drivers\Facebook\Events\MessagingReads;
 <?php
