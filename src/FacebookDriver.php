@@ -67,4 +67,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     protected $driverEvent;
 
     protected $facebookProfileEndpoint = 'https://graph.facebook.com/v2.6/';
-        $this->quantity = $quantity;
+
+        $this->subtitle = $subtitle;
