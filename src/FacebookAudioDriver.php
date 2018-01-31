@@ -42,4 +42,5 @@ class FacebookAudioDriver extends FacebookDriver
             $this->loadMessages();
         }
 
-    }
+        return $this->messages;
+     * The console command description.
