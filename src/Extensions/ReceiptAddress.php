@@ -113,3 +113,4 @@ class ReceiptAddress implements JsonSerializable
         ];
     }
 
+    /**
