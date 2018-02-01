@@ -52,4 +52,5 @@ class FacebookAudioDriver extends FacebookDriver
     {
         $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
             return isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments']);
-    const RATIO_HORIZONTAL = 'horizontal';
+        })->transform(function ($msg) {
+
