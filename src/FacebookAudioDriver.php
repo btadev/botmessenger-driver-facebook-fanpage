@@ -6,4 +6,5 @@ use Illuminate\Support\Collection;
 use ChienIT\BotMessenger\Messages\Attachments\Audio;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
-        foreach ($buttons as $button) {
+class FacebookAudioDriver extends FacebookDriver
+    /**
