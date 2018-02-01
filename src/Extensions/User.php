@@ -81,4 +81,3 @@ class User extends BotMessengerUser implements UserInterface
         return isset($this->user_info['last_ad_referral']) ? $this->user_info['last_ad_referral'] : null;
     }
 }
-
