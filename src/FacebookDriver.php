@@ -14,4 +14,5 @@ use ChienIT\BotMessenger\Messages\Attachments\Video;
 use ChienIT\BotMessenger\Messages\Outgoing\Question;
 use Symfony\Component\HttpFoundation\Request;
 use ChienIT\BotMessenger\Drivers\Events\GenericEvent;
-use Illuminate\Support\Collection;
+use Symfony\Component\HttpFoundation\Response;
+    /**
