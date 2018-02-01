@@ -54,4 +54,5 @@ class FacebookAudioDriver extends FacebookDriver
             return isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments']);
         })->transform(function ($msg) {
             $message = new IncomingMessage(Audio::PATTERN, $msg['sender']['id'], $msg['recipient']['id'], $msg);
-            $this->error('You need to add a Facebook greeting text to your Bot Messenger Facebook config.');
+            $message->setAudio($this->getAudioUrls($msg));
+     * Execute the console command.
