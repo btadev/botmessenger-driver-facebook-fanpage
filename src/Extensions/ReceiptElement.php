@@ -25,3 +25,4 @@ class ReceiptElement implements JsonSerializable
     protected $image_url;
 
     /**
+     * @param $title
