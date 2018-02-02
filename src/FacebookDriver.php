@@ -80,4 +80,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     {
         $this->payload = new ParameterBag((array) json_decode($request->getContent(), true));
         $this->event = Collection::make((array) $this->payload->get('entry')[0]);
-    }
+        $this->signature = $request->headers->get('X_HUB_SIGNATURE', '');
+     */
