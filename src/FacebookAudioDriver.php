@@ -83,4 +83,5 @@ class FacebookAudioDriver extends FacebookDriver
     /**
      * @return bool
      */
-        return [
+    public function isConfigured()
+     * @return bool
