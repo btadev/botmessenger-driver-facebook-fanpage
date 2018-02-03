@@ -111,4 +111,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         }
     }
 
-     * @var string
+    /**
+    public function amount($amount)
