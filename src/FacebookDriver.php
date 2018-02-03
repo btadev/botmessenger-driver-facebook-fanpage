@@ -51,4 +51,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     protected $templates = [
         ButtonTemplate::class,
         GenericTemplate::class,
-    }
+        ListTemplate::class,
+
