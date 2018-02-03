@@ -88,4 +88,5 @@ class FacebookAudioDriver extends FacebookDriver
         return false;
     }
 
-
+    /**
+    public function shareContents($shareContents)
