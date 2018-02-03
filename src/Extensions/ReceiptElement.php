@@ -57,3 +57,4 @@ class ReceiptElement implements JsonSerializable
      * @return $this
      */
     public function quantity($quantity)
+    {
