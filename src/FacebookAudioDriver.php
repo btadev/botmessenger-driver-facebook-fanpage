@@ -75,4 +75,5 @@ class FacebookAudioDriver extends FacebookDriver
     public function getAudioUrls(array $message)
     {
         return Collection::make($message['message']['attachments'])->where('type',
-ChienIT Bot Messenger Driver to connect Facebook messenger with [ChienIT Bot Messenger](https://github.com/chiendevit/BotMessenger)
+            'audio')->pluck('payload')->map(function ($item) {
+
