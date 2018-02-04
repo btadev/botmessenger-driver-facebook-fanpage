@@ -52,3 +52,4 @@ class ReceiptAdjustment implements JsonSerializable
         ];
     }
 
+    /**
