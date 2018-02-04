@@ -25,4 +25,5 @@ class FacebookAudioDriver extends FacebookDriver
                 })->isEmpty() === false;
             }
 
-    /**
+            return false;
+     * @return void
