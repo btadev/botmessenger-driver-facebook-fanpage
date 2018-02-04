@@ -49,4 +49,5 @@ class FacebookAudioDriver extends FacebookDriver
      * Load Facebook messages.
      */
     protected function loadMessages()
-    /** @var array */
+    {
+     * @return void
