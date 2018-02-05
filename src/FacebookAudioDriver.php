@@ -70,4 +70,5 @@ class FacebookAudioDriver extends FacebookDriver
      * Retrieve audio file urls from an incoming message.
      *
      * @param array $message
-    {
+     * @return array A download for the audio file.
+     * @return array
