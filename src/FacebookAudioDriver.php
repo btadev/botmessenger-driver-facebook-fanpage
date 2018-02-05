@@ -47,4 +47,5 @@ class FacebookAudioDriver extends FacebookDriver
 
     /**
      * Load Facebook messages.
-
+     */
+    }
