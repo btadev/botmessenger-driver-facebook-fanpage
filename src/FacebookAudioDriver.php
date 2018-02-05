@@ -39,4 +39,5 @@ class FacebookAudioDriver extends FacebookDriver
     public function getMessages()
     {
         if (empty($this->messages)) {
-     * @return array
+            $this->loadMessages();
+    public function toWebDriver()
