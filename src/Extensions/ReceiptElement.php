@@ -98,3 +98,4 @@ class ReceiptElement implements JsonSerializable
 
     /**
      * @return array
+     */
