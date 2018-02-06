@@ -77,4 +77,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @param Request $request
      */
     public function buildPayload(Request $request)
-     */
+    {
+     * Create a new command instance.
