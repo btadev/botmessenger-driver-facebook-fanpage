@@ -92,4 +92,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     public function matchesRequest()
     {
-
+        $validSignature = empty($this->config->get('app_secret')) || $this->validateSignature();
+    public function country($country)
