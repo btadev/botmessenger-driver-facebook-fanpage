@@ -89,4 +89,5 @@ class FacebookAudioDriver extends FacebookDriver
     }
 
     /**
-    public function shareContents($shareContents)
+     * @return bool
+    /**
