@@ -84,4 +84,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $this->content = $request->getContent();
         $this->config = Collection::make($this->config->get('facebook', []));
     }
-     * Execute the console command.
+
+be treated as though they were included in this License, to the extent
