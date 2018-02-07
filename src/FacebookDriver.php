@@ -126,4 +126,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 ])->isEmpty() === false;
         })->transform(function ($msg) {
             return Collection::make($msg)->toArray();
-     */
+        })->first();
+    {
