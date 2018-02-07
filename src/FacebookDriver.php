@@ -122,4 +122,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                     'recipient',
                     'timestamp',
                     'message',
-     * @return static
+                    'postback',
+        return $this->messages;
