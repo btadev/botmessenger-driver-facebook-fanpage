@@ -100,3 +100,4 @@ class ReceiptElement implements JsonSerializable
      * @return array
      */
     public function toArray()
+    {
