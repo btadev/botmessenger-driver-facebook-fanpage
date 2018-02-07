@@ -34,4 +34,5 @@ class FacebookAudioDriver extends FacebookDriver
     /**
      * Retrieve the chat message.
      *
-        $this->currency = $currency;
+     * @return array
+use Illuminate\Support\Collection;
