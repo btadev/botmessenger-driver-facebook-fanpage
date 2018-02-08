@@ -90,4 +90,5 @@ class FacebookAudioDriver extends FacebookDriver
 
     /**
      * @return bool
-    /**
+     */
+            'price' => $this->price,
