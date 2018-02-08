@@ -34,4 +34,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 {
     const HANDOVER_INBOX_PAGE_ID = '263902037430900';
 
-
+    const TYPE_RESPONSE = 'RESPONSE';
+        return 'messaging_referrals';
