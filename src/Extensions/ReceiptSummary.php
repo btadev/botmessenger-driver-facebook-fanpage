@@ -63,3 +63,4 @@ class ReceiptSummary implements JsonSerializable
      * @param $totalCost
      * @return $this
      */
+    public function totalCost($totalCost)
