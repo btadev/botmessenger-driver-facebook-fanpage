@@ -30,3 +30,4 @@ class ReceiptAdjustment implements JsonSerializable
         $this->name = $name;
     }
 
+    /**
