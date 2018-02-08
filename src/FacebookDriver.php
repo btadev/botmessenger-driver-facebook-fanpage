@@ -181,4 +181,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     protected function validateSignature()
     {
         return hash_equals($this->signature,
-
+            'sha1='.hash_hmac('sha1', $this->content, $this->config->get('app_secret')));
