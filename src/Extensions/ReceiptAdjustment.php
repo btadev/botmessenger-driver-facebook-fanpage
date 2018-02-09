@@ -32,3 +32,4 @@ class ReceiptAdjustment implements JsonSerializable
 
     /**
      * @param string $amount
+     * @return $this
