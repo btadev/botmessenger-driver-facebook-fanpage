@@ -77,4 +77,5 @@ class FacebookAudioDriver extends FacebookDriver
         return Collection::make($message['message']['attachments'])->where('type',
             'audio')->pluck('payload')->map(function ($item) {
                 return new Audio($item['url'], $item);
-        return [
+            })->toArray();
+     * Return the event name to match.
