@@ -70,3 +70,4 @@ class ReceiptElement implements JsonSerializable
     public function price($price)
     {
         $this->price = $price;
+
