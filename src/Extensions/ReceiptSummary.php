@@ -76,3 +76,4 @@ class ReceiptSummary implements JsonSerializable
     public function toArray()
     {
         return [
+            'subtotal' => $this->subtotal,
