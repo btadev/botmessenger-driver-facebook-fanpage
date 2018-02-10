@@ -123,4 +123,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                     'timestamp',
                     'message',
                     'postback',
-        return $this->messages;
+                ])->isEmpty() === false;
+     */
