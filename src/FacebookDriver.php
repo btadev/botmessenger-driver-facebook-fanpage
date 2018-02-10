@@ -105,4 +105,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @return null|Response
      */
     public function verifyRequest(Request $request)
-use JsonSerializable;
+    {
