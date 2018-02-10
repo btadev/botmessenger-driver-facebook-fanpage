@@ -112,4 +112,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     }
 
     /**
-    public function amount($amount)
+     * @return bool|DriverEventInterface
+    public function getName()
