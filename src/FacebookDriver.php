@@ -101,4 +101,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     }
 
     /**
-     * @return $this
+     * @param Request $request
+
