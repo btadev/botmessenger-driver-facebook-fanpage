@@ -70,4 +70,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
     /** @var bool If the incoming request is a FB postback */
     protected $isPostback = false;
-            $this->info('Domains where whitelisted.');
+
+    abstract public function getName();
