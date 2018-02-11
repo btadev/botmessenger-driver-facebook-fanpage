@@ -7,3 +7,4 @@ use JsonSerializable;
 class ReceiptSummary implements JsonSerializable
 {
     /** @var int */
+    protected $subtotal;
