@@ -211,4 +211,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             'recipient' => [
                 'id' => $matchingMessage->getSender(),
             ],
-        return [
+            'access_token' => $this->config->get('token'),
