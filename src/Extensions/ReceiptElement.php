@@ -109,3 +109,4 @@ class ReceiptElement implements JsonSerializable
             'currency' => $this->currency,
             'image_url' => $this->image_url,
         ];
+    }
