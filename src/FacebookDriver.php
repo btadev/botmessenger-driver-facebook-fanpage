@@ -73,3 +73,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
     const DRIVER_NAME = 'Facebook';
 
+    /**
+        if (count($messages) === 0) {
