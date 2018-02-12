@@ -157,4 +157,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             case 'optin':
                 return new MessagingOptins($eventData);
                 break;
-            $this->loadMessages();
+            case 'delivery':
+     * @return string
