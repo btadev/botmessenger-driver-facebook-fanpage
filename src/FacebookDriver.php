@@ -152,4 +152,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         ])->keys()->first();
         switch ($name) {
             case 'referral':
-     *
+                return new MessagingReferrals($eventData);
+     * @return string
