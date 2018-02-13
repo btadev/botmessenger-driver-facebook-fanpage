@@ -100,4 +100,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         return ! $messages->isEmpty() && $validSignature;
     }
 
-use ChienIT\BotMessenger\Messages\Incoming\Answer;
+    /**
+     * @return $this
