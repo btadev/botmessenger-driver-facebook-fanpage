@@ -165,4 +165,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 break;
             case 'checkout_update':
                 return new Events\MessagingCheckoutUpdates($eventData);
-        return $this;
+                break;
+
