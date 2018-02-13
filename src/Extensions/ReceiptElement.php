@@ -110,3 +110,4 @@ class ReceiptElement implements JsonSerializable
             'image_url' => $this->image_url,
         ];
     }
+
