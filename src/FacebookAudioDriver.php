@@ -91,4 +91,4 @@ class FacebookAudioDriver extends FacebookDriver
     /**
      * @return bool
      */
-            'price' => $this->price,
+    public function hasMatchingEvent()
