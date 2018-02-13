@@ -84,3 +84,4 @@ class ReceiptSummary implements JsonSerializable
     }
 
     /**
+     * @return array
