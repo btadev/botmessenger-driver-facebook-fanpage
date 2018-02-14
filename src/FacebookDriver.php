@@ -174,4 +174,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 break;
         }
     }
-     */
+
+    {
