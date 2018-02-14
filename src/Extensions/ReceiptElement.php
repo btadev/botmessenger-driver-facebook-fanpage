@@ -105,3 +105,4 @@ class ReceiptElement implements JsonSerializable
             'title' => $this->title,
             'subtitle' => $this->subtitle,
             'quantity' => $this->quantity,
+            'price' => $this->price,
