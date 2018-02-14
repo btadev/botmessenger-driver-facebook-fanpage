@@ -221,4 +221,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     /**
      * @param  IncomingMessage $message
      * @return Answer
-use ChienIT\BotMessenger\Interfaces\UserInterface;
+     */
+     * @var string
