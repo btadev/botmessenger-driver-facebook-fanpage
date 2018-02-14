@@ -96,4 +96,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
             return (isset($msg['message']['text']) || isset($msg['postback']['payload'])) && ! isset($msg['message']['is_echo']);
         });
-            $this->error('You need to add a Facebook payload data to your Bot Messenger Facebook config.');
+
+    {
