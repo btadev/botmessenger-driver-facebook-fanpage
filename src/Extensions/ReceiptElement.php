@@ -111,3 +111,4 @@ class ReceiptElement implements JsonSerializable
         ];
     }
 
+    /**
