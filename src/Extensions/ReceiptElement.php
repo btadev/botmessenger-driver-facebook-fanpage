@@ -15,3 +15,4 @@ class ReceiptElement implements JsonSerializable
     /** @var int */
     protected $quantity;
 
+    /** @var int */
