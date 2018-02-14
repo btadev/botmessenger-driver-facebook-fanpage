@@ -76,4 +76,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     /**
      * @param Request $request
      */
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
+    public function buildPayload(Request $request)
+     */
