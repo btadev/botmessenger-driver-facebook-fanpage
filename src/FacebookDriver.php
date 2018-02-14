@@ -83,4 +83,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $this->signature = $request->headers->get('X_HUB_SIGNATURE', '');
         $this->content = $request->getContent();
         $this->config = Collection::make($this->config->get('facebook', []));
-     * @return array
+    }
+     * Execute the console command.
