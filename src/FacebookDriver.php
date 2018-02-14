@@ -215,4 +215,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             'sender_action' => 'typing_on',
         ];
 
-     * Determine if the request is for this driver.
+        return $this->http->post($this->facebookProfileEndpoint.'me/messages', [], $parameters);
+                $this->buttons[] = $button->toArray();
