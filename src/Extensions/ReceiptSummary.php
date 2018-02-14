@@ -33,3 +33,4 @@ class ReceiptSummary implements JsonSerializable
     public function subtotal($subtotal)
     {
         $this->subtotal = $subtotal;
+
