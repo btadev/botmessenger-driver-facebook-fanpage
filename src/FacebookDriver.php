@@ -95,4 +95,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $validSignature = empty($this->config->get('app_secret')) || $this->validateSignature();
         $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
             return (isset($msg['message']['text']) || isset($msg['postback']['payload'])) && ! isset($msg['message']['is_echo']);
-class MessagingDeliveries extends FacebookEvent
+        });
+            $this->error('You need to add a Facebook payload data to your Bot Messenger Facebook config.');
