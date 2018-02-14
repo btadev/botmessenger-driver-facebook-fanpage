@@ -10,3 +10,4 @@ class ReceiptSummary implements JsonSerializable
     protected $subtotal;
 
     /** @var int */
+    protected $shipping_cost;
