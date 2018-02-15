@@ -135,4 +135,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         }
 
         return false;
-            'default_action' => $this->default_action,
+    }
+{
