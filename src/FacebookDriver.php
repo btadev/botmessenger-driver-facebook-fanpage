@@ -25,4 +25,5 @@ use ChienIT\BotMessenger\Drivers\Facebook\Extensions\ListTemplate;
 use ChienIT\BotMessenger\Drivers\Facebook\Extensions\MediaTemplate;
 use ChienIT\BotMessenger\Drivers\Facebook\Events\MessagingReferrals;
 use ChienIT\BotMessenger\Drivers\Facebook\Extensions\ButtonTemplate;
-        $this->buttons[] = $button->toArray();
+use ChienIT\BotMessenger\Drivers\Facebook\Events\MessagingDeliveries;
+        return 'messaging_referrals';
