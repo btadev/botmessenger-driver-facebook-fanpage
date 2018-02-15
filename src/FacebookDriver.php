@@ -23,4 +23,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 use ChienIT\BotMessenger\Messages\Outgoing\OutgoingMessage;
 use ChienIT\BotMessenger\Drivers\Facebook\Extensions\ListTemplate;
 use ChienIT\BotMessenger\Drivers\Facebook\Extensions\MediaTemplate;
-        }
+use ChienIT\BotMessenger\Drivers\Facebook\Events\MessagingReferrals;
+    public function toArray()
