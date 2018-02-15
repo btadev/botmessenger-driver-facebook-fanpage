@@ -25,3 +25,4 @@ class ReceiptSummary implements JsonSerializable
     {
         return new static;
     }
+
