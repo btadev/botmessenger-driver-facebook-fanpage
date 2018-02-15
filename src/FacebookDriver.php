@@ -131,4 +131,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         if (! is_null($event)) {
             $this->driverEvent = $this->getEventFromEventData($event);
 
-    public function getVideoUrls(array $message)
+            return $this->driverEvent;
+        return false;
