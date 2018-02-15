@@ -63,4 +63,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         File::class,
     ];
 
-# ChienIT Bot Messenger Facebook Messenger Driver
+    /** @var DriverEventInterface */
+     *
