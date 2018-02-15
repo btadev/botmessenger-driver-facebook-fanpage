@@ -97,4 +97,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             return (isset($msg['message']['text']) || isset($msg['postback']['payload'])) && ! isset($msg['message']['is_echo']);
         });
 
-    {
+        return ! $messages->isEmpty() && $validSignature;
+     * @return array
