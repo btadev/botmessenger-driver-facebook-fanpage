@@ -40,4 +40,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
     /** @var string */
     protected $signature;
-    /**
+
+namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
