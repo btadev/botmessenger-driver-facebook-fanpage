@@ -241,4 +241,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     public function getMessages()
     {
-class MessagingOptins extends FacebookEvent
+        if (empty($this->messages)) {
+        ];
