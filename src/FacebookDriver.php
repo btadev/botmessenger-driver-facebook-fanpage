@@ -180,4 +180,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     protected function validateSignature()
     {
-use ChienIT\BotMessenger\Drivers\Facebook\Extensions\ReceiptTemplate;
+        return hash_equals($this->signature,
+
