@@ -245,4 +245,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             $this->loadMessages();
         }
 
-class MediaAttachmentElement implements JsonSerializable
+        return $this->messages;
+    }
