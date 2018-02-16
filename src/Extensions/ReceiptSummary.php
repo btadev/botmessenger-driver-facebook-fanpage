@@ -57,3 +57,4 @@ class ReceiptSummary implements JsonSerializable
         $this->total_tax = $totalTax;
 
         return $this;
+    }
