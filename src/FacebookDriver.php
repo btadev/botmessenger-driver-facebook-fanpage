@@ -209,4 +209,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     {
         $parameters = [
             'recipient' => [
-    public function getName()
+                'id' => $matchingMessage->getSender(),
+        ];
