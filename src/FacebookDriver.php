@@ -89,4 +89,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * Determine if the request is for this driver.
      *
      * @return bool
+     */
     }
