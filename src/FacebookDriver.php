@@ -159,4 +159,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 break;
             case 'delivery':
                 return new MessagingDeliveries($eventData);
-     * @return $this
+                break;
+    /** @var string */
