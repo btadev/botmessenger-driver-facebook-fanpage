@@ -256,4 +256,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $messages = Collection::make($this->event->get('messaging'));
         $messages = $messages->transform(function ($msg) {
             $message = new IncomingMessage('', $this->getMessageSender($msg), $this->getMessageRecipient($msg), $msg);
-    public function image($image_url)
+            if (isset($msg['message']['text']) && ! isset($msg['message']['quick_reply']['payload'])) {
