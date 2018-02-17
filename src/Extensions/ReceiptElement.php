@@ -61,3 +61,4 @@ class ReceiptElement implements JsonSerializable
         $this->quantity = $quantity;
 
         return $this;
+    }
