@@ -219,4 +219,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     }
 
     /**
-     * @var Curl
+     * @param  IncomingMessage $message
+     * @param $element
