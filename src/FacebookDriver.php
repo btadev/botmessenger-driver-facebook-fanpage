@@ -39,4 +39,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     const TYPE_MESSAGE_TAG = 'MESSAGE_TAG';
 
     /** @var string */
-
+    protected $signature;
+    /**
