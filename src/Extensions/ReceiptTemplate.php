@@ -48,3 +48,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
         return new static;
     }
 
+    /**
