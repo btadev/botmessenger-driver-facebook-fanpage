@@ -57,4 +57,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     ];
 
     private $supportedAttachments = [
-    public function getName()
+        Video::class,
+    public function __construct($mediaType)
