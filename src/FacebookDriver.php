@@ -260,4 +260,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 $message->setText($msg['message']['text']);
 
                 if (isset($msg['message']['nlp'])) {
-            $this->loadMessages();
+                    $message->addExtras('nlp', $msg['message']['nlp']);
