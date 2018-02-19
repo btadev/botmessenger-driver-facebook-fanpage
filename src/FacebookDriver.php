@@ -178,3 +178,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     /**
      * @return bool
      */
+    protected function validateSignature()
+    public function toWebDriver()
