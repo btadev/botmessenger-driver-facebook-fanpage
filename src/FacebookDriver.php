@@ -142,3 +142,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @return DriverEventInterface
      */
     protected function getEventFromEventData(array $eventData)
+    {
+namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
