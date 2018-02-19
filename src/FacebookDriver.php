@@ -171,4 +171,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 $event->setName($name);
 
                 return $event;
-    {
+                break;
+     * @return string
