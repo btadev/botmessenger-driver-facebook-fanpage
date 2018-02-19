@@ -252,4 +252,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * Load Facebook messages.
      */
     protected function loadMessages()
-ChienIT Bot Messenger Driver to connect Facebook messenger with [ChienIT Bot Messenger](https://github.com/chiendevit/BotMessenger)
+    {
+    public function getName()
