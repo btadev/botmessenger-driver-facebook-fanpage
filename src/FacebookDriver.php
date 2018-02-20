@@ -274,4 +274,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
             return $message;
         })->toArray();
-{
+
+     * Create a new command instance.
