@@ -88,3 +88,4 @@ class ReceiptSummary implements JsonSerializable
      */
     public function jsonSerialize()
     {
+        return $this->toArray();
