@@ -138,4 +138,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     }
 
     /**
-
+     * @param array $eventData
+            'attachment' => [
