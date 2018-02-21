@@ -85,3 +85,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      * @param $currency
      * @return $this
      */
+    public function currency($currency)
