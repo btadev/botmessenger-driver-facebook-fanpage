@@ -11,3 +11,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     protected $recipient_name;
 
     /** @var string */
+    protected $merchant_name;
