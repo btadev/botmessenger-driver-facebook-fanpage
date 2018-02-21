@@ -306,4 +306,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * quick reply response object.
      *
      * @param Question $question
-
+     * @return array
