@@ -169,3 +169,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             default:
                 $event = new GenericEvent($eventData);
                 $event->setName($name);
+
+     * @return array A download for the image file.
