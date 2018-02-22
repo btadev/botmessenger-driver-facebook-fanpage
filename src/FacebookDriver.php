@@ -319,4 +319,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 }
 
                 return array_merge([
-    This program is distributed in the hope that it will be useful,
+                    'content_type' => 'text',
+        }
