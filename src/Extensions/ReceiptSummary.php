@@ -38,3 +38,4 @@ class ReceiptSummary implements JsonSerializable
     }
 
     /**
+     * @param string $shippingCost
