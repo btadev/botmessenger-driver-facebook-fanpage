@@ -49,3 +49,4 @@ class ReceiptSummary implements JsonSerializable
     }
 
     /**
+     * @param $totalTax
