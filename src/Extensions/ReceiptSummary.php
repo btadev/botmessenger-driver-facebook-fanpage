@@ -12,3 +12,4 @@ class ReceiptSummary implements JsonSerializable
     /** @var int */
     protected $shipping_cost;
 
+    /** @var int */
