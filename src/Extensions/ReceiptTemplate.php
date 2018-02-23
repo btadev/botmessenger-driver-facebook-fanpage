@@ -32,3 +32,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     protected $elements = [];
 
     /** @var array */
+    protected $address;
