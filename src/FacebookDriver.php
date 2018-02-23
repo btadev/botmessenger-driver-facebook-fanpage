@@ -184,3 +184,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             'sha1='.hash_hmac('sha1', $this->content, $this->config->get('app_secret')));
     }
 
+    {
