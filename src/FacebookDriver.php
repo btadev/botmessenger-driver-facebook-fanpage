@@ -230,4 +230,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         } elseif (isset($payload['postback']['payload'])) {
             return Answer::create($payload['postback']['title'])->setMessage($message)->setInteractiveReply(true)->setValue($payload['postback']['payload']);
         }
-    protected $elements = [];
+
+class WhitelistDomains extends Command
