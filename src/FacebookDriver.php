@@ -143,4 +143,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     protected function getEventFromEventData(array $eventData)
     {
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
+        $name = Collection::make($eventData)->except([
