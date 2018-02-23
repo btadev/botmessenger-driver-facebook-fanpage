@@ -249,4 +249,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     }
 
     /**
-        return $this;
+     * Load Facebook messages.
+     * @return $this
