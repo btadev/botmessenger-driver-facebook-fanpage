@@ -96,3 +96,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      * @param $paymentMethod
      * @return $this
      */
+    public function paymentMethod($paymentMethod)
