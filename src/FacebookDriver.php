@@ -134,4 +134,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             return $this->driverEvent;
         }
 
-    protected $description = 'Add a Facebook Greeting Text to your message start screen.';
+        return false;
+            'default_action' => $this->default_action,
