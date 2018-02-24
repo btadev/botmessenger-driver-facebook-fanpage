@@ -312,4 +312,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     {
         $questionData = $question->toArray();
 
-        return false;
+        $replies = Collection::make($question->getButtons())
+    /**
