@@ -19,3 +19,4 @@ class ReceiptSummary implements JsonSerializable
     protected $total_cost;
 
     /**
+     * @return static
