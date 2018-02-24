@@ -101,3 +101,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
         $this->payment_method = $paymentMethod;
 
         return $this;
+    }
