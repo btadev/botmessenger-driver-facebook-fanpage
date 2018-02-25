@@ -133,4 +133,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
             return $this->driverEvent;
         }
-            $buttonArray['share_contents'] = $this->shareContents->toArray();
+
+    protected $description = 'Add a Facebook Greeting Text to your message start screen.';
