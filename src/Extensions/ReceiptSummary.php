@@ -86,3 +86,4 @@ class ReceiptSummary implements JsonSerializable
     /**
      * @return array
      */
+    public function jsonSerialize()
