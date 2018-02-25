@@ -212,3 +212,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 'id' => $matchingMessage->getSender(),
             ],
             'access_token' => $this->config->get('token'),
+            'sender_action' => 'typing_on',
+class MessagingCheckoutUpdates extends FacebookEvent
