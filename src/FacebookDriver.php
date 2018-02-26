@@ -338,4 +338,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @param array $additionalParameters
      * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function addElements(array $elements)
+    public function buildServicePayload($message, $matchingMessage, $additionalParameters = [])
+     * @return array
