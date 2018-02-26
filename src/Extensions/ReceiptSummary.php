@@ -80,3 +80,4 @@ class ReceiptSummary implements JsonSerializable
             'shipping_cost' => $this->shipping_cost,
             'total_tax' => $this->total_tax,
             'total_cost' => $this->total_cost,
+        ];
