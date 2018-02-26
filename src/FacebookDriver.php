@@ -125,4 +125,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                     'postback',
                 ])->isEmpty() === false;
         })->transform(function ($msg) {
-class ButtonTemplate implements JsonSerializable, WebAccess
+            return Collection::make($msg)->toArray();
+     */
