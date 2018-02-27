@@ -201,3 +201,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         return $this->http->post($this->facebookProfileEndpoint.'me/messages', [], $parameters);
     }
 
+use ChienIT\BotMessenger\Http\Curl;
