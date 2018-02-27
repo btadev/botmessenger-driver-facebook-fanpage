@@ -341,4 +341,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     public function buildServicePayload($message, $matchingMessage, $additionalParameters = [])
     {
         if ($this->driverEvent) {
-    /**
+            $payload = $this->driverEvent->getPayload();
