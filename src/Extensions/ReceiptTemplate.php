@@ -79,3 +79,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
         $this->order_number = $orderNumber;
 
         return $this;
+    }
