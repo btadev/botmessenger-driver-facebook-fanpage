@@ -287,4 +287,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     public function isBot()
     {
-    public function toArray()
+        // Facebook bot replies don't get returned
+
