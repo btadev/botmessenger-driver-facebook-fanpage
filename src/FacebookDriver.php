@@ -267,4 +267,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
                 $message->setText($msg['postback']['payload']);
             } elseif (isset($msg['message']['quick_reply']['payload'])) {
-{
+                $this->isPostback = true;
+     */
