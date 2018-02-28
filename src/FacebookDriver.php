@@ -258,4 +258,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             $message = new IncomingMessage('', $this->getMessageSender($msg), $this->getMessageRecipient($msg), $msg);
             if (isset($msg['message']['text']) && ! isset($msg['message']['quick_reply']['payload'])) {
                 $message->setText($msg['message']['text']);
-    protected $subtitle;
+
