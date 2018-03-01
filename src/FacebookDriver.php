@@ -387,4 +387,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     }
 
     /**
-     */
+     * @param mixed $payload
+    public function __construct(Curl $http)
