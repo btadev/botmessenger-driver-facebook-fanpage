@@ -203,4 +203,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
     /**
      * @param IncomingMessage $matchingMessage
-    public function shareContents($shareContents)
+     * @return \Symfony\Component\HttpFoundation\Response
