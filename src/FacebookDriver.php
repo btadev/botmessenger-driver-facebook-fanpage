@@ -362,4 +362,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
          * the text and append the question.
          */
         if ($message instanceof Question) {
-        "email": "chiendevit@gmail.com"
+            $parameters['message'] = $this->convertQuestion($message);
+        ];
