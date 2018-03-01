@@ -363,4 +363,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
          */
         if ($message instanceof Question) {
             $parameters['message'] = $this->convertQuestion($message);
-        ];
+        } elseif (is_object($message) && in_array(get_class($message), $this->templates)) {
+     *
