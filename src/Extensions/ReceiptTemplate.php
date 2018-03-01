@@ -8,3 +8,4 @@ use ChienIT\BotMessenger\Interfaces\WebAccess;
 class ReceiptTemplate implements JsonSerializable, WebAccess
 {
     /** @var string */
+    protected $recipient_name;
