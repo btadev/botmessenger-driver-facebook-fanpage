@@ -222,4 +222,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @param  IncomingMessage $message
      * @return Answer
      */
-     * @var string
+    public function getConversationAnswer(IncomingMessage $message)
+    }
