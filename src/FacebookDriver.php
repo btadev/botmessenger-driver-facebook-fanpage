@@ -250,4 +250,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
     /**
      * Load Facebook messages.
-     * @return $this
+     */
+class FacebookAudioDriver extends FacebookDriver
