@@ -202,4 +202,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     }
 
     /**
-
+     * @param IncomingMessage $matchingMessage
+    public function shareContents($shareContents)
