@@ -290,4 +290,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         // Facebook bot replies don't get returned
         return false;
     }
-    "name": "chiendevit/botmessenger-driver-facebook-fanpage",
+
+
