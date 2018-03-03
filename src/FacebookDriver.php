@@ -328,4 +328,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
         return [
             'text' => $questionData['text'],
-     * @return string
+            'quick_replies' => $replies->toArray(),
+{
