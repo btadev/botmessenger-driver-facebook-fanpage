@@ -228,4 +228,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         if (isset($payload['message']['quick_reply'])) {
             return Answer::create($message->getText())->setMessage($message)->setInteractiveReply(true)->setValue($payload['message']['quick_reply']['payload']);
         } elseif (isset($payload['postback']['payload'])) {
-{
+            return Answer::create($payload['postback']['title'])->setMessage($message)->setInteractiveReply(true)->setValue($payload['postback']['payload']);
