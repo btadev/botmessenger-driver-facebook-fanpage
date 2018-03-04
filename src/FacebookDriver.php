@@ -247,4 +247,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
         return $this->messages;
     }
-    {
+
+use JsonSerializable;
