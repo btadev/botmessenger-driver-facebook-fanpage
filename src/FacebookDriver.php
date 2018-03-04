@@ -195,4 +195,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 'id' => $matchingMessage->getSender(),
             ],
             'access_token' => $this->config->get('token'),
-            $this->loadMessages();
+            'sender_action' => 'mark_seen',
+     */
