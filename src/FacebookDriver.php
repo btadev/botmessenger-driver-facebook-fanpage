@@ -324,4 +324,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                     'payload' => $button['value'] ?? $button['payload'],
                     'image_url' => $button['image_url'] ?? $button['image_url'],
                 ], $button['additional'] ?? []);
-
+            });
+    public function disableShare()
