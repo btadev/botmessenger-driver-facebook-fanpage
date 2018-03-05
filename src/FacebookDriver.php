@@ -356,3 +356,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             'message' => [
                 'text' => $message,
             ],
+        ], $additionalParameters);
