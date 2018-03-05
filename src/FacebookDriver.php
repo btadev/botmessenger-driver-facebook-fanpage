@@ -198,4 +198,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             'sender_action' => 'mark_seen',
         ];
 
-    /** @var array */
+        return $this->http->post($this->facebookProfileEndpoint.'me/messages', [], $parameters);
+    Notices displayed by works containing it; or
