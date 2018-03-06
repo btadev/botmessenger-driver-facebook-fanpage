@@ -240,3 +240,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      * @return array
      */
     public function toWebDriver()
+    {
