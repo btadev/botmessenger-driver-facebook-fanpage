@@ -253,4 +253,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     protected function loadMessages()
     {
-    public function getName()
+        $messages = Collection::make($this->event->get('messaging'));
+
