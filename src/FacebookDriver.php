@@ -317,4 +317,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 if (isset($button['content_type']) && $button['content_type'] !== 'text') {
                     return ['content_type' => $button['content_type']];
                 }
-    protected $elements = [];
+
+            if ($this->option('disable')) {
