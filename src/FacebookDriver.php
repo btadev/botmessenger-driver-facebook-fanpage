@@ -331,4 +331,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             'quick_replies' => $replies->toArray(),
         ];
     }
-<?php
+
+                }
