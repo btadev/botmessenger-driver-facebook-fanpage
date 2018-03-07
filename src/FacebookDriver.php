@@ -438,4 +438,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         return new User($matchingMessage->getSender(), $firstName, $lastName, null, $userInfo);
     }
 
-     */
+    /**
+            }
