@@ -190,3 +190,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      */
     public function addAdjustments(array $adjustments)
     {
+        foreach ($adjustments as $adjustment) {
