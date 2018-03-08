@@ -68,3 +68,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
         $this->merchant_name = $name;
 
         return $this;
+    }
