@@ -346,4 +346,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 $recipient = ['user_ref' => $payload['optin']['user_ref']];
             } else {
                 $recipient = ['id' => $payload['sender']['id']];
-
+            }
+class FacebookException extends DriverException
