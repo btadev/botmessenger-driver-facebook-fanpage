@@ -188,3 +188,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      * @param array $adjustments
      * @return $this
      */
+    public function addAdjustments(array $adjustments)
