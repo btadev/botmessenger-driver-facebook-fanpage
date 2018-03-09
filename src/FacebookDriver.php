@@ -408,4 +408,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     }
 
     /**
-     * @return array
+     * Retrieve User information.
+<?php
