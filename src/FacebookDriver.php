@@ -301,4 +301,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         return $this->isPostback;
     }
 
-        return 'messaging_checkout_updates';
+    /**
