@@ -265,4 +265,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             } elseif (isset($msg['postback']['payload'])) {
                 $this->isPostback = true;
 
-        if ($this->type !== self::TYPE_SHARE) {
+                $message->setText($msg['postback']['payload']);
+# ChienIT Bot Messenger Facebook Messenger Driver
