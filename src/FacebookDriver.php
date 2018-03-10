@@ -427,4 +427,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             $fields = 'first_name,last_name,email,title,department,employee_number,primary_phone,primary_address,picture,link,locale,name,name_format,updated_time';
         }
 
-
+        $userInfoData = $this->http->get($this->facebookProfileEndpoint.$matchingMessage->getSender().'?fields='.$fields.'&access_token='.$this->config->get('token'));
+                return new File($item['url'], $item);
