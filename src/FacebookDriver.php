@@ -318,4 +318,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                     return ['content_type' => $button['content_type']];
                 }
 
-            if ($this->option('disable')) {
+                return array_merge([
+    This program is distributed in the hope that it will be useful,
