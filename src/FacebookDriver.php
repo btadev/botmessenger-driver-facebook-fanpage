@@ -452,4 +452,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             'access_token' => $this->config->get('token'),
         ], $parameters);
 
-permission, would make you directly or secondarily liable for
+        return $this->http->post($this->facebookProfileEndpoint.$endpoint, [], $parameters);
+    /**
