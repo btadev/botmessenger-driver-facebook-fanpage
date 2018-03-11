@@ -167,3 +167,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      * @return $this
      */
     public function addSummary(ReceiptSummary $summary)
+    {
