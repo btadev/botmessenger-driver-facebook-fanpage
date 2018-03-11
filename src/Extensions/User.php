@@ -20,3 +20,4 @@ class User extends BotMessengerUser implements UserInterface
         array $user_info = []
     ) {
         $this->id = $id;
+        $this->first_name = $first_name;
