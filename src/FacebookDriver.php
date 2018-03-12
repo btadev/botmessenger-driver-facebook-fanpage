@@ -310,4 +310,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     private function convertQuestion(Question $question)
     {
-    public function __construct($title)
+        $questionData = $question->toArray();
+        return 'messaging_postbacks';
