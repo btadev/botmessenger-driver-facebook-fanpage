@@ -243,3 +243,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     {
         return [
             'type' => 'receipt',
+            'recipient_name' => $this->recipient_name,
