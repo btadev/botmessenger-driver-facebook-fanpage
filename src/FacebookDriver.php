@@ -475,4 +475,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             throw new FacebookException('Error sending payload: '.$responseData['error']['message']);
         }
     }
-     * Determine if the request is for this driver.
+
