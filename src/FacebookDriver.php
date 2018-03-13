@@ -499,4 +499,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             return $msg['recipient']['id'];
         }
     }
-    {
+
