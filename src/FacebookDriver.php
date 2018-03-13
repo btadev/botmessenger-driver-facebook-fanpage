@@ -395,4 +395,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     {
         $response = $this->http->post($this->facebookProfileEndpoint.'me/messages', [], $payload);
         $this->throwExceptionIfResponseNotOk($response);
-     * @return $this
+
