@@ -406,4 +406,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     {
         return ! empty($this->config->get('token'));
     }
-tells the user that there is no warranty for the work (except to the
+
+        if (count($messages) === 0) {
