@@ -479,4 +479,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     /**
      * @param $msg
      * @return string|null
-                $this->buttons[] = $button->toArray();
+     */
+                return Collection::make($msg['message']['attachments'])->filter(function ($attachment) {
