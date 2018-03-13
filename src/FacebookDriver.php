@@ -271,3 +271,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
                 $message->setText($msg['message']['quick_reply']['payload']);
             }
+
+    {
