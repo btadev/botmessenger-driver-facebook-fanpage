@@ -154,3 +154,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     /**
      * @param ReceiptAddress $address
      * @return $this
+     */
