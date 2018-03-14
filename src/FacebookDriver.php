@@ -393,4 +393,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     public function sendPayload($payload)
     {
-            'total_tax' => $this->total_tax,
+        $response = $this->http->post($this->facebookProfileEndpoint.'me/messages', [], $payload);
