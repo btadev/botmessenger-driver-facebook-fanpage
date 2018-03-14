@@ -313,4 +313,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $questionData = $question->toArray();
 
         $replies = Collection::make($question->getButtons())
-    /**
+            ->map(function ($button) {
+    }
