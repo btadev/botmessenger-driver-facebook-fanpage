@@ -157,3 +157,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      */
     public function addAddress(ReceiptAddress $address)
     {
+        $this->address = $address->toArray();
