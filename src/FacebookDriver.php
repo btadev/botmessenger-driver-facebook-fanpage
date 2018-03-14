@@ -279,4 +279,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             $messages = [new IncomingMessage('', '', '')];
         }
 
-                'image_url' => $this->imageUrl,
+        $this->messages = $messages;
+
