@@ -451,4 +451,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $parameters = array_replace_recursive([
             'access_token' => $this->config->get('token'),
         ], $parameters);
-    public function getAudioUrls(array $message)
+
+permission, would make you directly or secondarily liable for
