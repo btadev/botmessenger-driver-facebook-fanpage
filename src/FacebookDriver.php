@@ -392,4 +392,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @throws FacebookException
      */
     public function sendPayload($payload)
-    }
+    {
+            'total_tax' => $this->total_tax,
