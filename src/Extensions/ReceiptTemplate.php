@@ -238,3 +238,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
      * This will be used within the WebDriver.
      *
      * @return array
+     */
