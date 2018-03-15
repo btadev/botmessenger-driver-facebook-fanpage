@@ -9,3 +9,4 @@ class User extends BotMessengerUser implements UserInterface
 {
     /**
      * @var array
+     */
