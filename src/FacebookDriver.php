@@ -489,3 +489,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         }
     }
 
+    /**
+class MessagingReads extends FacebookEvent
