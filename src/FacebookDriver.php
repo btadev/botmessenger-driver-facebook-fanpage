@@ -462,4 +462,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     {
         return $this->content;
     }
-            'image')->pluck('payload')->map(function ($item) {
+
+    /**
