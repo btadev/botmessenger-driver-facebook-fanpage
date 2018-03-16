@@ -482,4 +482,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     protected function getMessageSender($msg)
     {
-     * @return int
+        if (isset($msg['sender'])) {
+
