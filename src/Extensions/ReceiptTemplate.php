@@ -122,3 +122,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     {
         $this->timestamp = $timestamp;
 
+        return $this;
