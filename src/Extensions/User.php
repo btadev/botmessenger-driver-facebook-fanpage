@@ -12,3 +12,4 @@ class User extends BotMessengerUser implements UserInterface
      */
     protected $user_info;
 
+    public function __construct(
