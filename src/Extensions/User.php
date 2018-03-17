@@ -41,3 +41,4 @@ class User extends BotMessengerUser implements UserInterface
         }
     }
 
+    /**
