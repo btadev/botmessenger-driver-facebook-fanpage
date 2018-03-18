@@ -359,4 +359,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         ], $additionalParameters);
         /*
          * If we send a Question with buttons, ignore
+         * the text and append the question.
 
