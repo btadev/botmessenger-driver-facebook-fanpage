@@ -399,4 +399,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         return $response;
     }
 
-    protected $media_type;
+    /**
+     * @param string $type
