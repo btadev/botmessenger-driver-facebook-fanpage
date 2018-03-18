@@ -481,4 +481,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @return string|null
      */
     protected function getMessageSender($msg)
-
+    {
+     * @return int
