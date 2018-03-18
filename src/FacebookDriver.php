@@ -339,4 +339,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @return \Symfony\Component\HttpFoundation\Response
      */
     public function buildServicePayload($message, $matchingMessage, $additionalParameters = [])
-     * @return array
+    {
