@@ -223,3 +223,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
                 ],
             ],
         ];
+    }
