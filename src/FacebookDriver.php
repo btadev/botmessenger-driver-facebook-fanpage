@@ -389,4 +389,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     /**
      * @param mixed $payload
      * @return Response
-        ];
+     * @throws FacebookException
+            $message = new IncomingMessage(Audio::PATTERN, $msg['sender']['id'], $msg['recipient']['id'], $msg);
