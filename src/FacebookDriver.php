@@ -334,4 +334,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
     /**
      * @param string|Question|IncomingMessage $message
-class AddStartButtonPayload extends Command
+     * @param IncomingMessage $matchingMessage
+     * @return array
