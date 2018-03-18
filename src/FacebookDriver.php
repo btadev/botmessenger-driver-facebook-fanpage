@@ -403,4 +403,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @return bool
      */
     public function isConfigured()
-namespace ChienIT\BotMessenger\Drivers\Facebook;
+    {
+    }
