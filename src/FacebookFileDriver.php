@@ -16,4 +16,5 @@ class FacebookFileDriver extends FacebookDriver
      * @return bool
      */
     public function matchesRequest()
-        return 'messaging_postbacks';
+    {
+     *
