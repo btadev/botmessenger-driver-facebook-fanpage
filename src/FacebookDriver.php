@@ -470,4 +470,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     protected function throwExceptionIfResponseNotOk(Response $facebookResponse)
     {
-namespace ChienIT\BotMessenger\Drivers\Facebook\Exceptions;
+        if ($facebookResponse->getStatusCode() !== 200) {
+    public function getPayload()
