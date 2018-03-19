@@ -40,4 +40,5 @@ class FacebookFileDriver extends FacebookDriver
     {
         if (empty($this->messages)) {
             $this->loadMessages();
-
+        }
+     * Create a new command instance.
