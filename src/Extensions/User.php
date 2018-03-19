@@ -57,3 +57,4 @@ class User extends BotMessengerUser implements UserInterface
         return isset($this->user_info['timezone']) ? $this->user_info['timezone'] : null;
     }
 
+    /**
