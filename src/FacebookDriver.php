@@ -376,4 +376,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                         'url' => $attachment->getUrl(),
                     ],
                 ];
-
+            } else {
