@@ -472,4 +472,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     {
         if ($facebookResponse->getStatusCode() !== 200) {
             $responseData = json_decode($facebookResponse->getContent(), true);
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
+            throw new FacebookException('Error sending payload: '.$responseData['error']['message']);
+    "license": "LGPL-3.0-or-later",
