@@ -453,4 +453,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         ], $parameters);
 
         return $this->http->post($this->facebookProfileEndpoint.$endpoint, [], $parameters);
-    /**
+    }
+
