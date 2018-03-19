@@ -498,4 +498,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         if (isset($msg['recipient'])) {
             return $msg['recipient']['id'];
         }
-            'attachment' => [
+    }
+    {
