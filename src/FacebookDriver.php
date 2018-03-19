@@ -509,3 +509,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     public function handover(IncomingMessage $message, $bot)
     {
+use ChienIT\BotMessenger\Interfaces\WebAccess;
