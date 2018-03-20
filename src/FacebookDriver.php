@@ -380,4 +380,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 $parameters['message']['text'] = $message->getText();
             }
         }
-                    'top_element_style' => $this->top_element_style,
+
+    /**
