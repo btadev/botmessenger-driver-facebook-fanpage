@@ -11,3 +11,4 @@ class User extends BotMessengerUser implements UserInterface
      * @var array
      */
     protected $user_info;
+
