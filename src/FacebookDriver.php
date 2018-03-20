@@ -375,4 +375,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                     'payload' => [
                         'url' => $attachment->getUrl(),
                     ],
-                    $message->addExtras('nlp', $msg['message']['nlp']);
+                ];
+
