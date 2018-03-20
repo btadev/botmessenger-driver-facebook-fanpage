@@ -46,4 +46,5 @@ class FacebookFileDriver extends FacebookDriver
     }
 
     /**
-excuse you from the conditions of this License.  If you cannot convey a
+     * Load Facebook messages.
+     *
