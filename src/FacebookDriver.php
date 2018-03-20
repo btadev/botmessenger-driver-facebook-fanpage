@@ -417,4 +417,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     public function getUser(IncomingMessage $matchingMessage)
     {
         $messagingDetails = $this->event->get('messaging')[0];
-        $this->messages = $messages;
+
+    {
