@@ -8,4 +8,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 class FacebookFileDriver extends FacebookDriver
 {
-     * @param Element $element
+    const DRIVER_NAME = 'FacebookFile';
+        $this->state = $state;
