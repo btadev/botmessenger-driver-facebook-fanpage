@@ -466,4 +466,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     /**
      * @param Response $facebookResponse
      * @return mixed
-            'text' => $this->text,
+     * @throws FacebookException
+
