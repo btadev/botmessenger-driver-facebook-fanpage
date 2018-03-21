@@ -512,4 +512,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         return $this->http->post($this->facebookProfileEndpoint.'me/pass_thread_control?access_token='.$this->config->get('token'), [], [
             'recipient' => [
                 'id' => $message->getSender(),
-
+            ],
+<?php
