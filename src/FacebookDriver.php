@@ -493,4 +493,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @param $msg
      * @return string|null
      */
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
+    protected function getMessageRecipient($msg)
+    }
