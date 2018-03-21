@@ -426,4 +426,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         if (isset($messagingDetails['sender']['community'])) {
             $fields = 'first_name,last_name,email,title,department,employee_number,primary_phone,primary_address,picture,link,locale,name,name_format,updated_time';
         }
-        $this->messages = $messages;
+
+
