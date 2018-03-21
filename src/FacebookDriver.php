@@ -423,4 +423,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
         // WORKPLACE (Facebook for companies)
         // if community isset in sender Object, it is a request done by workplace
-            return isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments']);
+        if (isset($messagingDetails['sender']['community'])) {
+
