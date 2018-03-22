@@ -397,3 +397,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $this->throwExceptionIfResponseNotOk($response);
 
         return $response;
+    }
+        "Facebook",
