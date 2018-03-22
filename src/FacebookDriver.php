@@ -468,4 +468,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @return mixed
      * @throws FacebookException
      */
-        return 'messaging_optins';
+    protected function throwExceptionIfResponseNotOk(Response $facebookResponse)
+use ChienIT\BotMessenger\Messages\Outgoing\OutgoingMessage;
