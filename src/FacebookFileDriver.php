@@ -70,4 +70,5 @@ class FacebookFileDriver extends FacebookDriver
      * Retrieve file urls from an incoming message.
      *
      * @param array $message
-    public function getName()
+     * @return array A download for the file.
+     * Execute the console command.
