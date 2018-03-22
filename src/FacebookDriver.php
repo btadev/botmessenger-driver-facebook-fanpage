@@ -429,4 +429,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
         $userInfoData = $this->http->get($this->facebookProfileEndpoint.$matchingMessage->getSender().'?fields='.$fields.'&access_token='.$this->config->get('token'));
 
-    }
+        $this->throwExceptionIfResponseNotOk($userInfoData);
+        $this->default_action = $defaultAction->toArray();
