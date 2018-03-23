@@ -32,3 +32,4 @@ class User extends BotMessengerUser implements UserInterface
     public function getProfilePic()
     {
         if (isset($this->user_info['profile_pic'])) {
+            return $this->user_info['profile_pic'];
