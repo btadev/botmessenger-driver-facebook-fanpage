@@ -410,4 +410,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     /**
      * Retrieve User information.
      *
-            if ($button instanceof ElementButton) {
+     * @param IncomingMessage $matchingMessage
+    {
