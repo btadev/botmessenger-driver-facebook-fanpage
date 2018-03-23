@@ -386,4 +386,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         return $parameters;
     }
 
-        $this->image_url = $image_url;
+    /**
+     */
