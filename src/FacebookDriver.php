@@ -398,4 +398,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
         return $response;
     }
-        "Facebook",
+
+    protected $media_type;
