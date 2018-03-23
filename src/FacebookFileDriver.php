@@ -18,4 +18,5 @@ class FacebookFileDriver extends FacebookDriver
     public function matchesRequest()
     {
         $validSignature = ! $this->config->has('facebook_app_secret') || $this->validateSignature();
-        foreach ($buttons as $button) {
+        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
+                }
