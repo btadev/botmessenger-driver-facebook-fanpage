@@ -30,3 +30,4 @@ class User extends BotMessengerUser implements UserInterface
      * @return string
      */
     public function getProfilePic()
+    {
