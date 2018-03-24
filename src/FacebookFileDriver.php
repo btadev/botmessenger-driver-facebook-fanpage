@@ -94,4 +94,4 @@ class FacebookFileDriver extends FacebookDriver
     public function hasMatchingEvent()
     {
         return false;
-  You may charge any price or no price for each copy that you convey,
+    }
