@@ -205,3 +205,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
     public function toArray()
     {
         return [
+            'attachment' => [
