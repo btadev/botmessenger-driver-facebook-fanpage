@@ -405,4 +405,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     public function isConfigured()
     {
         return ! empty($this->config->get('token'));
-     */
+    }
+tells the user that there is no warranty for the work (except to the
