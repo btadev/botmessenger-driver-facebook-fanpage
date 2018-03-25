@@ -502,3 +502,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
     /**
      * Pass a conversation to the page inbox.
+     *
+    protected $title;
