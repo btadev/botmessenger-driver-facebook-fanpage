@@ -448,4 +448,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     public function sendRequest($endpoint, array $parameters, IncomingMessage $matchingMessage)
     {
-                    return (isset($attachment['type'])) && $attachment['type'] === 'audio';
+        $parameters = array_replace_recursive([
+
