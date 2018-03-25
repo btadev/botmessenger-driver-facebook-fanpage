@@ -400,4 +400,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     }
 
     /**
-     * @param string $type
+     * @return bool
+    }
