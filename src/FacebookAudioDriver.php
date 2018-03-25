@@ -22,3 +22,4 @@ class FacebookAudioDriver extends FacebookDriver
             if (isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments'])) {
                 return Collection::make($msg['message']['attachments'])->filter(function ($attachment) {
                     return (isset($attachment['type'])) && $attachment['type'] === 'audio';
+                })->isEmpty() === false;
