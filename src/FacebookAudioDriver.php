@@ -87,3 +87,4 @@ class FacebookAudioDriver extends FacebookDriver
     {
         return false;
     }
+
