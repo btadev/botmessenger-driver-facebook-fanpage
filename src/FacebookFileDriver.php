@@ -25,4 +25,5 @@ class FacebookFileDriver extends FacebookDriver
                 })->isEmpty() === false;
             }
 
-     *
+            return false;
+    public function toArray()
