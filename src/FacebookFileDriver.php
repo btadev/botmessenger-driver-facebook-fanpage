@@ -50,4 +50,5 @@ class FacebookFileDriver extends FacebookDriver
      */
     protected function loadMessages()
     {
-     * @return array A download for the audio file.
+        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
+     * This will be used within the WebDriver.
