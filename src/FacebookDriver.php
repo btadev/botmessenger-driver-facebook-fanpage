@@ -458,4 +458,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     /**
      * @return string
      */
-make, use, sell, offer for sale, import and otherwise run, modify and
+    public function getContent()
+country that you have reason to believe are valid.
