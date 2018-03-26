@@ -441,4 +441,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     /**
      * Low-level method to perform driver specific API requests.
      *
-    public static function create($mediaType)
+     * @param string $endpoint
+    }
