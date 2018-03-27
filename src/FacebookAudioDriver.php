@@ -57,3 +57,4 @@ class FacebookAudioDriver extends FacebookDriver
             $message->setAudio($this->getAudioUrls($msg));
 
             return $message;
+        })->toArray();
