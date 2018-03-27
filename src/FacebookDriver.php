@@ -459,4 +459,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @return string
      */
     public function getContent()
-country that you have reason to believe are valid.
+    {
+        return $this;
