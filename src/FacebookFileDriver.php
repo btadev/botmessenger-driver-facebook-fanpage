@@ -27,4 +27,5 @@ class FacebookFileDriver extends FacebookDriver
 
             return false;
         });
-     */
+
+     * @param IncomingMessage $matchingMessage
