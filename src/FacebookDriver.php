@@ -418,4 +418,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     {
         $messagingDetails = $this->event->get('messaging')[0];
 
-    {
+        // field string available at Facebook
+     * @return string
