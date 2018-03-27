@@ -434,4 +434,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
         $firstName = $userInfo['first_name'] ?? null;
         $lastName = $userInfo['last_name'] ?? null;
-    public function getName()
+
+    protected $subtitle;
