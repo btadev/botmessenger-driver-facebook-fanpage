@@ -221,3 +221,4 @@ class ReceiptTemplate implements JsonSerializable, WebAccess
                     'summary' => $this->summary,
                     'adjustments' => $this->adjustments,
                 ],
+            ],
