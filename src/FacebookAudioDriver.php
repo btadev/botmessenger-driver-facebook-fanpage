@@ -34,3 +34,4 @@ class FacebookAudioDriver extends FacebookDriver
     /**
      * Retrieve the chat message.
      *
+     * @return array
