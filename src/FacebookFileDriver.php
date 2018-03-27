@@ -88,4 +88,5 @@ class FacebookFileDriver extends FacebookDriver
         return false;
     }
 
-    {
+    /**
+namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
