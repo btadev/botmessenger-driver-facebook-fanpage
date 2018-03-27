@@ -449,4 +449,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     public function sendRequest($endpoint, array $parameters, IncomingMessage $matchingMessage)
     {
         $parameters = array_replace_recursive([
-
+            'access_token' => $this->config->get('token'),
+     */
