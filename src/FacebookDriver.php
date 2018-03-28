@@ -469,4 +469,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @throws FacebookException
      */
     protected function throwExceptionIfResponseNotOk(Response $facebookResponse)
-use ChienIT\BotMessenger\Messages\Outgoing\OutgoingMessage;
+    {
+namespace ChienIT\BotMessenger\Drivers\Facebook\Exceptions;
