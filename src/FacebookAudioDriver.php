@@ -50,3 +50,4 @@ class FacebookAudioDriver extends FacebookDriver
      */
     protected function loadMessages()
     {
+        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
