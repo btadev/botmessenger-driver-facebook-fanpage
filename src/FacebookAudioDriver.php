@@ -40,3 +40,4 @@ class FacebookAudioDriver extends FacebookDriver
     {
         if (empty($this->messages)) {
             $this->loadMessages();
+        }
