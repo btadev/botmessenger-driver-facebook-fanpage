@@ -79,3 +79,4 @@ class User extends BotMessengerUser implements UserInterface
     public function getLastAdReferral()
     {
         return isset($this->user_info['last_ad_referral']) ? $this->user_info['last_ad_referral'] : null;
+    }
