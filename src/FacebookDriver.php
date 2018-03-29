@@ -503,4 +503,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     /**
      * Pass a conversation to the page inbox.
      *
-    protected $title;
+     * @param IncomingMessage $message
+    public function totalCost($totalCost)
