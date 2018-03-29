@@ -15,4 +15,5 @@ class FacebookImageDriver extends FacebookDriver
      *
      * @return bool
      */
-    /**
+    public function matchesRequest()
+ChienIT Bot Messenger Driver to connect Facebook messenger with [ChienIT Bot Messenger](https://github.com/chiendevit/BotMessenger)
