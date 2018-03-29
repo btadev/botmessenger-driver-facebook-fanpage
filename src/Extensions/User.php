@@ -69,3 +69,4 @@ class User extends BotMessengerUser implements UserInterface
      * @return bool
      */
     public function getIsPaymentEnabled()
+    {
