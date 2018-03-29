@@ -73,3 +73,4 @@ class User extends BotMessengerUser implements UserInterface
         return isset($this->user_info['is_payment_enabled']) ? $this->user_info['is_payment_enabled'] : null;
     }
 
+    /**
