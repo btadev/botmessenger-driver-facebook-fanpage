@@ -60,4 +60,4 @@ class FacebookFileDriver extends FacebookDriver
         })->toArray();
 
         if (count($messages) === 0) {
-    public function addElement(Element $element)
+            $messages = [new IncomingMessage('', '', '')];
