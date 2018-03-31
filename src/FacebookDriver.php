@@ -460,4 +460,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     public function getContent()
     {
-        return $this;
+        return $this->content;
+# ChienIT Bot Messenger Facebook Messenger Driver
