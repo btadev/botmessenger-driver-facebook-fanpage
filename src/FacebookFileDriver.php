@@ -80,4 +80,5 @@ class FacebookFileDriver extends FacebookDriver
             })->toArray();
     }
 
-        return $buttonArray;
+    /**
+{
