@@ -15,4 +15,5 @@ class FacebookFileDriver extends FacebookDriver
      *
      * @return bool
      */
-            $this->info('Greeting text was set.');
+    public function matchesRequest()
+        return 'messaging_postbacks';
