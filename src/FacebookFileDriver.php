@@ -45,4 +45,5 @@ class FacebookFileDriver extends FacebookDriver
         return $this->messages;
     }
 
-        return $this;
+    /**
+excuse you from the conditions of this License.  If you cannot convey a
