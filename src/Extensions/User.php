@@ -14,3 +14,4 @@ class User extends BotMessengerUser implements UserInterface
 
     public function __construct(
         $id = null,
+        $first_name = null,
