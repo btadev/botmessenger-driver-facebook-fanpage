@@ -64,3 +64,5 @@ class FacebookFileDriver extends FacebookDriver
         }
 
         $this->messages = $messages;
+    }
+
