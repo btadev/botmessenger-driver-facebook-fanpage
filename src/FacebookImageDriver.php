@@ -48,4 +48,4 @@ class FacebookImageDriver extends FacebookDriver
     /**
      * Load Facebook messages.
      */
-     * @param string $url
+    protected function loadMessages()
