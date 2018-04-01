@@ -74,3 +74,5 @@ class FacebookFileDriver extends FacebookDriver
      */
     public function getFiles(array $message)
     {
+        return Collection::make($message['message']['attachments'])->where('type',
+use ChienIT\BotMessenger\Drivers\Events\GenericEvent;
