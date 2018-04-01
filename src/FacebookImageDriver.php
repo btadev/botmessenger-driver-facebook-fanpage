@@ -61,4 +61,5 @@ class FacebookImageDriver extends FacebookDriver
 
         if (count($messages) === 0) {
             $messages = [new IncomingMessage('', '', '')];
-        return $this;
+        }
+
