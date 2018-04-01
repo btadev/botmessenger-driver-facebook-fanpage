@@ -54,3 +54,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         ListTemplate::class,
         ReceiptTemplate::class,
         MediaTemplate::class,
+    ];
