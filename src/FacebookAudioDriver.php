@@ -85,3 +85,4 @@ class FacebookAudioDriver extends FacebookDriver
      */
     public function isConfigured()
     {
+        return false;
