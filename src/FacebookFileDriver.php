@@ -95,3 +95,5 @@ class FacebookFileDriver extends FacebookDriver
     {
         return false;
     }
+}
+    public function getName()
