@@ -29,4 +29,4 @@ class FacebookImageDriver extends FacebookDriver
         });
 
         return ! $messages->isEmpty() && $validSignature;
-     * Return the event name to match.
+    }
