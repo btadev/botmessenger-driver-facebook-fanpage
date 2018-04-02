@@ -51,4 +51,5 @@ class FacebookFileDriver extends FacebookDriver
     protected function loadMessages()
     {
         $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
-     * This will be used within the WebDriver.
+            return isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments']);
+     * @return static
