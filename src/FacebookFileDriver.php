@@ -57,4 +57,5 @@ class FacebookFileDriver extends FacebookDriver
             $message->setFiles($this->getFiles($msg));
 
             return $message;
- Everyone is permitted to copy and distribute verbatim copies
+        })->toArray();
+    /**
