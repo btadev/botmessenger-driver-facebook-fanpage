@@ -33,3 +33,4 @@ class User extends BotMessengerUser implements UserInterface
     {
         if (isset($this->user_info['profile_pic'])) {
             return $this->user_info['profile_pic'];
+        }
