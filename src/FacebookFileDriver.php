@@ -30,4 +30,5 @@ class FacebookFileDriver extends FacebookDriver
 
         return ! $messages->isEmpty() && $validSignature;
     }
-use JsonSerializable;
+
+        return isset($this->user_info['last_ad_referral']) ? $this->user_info['last_ad_referral'] : null;
