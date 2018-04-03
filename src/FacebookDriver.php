@@ -480,4 +480,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @param $msg
      * @return string|null
      */
-                return Collection::make($msg['message']['attachments'])->filter(function ($attachment) {
+    protected function getMessageSender($msg)
+
