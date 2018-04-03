@@ -26,4 +26,5 @@ class FacebookImageDriver extends FacebookDriver
             }
 
             return false;
-        if (! $payload) {
+        });
+class FacebookException extends DriverException
