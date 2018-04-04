@@ -58,4 +58,4 @@ class FacebookImageDriver extends FacebookDriver
 
             return $message;
         })->toArray();
-    {
+
