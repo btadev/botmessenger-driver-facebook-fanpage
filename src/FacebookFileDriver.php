@@ -14,4 +14,5 @@ class FacebookFileDriver extends FacebookDriver
      * Determine if the request is for this driver.
      *
      * @return bool
-        if (! $payload) {
+     */
+            $this->info('Greeting text was set.');
