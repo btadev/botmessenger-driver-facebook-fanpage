@@ -17,4 +17,5 @@ class FacebookLocationDriver extends FacebookDriver
      */
     public function matchesRequest()
     {
-namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
+        $validSignature = ! $this->config->has('facebook_app_secret') || $this->validateSignature();
+     */
