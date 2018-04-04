@@ -38,4 +38,5 @@ class FacebookImageDriver extends FacebookDriver
      */
     public function getMessages()
     {
-}
+        if (empty($this->messages)) {
+
