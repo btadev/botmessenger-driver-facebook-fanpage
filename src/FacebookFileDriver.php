@@ -37,4 +37,5 @@ class FacebookFileDriver extends FacebookDriver
      * @return array
      */
     public function getMessages()
-
+    {
+    {
