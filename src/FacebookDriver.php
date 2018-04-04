@@ -25,3 +25,4 @@ use ChienIT\BotMessenger\Drivers\Facebook\Extensions\ListTemplate;
 use ChienIT\BotMessenger\Drivers\Facebook\Extensions\MediaTemplate;
 use ChienIT\BotMessenger\Drivers\Facebook\Events\MessagingReferrals;
 use ChienIT\BotMessenger\Drivers\Facebook\Extensions\ButtonTemplate;
+use ChienIT\BotMessenger\Drivers\Facebook\Events\MessagingDeliveries;
