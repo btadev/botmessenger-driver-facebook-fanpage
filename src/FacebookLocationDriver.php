@@ -11,4 +11,5 @@ class FacebookLocationDriver extends FacebookDriver
     const DRIVER_NAME = 'FacebookLocation';
 
     /**
-    {
+     * Determine if the request is for this driver.
+    /** @var int */
