@@ -505,4 +505,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      *
      * @param IncomingMessage $message
      * @param $bot
-            'city' => $this->city,
+     * @return Response
+        $this->buttons[] = $button->toArray();
