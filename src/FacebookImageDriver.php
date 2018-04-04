@@ -41,4 +41,5 @@ class FacebookImageDriver extends FacebookDriver
         if (empty($this->messages)) {
             $this->loadMessages();
         }
-    /** @var string */
+
+                ],
