@@ -89,3 +89,4 @@ class FacebookAudioDriver extends FacebookDriver
     }
 
     /**
+     * @return bool
