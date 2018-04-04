@@ -510,4 +510,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     public function handover(IncomingMessage $message, $bot)
     {
         return $this->http->post($this->facebookProfileEndpoint.'me/pass_thread_control?access_token='.$this->config->get('token'), [], [
-    public function __construct($title)
+            'recipient' => [
+    /**
