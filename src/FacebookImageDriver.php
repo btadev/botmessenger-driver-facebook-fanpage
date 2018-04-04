@@ -44,4 +44,5 @@ class FacebookImageDriver extends FacebookDriver
 
         return $this->messages;
     }
-    {
+
+     * The name and signature of the console command.
