@@ -56,4 +56,5 @@ class FacebookFileDriver extends FacebookDriver
             $message = new IncomingMessage(File::PATTERN, $msg['sender']['id'], $msg['recipient']['id'], $msg);
             $message->setFiles($this->getFiles($msg));
 
-
+            return $message;
+ Everyone is permitted to copy and distribute verbatim copies
