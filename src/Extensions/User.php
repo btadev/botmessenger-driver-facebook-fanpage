@@ -65,3 +65,4 @@ class User extends BotMessengerUser implements UserInterface
         return isset($this->user_info['gender']) ? $this->user_info['gender'] : null;
     }
 
+    /**
