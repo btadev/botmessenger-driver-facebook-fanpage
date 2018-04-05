@@ -79,3 +79,4 @@ class FacebookAudioDriver extends FacebookDriver
                 return new Audio($item['url'], $item);
             })->toArray();
     }
+
