@@ -87,4 +87,5 @@ class FacebookImageDriver extends FacebookDriver
     {
         return false;
     }
-make it effectively proprietary.  To prevent this, the GPL assures that
+
+<?php
