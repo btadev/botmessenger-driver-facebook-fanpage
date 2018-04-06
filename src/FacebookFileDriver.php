@@ -68,4 +68,5 @@ class FacebookFileDriver extends FacebookDriver
 
     /**
      * Retrieve file urls from an incoming message.
-     */
+     *
+    /** @var string */
