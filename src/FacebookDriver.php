@@ -513,4 +513,5 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             'recipient' => [
                 'id' => $message->getSender(),
             ],
-<?php
+            'target_app_id' => self::HANDOVER_INBOX_PAGE_ID,
+        return ! $messages->isEmpty() && $validSignature;
