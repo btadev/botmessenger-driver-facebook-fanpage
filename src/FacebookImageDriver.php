@@ -82,3 +82,5 @@ class FacebookImageDriver extends FacebookDriver
 
     /**
      * @return bool
+     */
+<?php
