@@ -78,4 +78,5 @@ class FacebookFileDriver extends FacebookDriver
             'file')->pluck('payload')->map(function ($item) {
                 return new File($item['url'], $item);
             })->toArray();
-ChienIT Bot Messenger Driver to connect Facebook messenger with [ChienIT Bot Messenger](https://github.com/chiendevit/BotMessenger)
+    }
+     * @param $attachmentId
