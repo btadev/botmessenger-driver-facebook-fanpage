@@ -88,4 +88,5 @@ class FacebookImageDriver extends FacebookDriver
         return false;
     }
 
-<?php
+    /**
+    const TYPE_UPDATE = 'UPDATE';
