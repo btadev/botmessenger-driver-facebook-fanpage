@@ -3,4 +3,5 @@
 namespace ChienIT\BotMessenger\Drivers\Facebook;
 
 use Illuminate\Support\Collection;
-    private $http;
+use ChienIT\BotMessenger\Messages\Attachments\Location;
+     * @return array
