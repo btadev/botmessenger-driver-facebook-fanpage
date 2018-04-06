@@ -64,4 +64,5 @@ class FacebookImageDriver extends FacebookDriver
         }
 
         $this->messages = $messages;
-    protected $subtotal;
+    }
+    public function __construct($title)
