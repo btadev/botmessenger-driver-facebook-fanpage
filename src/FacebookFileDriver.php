@@ -72,4 +72,5 @@ class FacebookFileDriver extends FacebookDriver
      * @param array $message
      * @return array A download for the file.
      */
-<?php
+    public function getFiles(array $message)
+     * @return string
