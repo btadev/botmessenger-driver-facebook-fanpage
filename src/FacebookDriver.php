@@ -84,3 +84,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $this->content = $request->getContent();
         $this->config = Collection::make($this->config->get('facebook', []));
     }
+
