@@ -32,4 +32,5 @@ class FacebookLocationDriver extends FacebookDriver
     }
 
     /**
-use ChienIT\BotMessenger\Interfaces\WebAccess;
+     * Retrieve the chat message.
+     */
