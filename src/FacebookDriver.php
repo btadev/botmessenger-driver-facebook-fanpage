@@ -20,3 +20,4 @@ use ChienIT\BotMessenger\Drivers\Facebook\Events\MessagingReads;
 use Symfony\Component\HttpFoundation\ParameterBag;
 use ChienIT\BotMessenger\Drivers\Facebook\Events\MessagingOptins;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+use ChienIT\BotMessenger\Messages\Outgoing\OutgoingMessage;
