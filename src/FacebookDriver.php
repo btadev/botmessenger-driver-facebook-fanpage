@@ -63,3 +63,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         File::class,
     ];
 
+    /** @var DriverEventInterface */
