@@ -28,3 +28,4 @@ use ChienIT\BotMessenger\Drivers\Facebook\Extensions\ButtonTemplate;
 use ChienIT\BotMessenger\Drivers\Facebook\Events\MessagingDeliveries;
 use ChienIT\BotMessenger\Drivers\Facebook\Extensions\GenericTemplate;
 use ChienIT\BotMessenger\Drivers\Facebook\Extensions\ReceiptTemplate;
+use ChienIT\BotMessenger\Drivers\Facebook\Exceptions\FacebookException;
