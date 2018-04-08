@@ -119,3 +119,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $event = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
             return Collection::make($msg)->except([
                     'sender',
+                    'recipient',
