@@ -11,4 +11,5 @@ class FacebookImageDriver extends FacebookDriver
     const DRIVER_NAME = 'FacebookImage';
 
     /**
-    /**
+     * Determine if the request is for this driver.
+
