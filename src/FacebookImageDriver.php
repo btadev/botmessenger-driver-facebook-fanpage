@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Drivers\Facebook;
 
-     * @return bool
+use Illuminate\Support\Collection;
+     */
