@@ -37,3 +37,4 @@ class FacebookAudioDriver extends FacebookDriver
      * @return array
      */
     public function getMessages()
+    {
