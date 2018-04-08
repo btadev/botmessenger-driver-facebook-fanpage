@@ -76,4 +76,5 @@ class FacebookImageDriver extends FacebookDriver
     {
         return Collection::make($message['message']['attachments'])->where('type',
             'image')->pluck('payload')->map(function ($item) {
-     * @return $this
+                return new Image($item['url'], $item);
+        $this->shareContents = $shareContents;
