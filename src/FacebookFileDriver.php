@@ -85,4 +85,5 @@ class FacebookFileDriver extends FacebookDriver
      */
     public function isConfigured()
     {
-    public function getFiles(array $message)
+        return false;
+     * @return $this
