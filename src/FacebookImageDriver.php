@@ -42,4 +42,5 @@ class FacebookImageDriver extends FacebookDriver
             $this->loadMessages();
         }
 
-                ],
+        return $this->messages;
+
