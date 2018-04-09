@@ -27,4 +27,5 @@ class FacebookLocationDriver extends FacebookDriver
 
             return false;
         });
-    public function getMessages()
+
+     * Return the event name to match.
