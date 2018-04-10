@@ -69,4 +69,5 @@ class FacebookImageDriver extends FacebookDriver
     /**
      * Retrieve image urls from an incoming message.
      *
-ChienIT Bot Messenger Driver to connect Facebook messenger with [ChienIT Bot Messenger](https://github.com/chiendevit/BotMessenger)
+     * @param array $message
+permission to link or combine any covered work with a work licensed
