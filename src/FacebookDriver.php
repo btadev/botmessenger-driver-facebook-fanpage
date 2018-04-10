@@ -110,3 +110,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             return Response::create($request->get('hub_challenge'))->send();
         }
     }
+
