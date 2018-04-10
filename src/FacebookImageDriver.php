@@ -28,4 +28,5 @@ class FacebookImageDriver extends FacebookDriver
             return false;
         });
 
-        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
+        return ! $messages->isEmpty() && $validSignature;
+     * Return the event name to match.
