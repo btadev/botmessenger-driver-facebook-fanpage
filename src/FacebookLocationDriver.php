@@ -31,4 +31,5 @@ class FacebookLocationDriver extends FacebookDriver
         return ! $messages->isEmpty() && $validSignature;
     }
 
-namespace ChienIT\BotMessenger\Drivers\Facebook;
+    /**
+use ChienIT\BotMessenger\Interfaces\WebAccess;
