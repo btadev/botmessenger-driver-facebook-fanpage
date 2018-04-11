@@ -63,3 +63,4 @@ class FacebookFileDriver extends FacebookDriver
             $messages = [new IncomingMessage('', '', '')];
         }
 
+        $this->messages = $messages;
