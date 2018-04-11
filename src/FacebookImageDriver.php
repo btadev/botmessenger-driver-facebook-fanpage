@@ -18,4 +18,5 @@ class FacebookImageDriver extends FacebookDriver
     public function matchesRequest()
     {
         $validSignature = ! $this->config->has('facebook_app_secret') || $this->validateSignature();
-PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
+
