@@ -10,3 +10,4 @@ use ChienIT\BotMessenger\Drivers\Facebook\Extensions\User;
 use ChienIT\BotMessenger\Interfaces\VerifiesService;
 use ChienIT\BotMessenger\Messages\Attachments\Audio;
 use ChienIT\BotMessenger\Messages\Attachments\Image;
+use ChienIT\BotMessenger\Messages\Attachments\Video;
