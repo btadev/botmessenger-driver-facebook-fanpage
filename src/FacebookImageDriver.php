@@ -70,4 +70,5 @@ class FacebookImageDriver extends FacebookDriver
      * Retrieve image urls from an incoming message.
      *
      * @param array $message
-permission to link or combine any covered work with a work licensed
+     * @return array A download for the image file.
+     * @return $this
