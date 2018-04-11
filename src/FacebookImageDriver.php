@@ -20,4 +20,4 @@ class FacebookImageDriver extends FacebookDriver
         $validSignature = ! $this->config->has('facebook_app_secret') || $this->validateSignature();
         $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
             if (isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments'])) {
-        return ! $messages->isEmpty() && $validSignature;
+                return Collection::make($msg['message']['attachments'])->filter(function ($attachment) {
