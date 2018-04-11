@@ -25,4 +25,5 @@ class FacebookImageDriver extends FacebookDriver
                 })->isEmpty() === false;
             }
 
-    {
+            return false;
+        if (! $payload) {
