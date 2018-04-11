@@ -122,3 +122,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                     'recipient',
                     'timestamp',
                     'message',
+                    'postback',
