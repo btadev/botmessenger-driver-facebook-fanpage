@@ -81,4 +81,5 @@ class FacebookFileDriver extends FacebookDriver
     }
 
     /**
-{
+     * @return bool
+            "ChienIT\\BotMessenger\\Drivers\\Facebook\\": "src/"
