@@ -95,4 +95,5 @@ class FacebookImageDriver extends FacebookDriver
     {
         return false;
     }
-        $this->image_url = $image_url;
+}
+    /**
