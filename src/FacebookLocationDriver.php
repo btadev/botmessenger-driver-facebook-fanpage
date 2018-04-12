@@ -46,4 +46,4 @@ class FacebookLocationDriver extends FacebookDriver
     }
 
     /**
-        $this->http = $http;
+     * Load Facebook messages.
