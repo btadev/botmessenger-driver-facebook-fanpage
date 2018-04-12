@@ -45,4 +45,5 @@ class FacebookLocationDriver extends FacebookDriver
         return $this->messages;
     }
 
-class MessagingPostbacks extends FacebookEvent
+    /**
+        $this->http = $http;
