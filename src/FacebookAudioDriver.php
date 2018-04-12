@@ -78,3 +78,4 @@ class FacebookAudioDriver extends FacebookDriver
             'audio')->pluck('payload')->map(function ($item) {
                 return new Audio($item['url'], $item);
             })->toArray();
+    }
