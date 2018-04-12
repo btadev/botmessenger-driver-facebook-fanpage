@@ -49,3 +49,5 @@ class FacebookFileDriver extends FacebookDriver
      * Load Facebook messages.
      */
     protected function loadMessages()
+    {
+     * @return array A download for the audio file.
