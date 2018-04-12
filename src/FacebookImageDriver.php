@@ -46,4 +46,5 @@ class FacebookImageDriver extends FacebookDriver
     }
 
     /**
-    public function getName()
+     * Load Facebook messages.
+     */
