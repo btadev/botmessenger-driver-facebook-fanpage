@@ -55,3 +55,4 @@ class FacebookAudioDriver extends FacebookDriver
         })->transform(function ($msg) {
             $message = new IncomingMessage(Audio::PATTERN, $msg['sender']['id'], $msg['recipient']['id'], $msg);
             $message->setAudio($this->getAudioUrls($msg));
+
