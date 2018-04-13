@@ -67,4 +67,5 @@ class FacebookLocationDriver extends FacebookDriver
     }
 
     /**
-    {
+     * Retrieve location from an incoming message.
+     */
