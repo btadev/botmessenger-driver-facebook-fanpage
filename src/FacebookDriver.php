@@ -141,3 +141,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @param array $eventData
      * @return DriverEventInterface
      */
+    protected function getEventFromEventData(array $eventData)
