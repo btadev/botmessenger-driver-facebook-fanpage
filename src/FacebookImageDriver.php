@@ -52,3 +52,5 @@ class FacebookImageDriver extends FacebookDriver
     {
         $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
             return isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments']);
+        })->transform(function ($msg) {
+        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
