@@ -84,4 +84,5 @@ class FacebookFileDriver extends FacebookDriver
      * @return bool
      */
     public function isConfigured()
-     * @param $totalCost
+    {
+    public function getFiles(array $message)
