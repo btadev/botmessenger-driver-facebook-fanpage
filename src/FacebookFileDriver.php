@@ -92,4 +92,5 @@ class FacebookFileDriver extends FacebookDriver
      * @return bool
      */
     public function hasMatchingEvent()
-     * @param string $street
+    {
+}
