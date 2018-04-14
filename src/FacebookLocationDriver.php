@@ -86,4 +86,4 @@ class FacebookLocationDriver extends FacebookDriver
     public function isConfigured()
     {
         return false;
-     * Return the event name to match.
+    }
