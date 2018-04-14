@@ -79,4 +79,5 @@ class FacebookLocationDriver extends FacebookDriver
 
         return new Location($data['coordinates']['lat'], $data['coordinates']['long'], $data);
     }
-     * @return array
+
+    public static function create()
