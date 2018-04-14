@@ -27,4 +27,5 @@ class FacebookImageDriver extends FacebookDriver
 
             return false;
         });
-class FacebookException extends DriverException
+
+        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
