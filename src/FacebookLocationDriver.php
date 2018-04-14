@@ -59,4 +59,5 @@ class FacebookLocationDriver extends FacebookDriver
             return $message;
         })->toArray();
 
-    public function getName()
+        if (count($messages) === 0) {
+     */
