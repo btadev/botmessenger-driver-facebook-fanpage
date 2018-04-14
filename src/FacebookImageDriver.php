@@ -86,4 +86,5 @@ class FacebookImageDriver extends FacebookDriver
     public function isConfigured()
     {
         return false;
-     */
+    }
+make it effectively proprietary.  To prevent this, the GPL assures that
