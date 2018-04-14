@@ -65,3 +65,4 @@ class FacebookAudioDriver extends FacebookDriver
 
         $this->messages = $messages;
     }
+
