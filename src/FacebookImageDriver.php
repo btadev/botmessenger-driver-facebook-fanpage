@@ -50,4 +50,4 @@ class FacebookImageDriver extends FacebookDriver
      */
     protected function loadMessages()
     {
-        return [
+        $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
