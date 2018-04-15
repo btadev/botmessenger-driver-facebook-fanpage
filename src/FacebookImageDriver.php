@@ -55,3 +55,5 @@ class FacebookImageDriver extends FacebookDriver
         })->transform(function ($msg) {
             $message = new IncomingMessage(Image::PATTERN, $msg['sender']['id'], $msg['recipient']['id'], $msg);
             $message->setImages($this->getImagesUrls($msg));
+
+     *
