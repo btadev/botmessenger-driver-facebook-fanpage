@@ -15,4 +15,5 @@ class FacebookVideoDriver extends FacebookDriver
      *
      * @return bool
      */
-class ElementButton
+    public function matchesRequest()
+{
