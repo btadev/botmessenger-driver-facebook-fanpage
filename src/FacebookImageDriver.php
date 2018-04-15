@@ -49,3 +49,5 @@ class FacebookImageDriver extends FacebookDriver
      * Load Facebook messages.
      */
     protected function loadMessages()
+    {
+        return [
