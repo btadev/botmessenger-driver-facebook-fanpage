@@ -117,3 +117,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     public function hasMatchingEvent()
     {
         $event = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
+            return Collection::make($msg)->except([
