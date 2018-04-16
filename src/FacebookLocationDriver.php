@@ -26,4 +26,5 @@ class FacebookLocationDriver extends FacebookDriver
             }
 
             return false;
-    {
+        });
+    public function getMessages()
