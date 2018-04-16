@@ -21,4 +21,5 @@ class FacebookVideoDriver extends FacebookDriver
         $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
             if (isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments'])) {
                 return Collection::make($msg['message']['attachments'])->filter(function ($attachment) {
-     */
+                    return (isset($attachment['type'])) && $attachment['type'] === 'video';
+
