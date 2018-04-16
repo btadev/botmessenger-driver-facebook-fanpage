@@ -8,4 +8,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 class FacebookImageDriver extends FacebookDriver
 {
-namespace ChienIT\BotMessenger\Drivers\Facebook\Extensions;
+    const DRIVER_NAME = 'FacebookImage';
+     * Return the event name to match.
