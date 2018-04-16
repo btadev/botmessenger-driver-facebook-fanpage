@@ -172,3 +172,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
                 return $event;
                 break;
+        }
