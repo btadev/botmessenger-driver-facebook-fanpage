@@ -37,4 +37,5 @@ class FacebookImageDriver extends FacebookDriver
      * @return array
      */
     public function getMessages()
-use ChienIT\BotMessenger\Http\Curl;
+    {
+}
