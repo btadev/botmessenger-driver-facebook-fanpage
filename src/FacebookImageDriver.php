@@ -72,4 +72,4 @@ class FacebookImageDriver extends FacebookDriver
      * @param array $message
      * @return array A download for the image file.
      */
-
+    public function getImagesUrls(array $message)
