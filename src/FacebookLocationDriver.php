@@ -81,3 +81,5 @@ class FacebookLocationDriver extends FacebookDriver
     }
 
     /**
+     * @return bool
+            })->toArray();
