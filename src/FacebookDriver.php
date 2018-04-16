@@ -132,3 +132,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             $this->driverEvent = $this->getEventFromEventData($event);
 
             return $this->driverEvent;
+        }
