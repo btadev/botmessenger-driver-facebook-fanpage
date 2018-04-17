@@ -215,3 +215,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             'sender_action' => 'typing_on',
         ];
 
+        return $this->http->post($this->facebookProfileEndpoint.'me/messages', [], $parameters);
