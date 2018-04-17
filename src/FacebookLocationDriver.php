@@ -91,4 +91,5 @@ class FacebookLocationDriver extends FacebookDriver
     /**
      * @return bool
      */
-        "Facebook",
+    public function hasMatchingEvent()
+     * @var string
