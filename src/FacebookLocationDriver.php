@@ -75,4 +75,5 @@ class FacebookLocationDriver extends FacebookDriver
     public function getLocation(array $messages)
     {
         $data = Collection::make($messages['message']['attachments'])->where('type',
-     * The name and signature of the console command.
+            'location')->pluck('payload')->first();
+<?php
