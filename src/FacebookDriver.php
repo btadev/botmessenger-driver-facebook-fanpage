@@ -72,3 +72,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     protected $isPostback = false;
 
     const DRIVER_NAME = 'Facebook';
+
