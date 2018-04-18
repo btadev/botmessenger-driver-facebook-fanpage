@@ -42,3 +42,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     protected $signature;
 
     /** @var string */
+    protected $content;
