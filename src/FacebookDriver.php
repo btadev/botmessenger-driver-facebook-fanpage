@@ -61,3 +61,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         Audio::class,
         Image::class,
         File::class,
+    ];
