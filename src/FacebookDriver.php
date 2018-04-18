@@ -124,3 +124,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                     'message',
                     'postback',
                 ])->isEmpty() === false;
+        })->transform(function ($msg) {
