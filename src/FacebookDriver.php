@@ -7,3 +7,4 @@ use ChienIT\BotMessenger\Drivers\HttpDriver;
 use ChienIT\BotMessenger\Messages\Incoming\Answer;
 use ChienIT\BotMessenger\Messages\Attachments\File;
 use ChienIT\BotMessenger\Drivers\Facebook\Extensions\User;
+use ChienIT\BotMessenger\Interfaces\VerifiesService;
