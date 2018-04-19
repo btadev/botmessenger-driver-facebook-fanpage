@@ -39,4 +39,5 @@ class FacebookVideoDriver extends FacebookDriver
     public function getMessages()
     {
         if (empty($this->messages)) {
-<?php
+            $this->loadMessages();
+        return $parameters;
