@@ -48,4 +48,5 @@ class FacebookLocationDriver extends FacebookDriver
     /**
      * Load Facebook messages.
      */
-     * Create a new command instance.
+    protected function loadMessages()
+     * Return the event name to match.
