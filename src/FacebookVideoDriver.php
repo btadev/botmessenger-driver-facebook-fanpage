@@ -23,3 +23,5 @@ class FacebookVideoDriver extends FacebookDriver
                 return Collection::make($msg['message']['attachments'])->filter(function ($attachment) {
                     return (isset($attachment['type'])) && $attachment['type'] === 'video';
                 })->isEmpty() === false;
+            }
+    const DRIVER_NAME = 'FacebookFile';
