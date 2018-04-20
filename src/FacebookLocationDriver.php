@@ -8,4 +8,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 class FacebookLocationDriver extends FacebookDriver
 {
-     * Determine if the request is for this driver.
+    const DRIVER_NAME = 'FacebookLocation';
+        return 'messaging_optins';
