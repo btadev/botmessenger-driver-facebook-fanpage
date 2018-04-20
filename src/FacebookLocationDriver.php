@@ -77,4 +77,5 @@ class FacebookLocationDriver extends FacebookDriver
         $data = Collection::make($messages['message']['attachments'])->where('type',
             'location')->pluck('payload')->first();
 
-
+        return new Location($data['coordinates']['lat'], $data['coordinates']['long'], $data);
+namespace ChienIT\BotMessenger\Drivers\Facebook;
