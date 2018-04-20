@@ -98,3 +98,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         });
 
         return ! $messages->isEmpty() && $validSignature;
+    }
