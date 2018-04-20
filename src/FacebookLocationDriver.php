@@ -33,4 +33,5 @@ class FacebookLocationDriver extends FacebookDriver
 
     /**
      * Retrieve the chat message.
-     */
+     *
+        return $this->toArray();
