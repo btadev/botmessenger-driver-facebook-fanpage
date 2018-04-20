@@ -46,4 +46,5 @@ class FacebookVideoDriver extends FacebookDriver
     }
 
     /**
-<?php
+     * Load Facebook messages.
+     *
