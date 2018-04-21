@@ -58,4 +58,5 @@ class FacebookVideoDriver extends FacebookDriver
 
             return $message;
         })->toArray();
-     */
+
+     * @return string
