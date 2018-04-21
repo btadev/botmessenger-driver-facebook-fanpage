@@ -33,4 +33,4 @@ class FacebookVideoDriver extends FacebookDriver
 
     /**
      * Retrieve the chat message.
-    "keywords": [
+     *
