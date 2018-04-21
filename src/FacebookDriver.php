@@ -78,3 +78,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     public function buildPayload(Request $request)
     {
+        $this->payload = new ParameterBag((array) json_decode($request->getContent(), true));
