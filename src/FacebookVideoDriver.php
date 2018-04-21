@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Drivers\Facebook;
 
-        $this->url = $url;
+use Illuminate\Support\Collection;
+     * @param $currency
