@@ -25,4 +25,5 @@ class FacebookLocationDriver extends FacebookDriver
                 })->isEmpty() === false;
             }
 
-    /**
+            return false;
+    {
