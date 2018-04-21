@@ -188,3 +188,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @param IncomingMessage $matchingMessage
      * @return \Symfony\Component\HttpFoundation\Response
      */
+    public function markSeen(IncomingMessage $matchingMessage)
