@@ -180,3 +180,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     protected function validateSignature()
     {
+        return hash_equals($this->signature,
