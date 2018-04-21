@@ -48,3 +48,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     protected $messages = [];
 
     /** @var array */
+    protected $templates = [
