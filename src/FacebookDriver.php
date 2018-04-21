@@ -56,3 +56,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         MediaTemplate::class,
     ];
 
+    private $supportedAttachments = [
