@@ -19,4 +19,5 @@ class FacebookLocationDriver extends FacebookDriver
     {
         $validSignature = ! $this->config->has('facebook_app_secret') || $this->validateSignature();
         $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
-     * @var string
+            if (isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments'])) {
+
