@@ -245,3 +245,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             $this->loadMessages();
         }
 
+        return $this->messages;
