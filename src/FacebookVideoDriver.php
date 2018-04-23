@@ -73,4 +73,5 @@ class FacebookVideoDriver extends FacebookDriver
      * @return array A download for the image file.
      */
     public function getVideoUrls(array $message)
-
+    {
+    /**
