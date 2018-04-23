@@ -146,3 +146,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $name = Collection::make($eventData)->except([
             'sender',
             'recipient',
+            'timestamp',
