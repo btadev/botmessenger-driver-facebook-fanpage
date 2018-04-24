@@ -64,3 +64,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     ];
 
     /** @var DriverEventInterface */
+    protected $driverEvent;
