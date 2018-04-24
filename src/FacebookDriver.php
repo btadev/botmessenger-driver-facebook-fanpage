@@ -114,3 +114,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     /**
      * @return bool|DriverEventInterface
      */
+    public function hasMatchingEvent()
