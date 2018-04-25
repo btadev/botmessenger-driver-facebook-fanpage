@@ -89,4 +89,5 @@ class FacebookImageDriver extends FacebookDriver
     }
 
     /**
-    const TYPE_UPDATE = 'UPDATE';
+     * @return bool
+
