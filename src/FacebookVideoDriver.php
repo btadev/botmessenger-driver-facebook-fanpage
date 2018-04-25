@@ -42,4 +42,5 @@ class FacebookVideoDriver extends FacebookDriver
             $this->loadMessages();
         }
 
-        return $this;
+        return $this->messages;
+{
