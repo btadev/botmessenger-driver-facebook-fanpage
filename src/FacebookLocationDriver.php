@@ -66,4 +66,5 @@ class FacebookLocationDriver extends FacebookDriver
         $this->messages = $messages;
     }
 
-     * Return the event name to match.
+    /**
+    {
