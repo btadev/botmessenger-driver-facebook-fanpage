@@ -83,4 +83,5 @@ class FacebookImageDriver extends FacebookDriver
     /**
      * @return bool
      */
-<?php
+    public function isConfigured()
+     * @return mixed
