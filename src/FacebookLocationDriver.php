@@ -39,4 +39,5 @@ class FacebookLocationDriver extends FacebookDriver
     public function getMessages()
     {
         if (empty($this->messages)) {
-     * Return the event name to match.
+            $this->loadMessages();
+namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
