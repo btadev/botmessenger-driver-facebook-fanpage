@@ -16,4 +16,5 @@ class FacebookLocationDriver extends FacebookDriver
      * @return bool
      */
     public function matchesRequest()
-     *
+    {
+namespace ChienIT\BotMessenger\Drivers\Facebook\Events;
