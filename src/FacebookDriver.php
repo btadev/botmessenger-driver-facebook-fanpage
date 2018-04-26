@@ -170,3 +170,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 $event = new GenericEvent($eventData);
                 $event->setName($name);
 
+                return $event;
