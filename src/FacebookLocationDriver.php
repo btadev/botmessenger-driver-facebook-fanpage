@@ -37,4 +37,4 @@ class FacebookLocationDriver extends FacebookDriver
      * @return array
      */
     public function getMessages()
-{
+    {
