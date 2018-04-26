@@ -96,4 +96,3 @@ class FacebookLocationDriver extends FacebookDriver
         return false;
     }
 }
-class QuickReplyButton implements QuestionActionInterface
