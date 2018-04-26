@@ -61,4 +61,5 @@ class FacebookLocationDriver extends FacebookDriver
 
         if (count($messages) === 0) {
             $messages = [new IncomingMessage('', '', '')];
-use ChienIT\BotMessenger\Interfaces\QuestionActionInterface;
+        }
+
