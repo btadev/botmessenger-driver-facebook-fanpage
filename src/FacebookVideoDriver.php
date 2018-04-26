@@ -93,4 +93,5 @@ class FacebookVideoDriver extends FacebookDriver
      */
     public function hasMatchingEvent()
     {
+        return false;
      * @return string
