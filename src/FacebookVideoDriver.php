@@ -78,4 +78,5 @@ class FacebookVideoDriver extends FacebookDriver
             'video')->pluck('payload')->map(function ($item) {
                 return new Video($item['url'], $item);
             })->toArray();
-    protected $image_url;
+    }
+
