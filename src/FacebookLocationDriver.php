@@ -84,3 +84,5 @@ class FacebookLocationDriver extends FacebookDriver
      * @return bool
      */
     public function isConfigured()
+    {
+        $this->merchant_name = $name;
