@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Drivers\Facebook;
 
-<?php
+use Illuminate\Support\Collection;
+    private $http;
