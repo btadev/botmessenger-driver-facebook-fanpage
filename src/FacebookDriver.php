@@ -296,3 +296,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      *
      * @return bool
      */
+    public function isPostback()
