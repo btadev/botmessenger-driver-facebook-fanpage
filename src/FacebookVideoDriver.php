@@ -3,4 +3,4 @@
 namespace ChienIT\BotMessenger\Drivers\Facebook;
 
 use Illuminate\Support\Collection;
-     * @param $currency
+use ChienIT\BotMessenger\Messages\Attachments\Video;
