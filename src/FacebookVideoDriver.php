@@ -71,4 +71,5 @@ class FacebookVideoDriver extends FacebookDriver
      *
      * @param array $message
      * @return array A download for the image file.
-(including a cross-claim or counterclaim in a lawsuit) alleging that
+     */
+     * Set the button type.
