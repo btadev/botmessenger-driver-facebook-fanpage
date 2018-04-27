@@ -56,3 +56,5 @@ class FacebookLocationDriver extends FacebookDriver
             $message = new IncomingMessage(Location::PATTERN, $msg['sender']['id'], $msg['recipient']['id'], $msg);
             $message->setLocation($this->getLocation($msg));
 
+            return $message;
+<?php
