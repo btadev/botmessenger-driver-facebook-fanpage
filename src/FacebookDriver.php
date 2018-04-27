@@ -251,3 +251,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     /**
      * Load Facebook messages.
      */
+    protected function loadMessages()
