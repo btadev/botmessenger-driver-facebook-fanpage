@@ -207,3 +207,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     public function types(IncomingMessage $matchingMessage)
     {
+        $parameters = [
