@@ -91,3 +91,5 @@ class FacebookVideoDriver extends FacebookDriver
     /**
      * @return bool
      */
+    public function hasMatchingEvent()
+     * Return the event name to match.
