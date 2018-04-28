@@ -95,4 +95,5 @@ class FacebookLocationDriver extends FacebookDriver
     {
         return false;
     }
-                return new File($item['url'], $item);
+}
+class QuickReplyButton implements QuestionActionInterface
