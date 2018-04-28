@@ -72,4 +72,5 @@ class FacebookLocationDriver extends FacebookDriver
      * @param array $messages
      * @return \ChienIT\BotMessenger\Messages\Attachments\Location
      */
-        "Facebook",
+    public function getLocation(array $messages)
+            $this->error('Something went wrong: '.$responseObject->error->message);
