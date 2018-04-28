@@ -25,4 +25,5 @@ class FacebookVideoDriver extends FacebookDriver
                 })->isEmpty() === false;
             }
 
+            return false;
 
