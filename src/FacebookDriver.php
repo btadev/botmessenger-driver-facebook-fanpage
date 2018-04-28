@@ -151,3 +151,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             'postback',
         ])->keys()->first();
         switch ($name) {
+            case 'referral':
