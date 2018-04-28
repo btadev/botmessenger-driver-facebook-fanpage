@@ -71,4 +71,5 @@ class FacebookLocationDriver extends FacebookDriver
      *
      * @param array $messages
      * @return \ChienIT\BotMessenger\Messages\Attachments\Location
-
+     */
+        "Facebook",
