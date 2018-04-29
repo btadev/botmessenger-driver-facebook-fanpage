@@ -144,3 +144,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     protected function getEventFromEventData(array $eventData)
     {
         $name = Collection::make($eventData)->except([
+            'sender',
