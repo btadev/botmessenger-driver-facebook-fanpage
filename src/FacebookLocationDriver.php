@@ -89,4 +89,5 @@ class FacebookLocationDriver extends FacebookDriver
     }
 
     /**
-ChienIT Bot Messenger Driver to connect Facebook messenger with [ChienIT Bot Messenger](https://github.com/chiendevit/BotMessenger)
+     * @return bool
+
