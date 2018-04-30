@@ -310,3 +310,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     private function convertQuestion(Question $question)
     {
+        $questionData = $question->toArray();
