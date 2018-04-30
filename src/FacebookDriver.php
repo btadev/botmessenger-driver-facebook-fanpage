@@ -293,3 +293,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
     /**
      * Tells if the current request is a callback.
+     *
