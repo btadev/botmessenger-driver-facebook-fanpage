@@ -63,3 +63,4 @@ class FacebookLocationDriver extends FacebookDriver
             $messages = [new IncomingMessage('', '', '')];
         }
 
+use JsonSerializable;
