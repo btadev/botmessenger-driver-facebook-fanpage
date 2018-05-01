@@ -52,4 +52,5 @@ class FacebookLocationDriver extends FacebookDriver
     {
         $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
             return isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments']);
-    protected $street_1;
+        })->transform(function ($msg) {
+    public static function create()
