@@ -149,3 +149,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             'timestamp',
             'message',
             'postback',
+        ])->keys()->first();
