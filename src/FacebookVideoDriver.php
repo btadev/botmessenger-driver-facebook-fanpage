@@ -86,4 +86,5 @@ class FacebookVideoDriver extends FacebookDriver
     public function isConfigured()
     {
         return false;
-        return 'messaging_postbacks';
+    }
+    {
