@@ -11,4 +11,4 @@ class FacebookVideoDriver extends FacebookDriver
     const DRIVER_NAME = 'FacebookVideo';
 
     /**
-    public function jsonSerialize()
+     * Determine if the request is for this driver.
