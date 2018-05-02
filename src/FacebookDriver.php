@@ -239,3 +239,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      *
      * @return array
      */
+    public function getMessages()
