@@ -81,4 +81,5 @@ class FacebookVideoDriver extends FacebookDriver
     }
 
     /**
-    }
+     * @return bool
+     * Retrieve video urls from an incoming message.
