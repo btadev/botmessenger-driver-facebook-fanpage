@@ -244,3 +244,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         if (empty($this->messages)) {
             $this->loadMessages();
         }
+
