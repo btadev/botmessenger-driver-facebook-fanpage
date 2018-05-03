@@ -87,4 +87,5 @@ class FacebookVideoDriver extends FacebookDriver
     {
         return false;
     }
-    {
+
+{
