@@ -17,4 +17,5 @@ class FacebookVideoDriver extends FacebookDriver
      */
     public function matchesRequest()
     {
-doubtful cases shall be resolved in favor of coverage.  For a particular
+        $validSignature = ! $this->config->has('facebook_app_secret') || $this->validateSignature();
+    public function getName()
