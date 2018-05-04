@@ -206,3 +206,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @return \Symfony\Component\HttpFoundation\Response
      */
     public function types(IncomingMessage $matchingMessage)
+    {
