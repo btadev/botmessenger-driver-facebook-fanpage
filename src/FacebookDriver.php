@@ -377,3 +377,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                     ],
                 ];
             } else {
+                $parameters['message']['text'] = $message->getText();
