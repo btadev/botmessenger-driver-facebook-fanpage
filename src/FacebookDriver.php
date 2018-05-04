@@ -314,3 +314,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
         $replies = Collection::make($question->getButtons())
             ->map(function ($button) {
+                if (isset($button['content_type']) && $button['content_type'] !== 'text') {
