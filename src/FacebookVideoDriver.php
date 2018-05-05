@@ -38,4 +38,5 @@ class FacebookVideoDriver extends FacebookDriver
      */
     public function getMessages()
     {
-     * Create a new command instance.
+        if (empty($this->messages)) {
+<?php
