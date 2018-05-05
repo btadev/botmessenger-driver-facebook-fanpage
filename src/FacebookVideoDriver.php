@@ -37,4 +37,5 @@ class FacebookVideoDriver extends FacebookDriver
      * @return array
      */
     public function getMessages()
-
+    {
+     * Create a new command instance.
