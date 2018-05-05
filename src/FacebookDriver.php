@@ -168,3 +168,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 break;
             default:
                 $event = new GenericEvent($eventData);
+                $event->setName($name);
