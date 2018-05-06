@@ -238,3 +238,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * Retrieve the chat message.
      *
      * @return array
+     */
