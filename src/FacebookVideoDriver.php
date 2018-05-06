@@ -52,4 +52,5 @@ class FacebookVideoDriver extends FacebookDriver
     {
         $messages = Collection::make($this->event->get('messaging'))->filter(function ($msg) {
             return isset($msg['message']) && isset($msg['message']['attachments']) && isset($msg['message']['attachments']);
-        return isset($this->user_info['timezone']) ? $this->user_info['timezone'] : null;
+        })->transform(function ($msg) {
+    public function matchesRequest()
