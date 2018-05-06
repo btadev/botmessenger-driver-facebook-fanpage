@@ -321,3 +321,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 return array_merge([
                     'content_type' => 'text',
                     'title' => $button['text'] ?? $button['title'],
+                    'payload' => $button['value'] ?? $button['payload'],
