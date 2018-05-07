@@ -72,4 +72,5 @@ class FacebookVideoDriver extends FacebookDriver
      * @param array $message
      * @return array A download for the image file.
      */
-     * Set the button type.
+    public function getVideoUrls(array $message)
+
