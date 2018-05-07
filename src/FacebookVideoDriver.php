@@ -67,4 +67,5 @@ class FacebookVideoDriver extends FacebookDriver
     }
 
     /**
-     * @return array
+     * Retrieve video urls from an incoming message.
+        return false;
