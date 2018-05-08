@@ -390,3 +390,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @param mixed $payload
      * @return Response
      * @throws FacebookException
+     */
