@@ -323,3 +323,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                     'title' => $button['text'] ?? $button['title'],
                     'payload' => $button['value'] ?? $button['payload'],
                     'image_url' => $button['image_url'] ?? $button['image_url'],
+                ], $button['additional'] ?? []);
