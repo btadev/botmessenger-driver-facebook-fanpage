@@ -259,3 +259,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             if (isset($msg['message']['text']) && ! isset($msg['message']['quick_reply']['payload'])) {
                 $message->setText($msg['message']['text']);
 
+                if (isset($msg['message']['nlp'])) {
