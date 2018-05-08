@@ -391,3 +391,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @return Response
      * @throws FacebookException
      */
+    public function sendPayload($payload)
