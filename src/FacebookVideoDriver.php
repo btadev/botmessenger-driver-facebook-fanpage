@@ -83,4 +83,5 @@ class FacebookVideoDriver extends FacebookDriver
     /**
      * @return bool
      */
-
+    public function isConfigured()
+class WhitelistDomains extends Command
