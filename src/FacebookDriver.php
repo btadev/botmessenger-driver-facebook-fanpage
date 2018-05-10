@@ -275,3 +275,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             return $message;
         })->toArray();
 
+        if (count($messages) === 0) {
