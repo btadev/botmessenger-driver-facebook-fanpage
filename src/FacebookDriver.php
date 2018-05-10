@@ -347,3 +347,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             } else {
                 $recipient = ['id' => $payload['sender']['id']];
             }
+        } else {
