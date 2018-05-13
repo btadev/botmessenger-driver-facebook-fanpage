@@ -436,3 +436,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $lastName = $userInfo['last_name'] ?? null;
 
         return new User($matchingMessage->getSender(), $firstName, $lastName, null, $userInfo);
+    }
