@@ -282,3 +282,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $this->messages = $messages;
     }
 
+    /**
