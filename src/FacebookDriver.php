@@ -409,3 +409,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
     /**
      * Retrieve User information.
+     *
