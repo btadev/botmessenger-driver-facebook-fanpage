@@ -344,3 +344,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             $payload = $this->driverEvent->getPayload();
             if (isset($payload['optin']) && isset($payload['optin']['user_ref'])) {
                 $recipient = ['user_ref' => $payload['optin']['user_ref']];
+            } else {
