@@ -447,3 +447,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @return Response
      */
     public function sendRequest($endpoint, array $parameters, IncomingMessage $matchingMessage)
+    {
