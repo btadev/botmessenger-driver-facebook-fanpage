@@ -461,3 +461,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     public function getContent()
     {
         return $this->content;
+    }
