@@ -303,3 +303,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
 
     /**
      * Convert a Question object into a valid Facebook
+     * quick reply response object.
