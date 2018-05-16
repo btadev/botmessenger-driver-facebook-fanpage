@@ -382,3 +382,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         }
 
         $parameters['access_token'] = $this->config->get('token');
+
