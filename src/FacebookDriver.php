@@ -276,3 +276,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         })->toArray();
 
         if (count($messages) === 0) {
+            $messages = [new IncomingMessage('', '', '')];
