@@ -373,3 +373,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 $parameters['message']['attachment'] = [
                     'type' => $attachmentType,
                     'payload' => [
+                        'url' => $attachment->getUrl(),
