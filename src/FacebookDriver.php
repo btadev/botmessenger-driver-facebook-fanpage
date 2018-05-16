@@ -433,3 +433,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $userInfo = json_decode($userInfoData->getContent(), true);
 
         $firstName = $userInfo['first_name'] ?? null;
+        $lastName = $userInfo['last_name'] ?? null;
