@@ -414,3 +414,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @return User
      * @throws FacebookException
      */
+    public function getUser(IncomingMessage $matchingMessage)
