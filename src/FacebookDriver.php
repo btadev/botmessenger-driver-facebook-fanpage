@@ -407,3 +407,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         return ! empty($this->config->get('token'));
     }
 
+    /**
