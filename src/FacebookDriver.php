@@ -354,3 +354,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             'messaging_type' => self::TYPE_RESPONSE,
             'recipient' => $recipient,
             'message' => [
+                'text' => $message,
