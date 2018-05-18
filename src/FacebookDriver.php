@@ -484,3 +484,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     {
         if (isset($msg['sender'])) {
             return $msg['sender']['id'];
+        } elseif (isset($msg['optin'])) {
