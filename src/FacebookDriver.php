@@ -459,3 +459,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @return string
      */
     public function getContent()
+    {
