@@ -514,3 +514,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 'id' => $message->getSender(),
             ],
             'target_app_id' => self::HANDOVER_INBOX_PAGE_ID,
+        ]);
