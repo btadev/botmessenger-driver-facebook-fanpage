@@ -316,3 +316,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             ->map(function ($button) {
                 if (isset($button['content_type']) && $button['content_type'] !== 'text') {
                     return ['content_type' => $button['content_type']];
+                }
