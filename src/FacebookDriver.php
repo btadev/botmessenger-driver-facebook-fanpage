@@ -445,3 +445,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @param array $parameters
      * @param IncomingMessage $matchingMessage
      * @return Response
+     */
