@@ -450,3 +450,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     {
         $parameters = array_replace_recursive([
             'access_token' => $this->config->get('token'),
+        ], $parameters);
