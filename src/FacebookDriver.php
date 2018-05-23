@@ -422,3 +422,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         $fields = 'first_name,last_name,profile_pic,locale,timezone,gender,is_payment_enabled,last_ad_referral';
 
         // WORKPLACE (Facebook for companies)
+        // if community isset in sender Object, it is a request done by workplace
