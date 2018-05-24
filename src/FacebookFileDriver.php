@@ -11,3 +11,4 @@ class FacebookFileDriver extends FacebookDriver
     const DRIVER_NAME = 'FacebookFile';
 
     /**
+     * Determine if the request is for this driver.
