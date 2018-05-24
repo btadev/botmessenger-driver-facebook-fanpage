@@ -393,3 +393,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      */
     public function sendPayload($payload)
     {
+        $response = $this->http->post($this->facebookProfileEndpoint.'me/messages', [], $payload);
