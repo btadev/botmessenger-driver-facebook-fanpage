@@ -372,3 +372,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
                 unset($parameters['message']['text']);
                 $parameters['message']['attachment'] = [
                     'type' => $attachmentType,
+                    'payload' => [
