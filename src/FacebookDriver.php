@@ -405,3 +405,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
     public function isConfigured()
     {
         return ! empty($this->config->get('token'));
+    }
