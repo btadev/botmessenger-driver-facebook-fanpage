@@ -421,3 +421,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         // field string available at Facebook
         $fields = 'first_name,last_name,profile_pic,locale,timezone,gender,is_payment_enabled,last_ad_referral';
 
+        // WORKPLACE (Facebook for companies)
