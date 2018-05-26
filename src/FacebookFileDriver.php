@@ -75,3 +75,4 @@ class FacebookFileDriver extends FacebookDriver
     public function getFiles(array $message)
     {
         return Collection::make($message['message']['attachments'])->where('type',
+            'file')->pluck('payload')->map(function ($item) {
