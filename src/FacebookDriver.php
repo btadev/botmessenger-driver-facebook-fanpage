@@ -469,3 +469,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @throws FacebookException
      */
     protected function throwExceptionIfResponseNotOk(Response $facebookResponse)
+    {
