@@ -85,3 +85,4 @@ class FacebookFileDriver extends FacebookDriver
      */
     public function isConfigured()
     {
+        return false;
