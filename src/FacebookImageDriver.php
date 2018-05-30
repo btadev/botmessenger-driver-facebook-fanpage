@@ -14,3 +14,4 @@ class FacebookImageDriver extends FacebookDriver
      * Determine if the request is for this driver.
      *
      * @return bool
+     */
