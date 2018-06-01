@@ -473,3 +473,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
         if ($facebookResponse->getStatusCode() !== 200) {
             $responseData = json_decode($facebookResponse->getContent(), true);
             throw new FacebookException('Error sending payload: '.$responseData['error']['message']);
+        }
