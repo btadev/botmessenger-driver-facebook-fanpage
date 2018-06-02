@@ -508,3 +508,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
      * @return Response
      */
     public function handover(IncomingMessage $message, $bot)
+    {
