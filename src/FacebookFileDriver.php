@@ -28,3 +28,4 @@ class FacebookFileDriver extends FacebookDriver
             return false;
         });
 
+        return ! $messages->isEmpty() && $validSignature;
