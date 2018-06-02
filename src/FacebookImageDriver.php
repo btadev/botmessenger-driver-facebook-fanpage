@@ -16,3 +16,4 @@ class FacebookImageDriver extends FacebookDriver
      * @return bool
      */
     public function matchesRequest()
+    {
