@@ -17,3 +17,4 @@ class FacebookFileDriver extends FacebookDriver
      */
     public function matchesRequest()
     {
+        $validSignature = ! $this->config->has('facebook_app_secret') || $this->validateSignature();
