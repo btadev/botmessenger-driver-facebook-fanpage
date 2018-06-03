@@ -516,3 +516,4 @@ class FacebookDriver extends HttpDriver implements VerifiesService
             'target_app_id' => self::HANDOVER_INBOX_PAGE_ID,
         ]);
     }
+}
