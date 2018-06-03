@@ -46,3 +46,4 @@ class FacebookFileDriver extends FacebookDriver
     }
 
     /**
+     * Load Facebook messages.
