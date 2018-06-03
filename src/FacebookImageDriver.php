@@ -8,3 +8,4 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 class FacebookImageDriver extends FacebookDriver
 {
+    const DRIVER_NAME = 'FacebookImage';
