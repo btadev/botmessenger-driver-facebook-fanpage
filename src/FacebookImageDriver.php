@@ -56,3 +56,4 @@ class FacebookImageDriver extends FacebookDriver
             $message = new IncomingMessage(Image::PATTERN, $msg['sender']['id'], $msg['recipient']['id'], $msg);
             $message->setImages($this->getImagesUrls($msg));
 
+            return $message;
