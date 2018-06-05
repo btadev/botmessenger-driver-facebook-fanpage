@@ -80,3 +80,4 @@ class FacebookFileDriver extends FacebookDriver
             })->toArray();
     }
 
+    /**
