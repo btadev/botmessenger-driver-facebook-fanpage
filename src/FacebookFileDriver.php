@@ -81,3 +81,4 @@ class FacebookFileDriver extends FacebookDriver
     }
 
     /**
+     * @return bool
