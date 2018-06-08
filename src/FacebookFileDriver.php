@@ -58,3 +58,4 @@ class FacebookFileDriver extends FacebookDriver
 
             return $message;
         })->toArray();
+
