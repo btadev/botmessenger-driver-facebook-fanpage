@@ -78,3 +78,4 @@ class FacebookFileDriver extends FacebookDriver
             'file')->pluck('payload')->map(function ($item) {
                 return new File($item['url'], $item);
             })->toArray();
+    }
