@@ -57,3 +57,4 @@ class FacebookFileDriver extends FacebookDriver
             $message->setFiles($this->getFiles($msg));
 
             return $message;
+        })->toArray();
