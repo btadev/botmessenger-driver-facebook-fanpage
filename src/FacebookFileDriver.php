@@ -16,3 +16,4 @@ class FacebookFileDriver extends FacebookDriver
      * @return bool
      */
     public function matchesRequest()
+    {
