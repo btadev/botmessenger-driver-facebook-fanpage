@@ -24,3 +24,4 @@ class FacebookImageDriver extends FacebookDriver
                     return (isset($attachment['type'])) && $attachment['type'] === 'image';
                 })->isEmpty() === false;
             }
+
