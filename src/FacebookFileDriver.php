@@ -71,3 +71,4 @@ class FacebookFileDriver extends FacebookDriver
      *
      * @param array $message
      * @return array A download for the file.
+     */
