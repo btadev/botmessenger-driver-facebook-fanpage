@@ -55,3 +55,4 @@ class FacebookFileDriver extends FacebookDriver
         })->transform(function ($msg) {
             $message = new IncomingMessage(File::PATTERN, $msg['sender']['id'], $msg['recipient']['id'], $msg);
             $message->setFiles($this->getFiles($msg));
+
