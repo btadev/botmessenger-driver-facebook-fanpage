@@ -64,3 +64,4 @@ class FacebookLocationDriver extends FacebookDriver
         }
 
         $this->messages = $messages;
+    }
