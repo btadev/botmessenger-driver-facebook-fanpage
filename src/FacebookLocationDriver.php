@@ -57,3 +57,4 @@ class FacebookLocationDriver extends FacebookDriver
             $message->setLocation($this->getLocation($msg));
 
             return $message;
+        })->toArray();
