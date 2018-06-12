@@ -24,3 +24,4 @@ class FacebookLocationDriver extends FacebookDriver
                     return (isset($attachment['type'])) && $attachment['type'] === 'location';
                 })->isEmpty() === false;
             }
+
