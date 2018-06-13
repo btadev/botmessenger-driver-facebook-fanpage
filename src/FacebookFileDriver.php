@@ -44,3 +44,4 @@ class FacebookFileDriver extends FacebookDriver
 
         return $this->messages;
     }
+
