@@ -95,3 +95,4 @@ class FacebookFileDriver extends FacebookDriver
     {
         return false;
     }
+}
