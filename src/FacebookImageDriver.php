@@ -67,3 +67,4 @@ class FacebookImageDriver extends FacebookDriver
     }
 
     /**
+     * Retrieve image urls from an incoming message.
