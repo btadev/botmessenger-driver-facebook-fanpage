@@ -6,3 +6,4 @@ use Illuminate\Support\Collection;
 use ChienIT\BotMessenger\Messages\Attachments\Location;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
+class FacebookLocationDriver extends FacebookDriver
