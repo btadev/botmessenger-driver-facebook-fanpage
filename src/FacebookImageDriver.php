@@ -37,3 +37,4 @@ class FacebookImageDriver extends FacebookDriver
      * @return array
      */
     public function getMessages()
+    {
