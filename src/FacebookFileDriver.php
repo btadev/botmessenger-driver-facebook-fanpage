@@ -94,3 +94,4 @@ class FacebookFileDriver extends FacebookDriver
     public function hasMatchingEvent()
     {
         return false;
+    }
