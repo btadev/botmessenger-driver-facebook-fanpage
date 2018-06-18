@@ -8,3 +8,4 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 class FacebookVideoDriver extends FacebookDriver
 {
+    const DRIVER_NAME = 'FacebookVideo';
