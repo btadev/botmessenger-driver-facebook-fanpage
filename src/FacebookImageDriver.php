@@ -7,3 +7,4 @@ use ChienIT\BotMessenger\Messages\Attachments\Image;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 class FacebookImageDriver extends FacebookDriver
+{
