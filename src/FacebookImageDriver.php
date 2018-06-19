@@ -23,3 +23,4 @@ class FacebookImageDriver extends FacebookDriver
                 return Collection::make($msg['message']['attachments'])->filter(function ($attachment) {
                     return (isset($attachment['type'])) && $attachment['type'] === 'image';
                 })->isEmpty() === false;
+            }
