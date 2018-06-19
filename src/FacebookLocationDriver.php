@@ -90,3 +90,4 @@ class FacebookLocationDriver extends FacebookDriver
 
     /**
      * @return bool
+     */
