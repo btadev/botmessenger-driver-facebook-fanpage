@@ -78,3 +78,4 @@ class FacebookLocationDriver extends FacebookDriver
             'location')->pluck('payload')->first();
 
         return new Location($data['coordinates']['lat'], $data['coordinates']['long'], $data);
+    }
