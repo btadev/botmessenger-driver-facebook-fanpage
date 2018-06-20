@@ -78,3 +78,4 @@ class FacebookImageDriver extends FacebookDriver
             'image')->pluck('payload')->map(function ($item) {
                 return new Image($item['url'], $item);
             })->toArray();
+    }
