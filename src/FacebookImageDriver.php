@@ -33,3 +33,4 @@ class FacebookImageDriver extends FacebookDriver
 
     /**
      * Retrieve the chat message.
+     *
