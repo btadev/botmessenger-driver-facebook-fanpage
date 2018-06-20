@@ -44,3 +44,4 @@ class FacebookLocationDriver extends FacebookDriver
 
         return $this->messages;
     }
+
