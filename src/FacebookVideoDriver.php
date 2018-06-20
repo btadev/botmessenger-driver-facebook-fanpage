@@ -24,3 +24,4 @@ class FacebookVideoDriver extends FacebookDriver
                     return (isset($attachment['type'])) && $attachment['type'] === 'video';
                 })->isEmpty() === false;
             }
+
