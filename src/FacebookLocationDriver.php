@@ -33,3 +33,4 @@ class FacebookLocationDriver extends FacebookDriver
 
     /**
      * Retrieve the chat message.
+     *
