@@ -9,3 +9,4 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 class FacebookLocationDriver extends FacebookDriver
 {
     const DRIVER_NAME = 'FacebookLocation';
+
