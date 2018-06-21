@@ -79,3 +79,4 @@ class FacebookImageDriver extends FacebookDriver
                 return new Image($item['url'], $item);
             })->toArray();
     }
+
