@@ -59,3 +59,4 @@ class FacebookImageDriver extends FacebookDriver
             return $message;
         })->toArray();
 
+        if (count($messages) === 0) {
