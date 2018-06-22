@@ -29,3 +29,4 @@ class FacebookVideoDriver extends FacebookDriver
         });
 
         return ! $messages->isEmpty() && $validSignature;
+    }
