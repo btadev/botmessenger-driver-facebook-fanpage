@@ -86,3 +86,4 @@ class FacebookLocationDriver extends FacebookDriver
     public function isConfigured()
     {
         return false;
+    }
