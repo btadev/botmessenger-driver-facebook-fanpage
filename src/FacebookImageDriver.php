@@ -47,3 +47,4 @@ class FacebookImageDriver extends FacebookDriver
 
     /**
      * Load Facebook messages.
+     */
