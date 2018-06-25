@@ -94,3 +94,4 @@ class FacebookImageDriver extends FacebookDriver
     public function hasMatchingEvent()
     {
         return false;
+    }
