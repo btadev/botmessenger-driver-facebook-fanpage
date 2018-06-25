@@ -93,3 +93,4 @@ class FacebookLocationDriver extends FacebookDriver
      */
     public function hasMatchingEvent()
     {
+        return false;
