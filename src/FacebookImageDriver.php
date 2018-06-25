@@ -57,3 +57,4 @@ class FacebookImageDriver extends FacebookDriver
             $message->setImages($this->getImagesUrls($msg));
 
             return $message;
+        })->toArray();
