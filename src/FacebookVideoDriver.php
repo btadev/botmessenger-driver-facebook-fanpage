@@ -57,3 +57,4 @@ class FacebookVideoDriver extends FacebookDriver
             $message->setVideos($this->getVideoUrls($msg));
 
             return $message;
+        })->toArray();
