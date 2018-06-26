@@ -11,3 +11,4 @@ class FacebookVideoDriver extends FacebookDriver
     const DRIVER_NAME = 'FacebookVideo';
 
     /**
+     * Determine if the request is for this driver.
