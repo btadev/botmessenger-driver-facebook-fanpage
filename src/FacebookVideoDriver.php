@@ -46,3 +46,4 @@ class FacebookVideoDriver extends FacebookDriver
     }
 
     /**
+     * Load Facebook messages.
