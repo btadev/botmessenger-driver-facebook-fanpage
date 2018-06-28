@@ -87,3 +87,4 @@ class FacebookImageDriver extends FacebookDriver
     {
         return false;
     }
+
