@@ -73,3 +73,4 @@ class FacebookLocationDriver extends FacebookDriver
      * @return \ChienIT\BotMessenger\Messages\Attachments\Location
      */
     public function getLocation(array $messages)
+    {
