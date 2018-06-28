@@ -10,3 +10,4 @@ class FacebookLocationDriver extends FacebookDriver
 {
     const DRIVER_NAME = 'FacebookLocation';
 
+    /**
