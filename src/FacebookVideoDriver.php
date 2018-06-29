@@ -79,3 +79,4 @@ class FacebookVideoDriver extends FacebookDriver
                 return new Video($item['url'], $item);
             })->toArray();
     }
+
