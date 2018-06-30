@@ -70,3 +70,4 @@ class FacebookLocationDriver extends FacebookDriver
      * Retrieve location from an incoming message.
      *
      * @param array $messages
+     * @return \ChienIT\BotMessenger\Messages\Attachments\Location
