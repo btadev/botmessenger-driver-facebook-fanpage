@@ -46,3 +46,4 @@ class FacebookLocationDriver extends FacebookDriver
     }
 
     /**
+     * Load Facebook messages.
