@@ -29,3 +29,4 @@ class FacebookLocationDriver extends FacebookDriver
         });
 
         return ! $messages->isEmpty() && $validSignature;
+    }
