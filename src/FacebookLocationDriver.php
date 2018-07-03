@@ -58,3 +58,4 @@ class FacebookLocationDriver extends FacebookDriver
 
             return $message;
         })->toArray();
+
