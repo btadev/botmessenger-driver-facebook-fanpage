@@ -81,3 +81,4 @@ class FacebookVideoDriver extends FacebookDriver
     }
 
     /**
+     * @return bool
