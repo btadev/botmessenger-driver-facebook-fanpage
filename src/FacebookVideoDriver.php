@@ -40,3 +40,4 @@ class FacebookVideoDriver extends FacebookDriver
     {
         if (empty($this->messages)) {
             $this->loadMessages();
+        }
