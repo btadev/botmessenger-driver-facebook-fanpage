@@ -95,3 +95,4 @@ class FacebookLocationDriver extends FacebookDriver
     {
         return false;
     }
+}
