@@ -70,3 +70,4 @@ class FacebookVideoDriver extends FacebookDriver
      * Retrieve video urls from an incoming message.
      *
      * @param array $message
+     * @return array A download for the image file.
