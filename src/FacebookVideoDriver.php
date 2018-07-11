@@ -48,3 +48,4 @@ class FacebookVideoDriver extends FacebookDriver
     /**
      * Load Facebook messages.
      */
+    protected function loadMessages()
