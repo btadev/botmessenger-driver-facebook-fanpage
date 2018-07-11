@@ -16,3 +16,4 @@ class FacebookVideoDriver extends FacebookDriver
      * @return bool
      */
     public function matchesRequest()
+    {
