@@ -17,7 +17,7 @@
     }],
     "require": {
         "php": ">=7.0",
-        "chiendevit/botmessenger": "^3.0"
+        "chiendevit/botmessenger": "^3.1"
     },
     "autoload": {
         "psr-4": {
